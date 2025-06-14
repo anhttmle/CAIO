@@ -6,6 +6,8 @@
 - AI (LOW): Maintain only, minor adjustments.
 - SE (MEDIUM): Develop product with minimal features, similar to POC.
 
+
+
 ### Pros:
 - Cheap
 - Fast to deliver
@@ -22,6 +24,8 @@
 ### Workload:
 - AI (MEDIUM): maintain and adjust base on product feature
 - SE (HIGH): develop comprehensive product
+
+
 
 ### Pros:
 - Ready for pilot with real customers
@@ -43,6 +47,8 @@
 - SE:
   - **MEDIUM**: Develop product with minimal features (similar to POC)
   - **HIGH** (optional): Develop full product alongside AI innovations
+
+
 
 ### Pros:
 - Best long-term bet for competitive advantage
