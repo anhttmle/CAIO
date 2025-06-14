@@ -6,7 +6,12 @@
 - AI (LOW): Maintain only, minor adjustments.
 - SE (MEDIUM): Develop product with minimal features, similar to POC.
 
+```mermaid
+flowchart LR
+  SE[SE Team] -->|Requests support| AI[AI Team]
+  AI -->|Minor tuning| SE
 
+```
 
 ### Pros:
 - Cheap
@@ -25,7 +30,11 @@
 - AI (MEDIUM): maintain and adjust base on product feature
 - SE (HIGH): develop comprehensive product
 
+```mermaid
+flowchart LR
+  SE[SE Team] <-->| Collaborator | AI[AI Team]
 
+```
 
 ### Pros:
 - Ready for pilot with real customers
@@ -48,7 +57,12 @@
   - **MEDIUM**: Develop product with minimal features (similar to POC)
   - **HIGH** (optional): Develop full product alongside AI innovations
 
+```mermaid
+flowchart LR
+  AI[AI Team] -->|Define capabilities| SE[SE Team]
+  SE -->|Build tools & interface| AI
 
+```
 
 ### Pros:
 - Best long-term bet for competitive advantage
