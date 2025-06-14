@@ -32,6 +32,10 @@
 # Proposal 3:
 ## Technology-first Approach (AI Driven)
 ## Workload:
+- AI (HIGH): maintain and research on next generation assistant (agentic)
+- SE:
+  - **MEDIUM**: develop product with minimal feature which is similar to POC
+  - **HIGH**: develop comprehensive product
 
 ## Pros:
 
