@@ -81,6 +81,7 @@ graph TB
 
 # 3. Component
 
+## AI Core Service
 ```mermaid
 
 graph TB
@@ -144,10 +145,11 @@ graph TB
 ```
 
 - IndexFlow Manager
-    - Workflow for indexing Repo source code
-    - Workflow for indexing Generated Specs
-    - 
-
-RAG Orchestrator
-
-Task Queue / Worker Pool
+    - Workflow for indexing Repo source code (define in RAG platform)
+    - Workflow for indexing Generated Specs (define in RAG platform)
+- SpecGenFlow Manager
+    - Workflow for generating Specification
+- RetrievalFlow Manager
+    - Workflow for retrieve context for QA    
+- Task Queue / Worker Pool:
+    - Async & Distributed workload
