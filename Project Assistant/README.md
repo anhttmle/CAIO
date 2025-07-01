@@ -45,6 +45,7 @@ graph TB
         AICore["AI Core Service<br>(Indexing, RAG Control, Tool Calls)"]
         RAGPlatform["RAG Platform<br>(e.g., Dify, LangGraph)"]
         ToolInventory["Tool Inventory<br>(MCP Tool Server)"]
+        Worker["Task Queue / Worker Pool"]
     end
 
     subgraph LData["Data Layer"]
@@ -69,7 +70,8 @@ graph TB
 
     AICore --> RAGPlatform
     RAGPlatform --> ToolInventory
-    AICore --> ToolInventory
+    AICore --> Worker
+    Worker --> ToolInventory
 
     ToolInventory --> LData
     ToolInventory --> LExternal
@@ -97,9 +99,10 @@ graph TB
 
     subgraph LService["Service Layer"]
         subgraph AICore["AI Core Service"]
-            IndexMgr["IndexFlow Manager"]
-            RAGMgr["RAG Orchestrator"]
-            Queue["Task Queue / Worker Pool"]
+            IndexFlow["IndexFlow Manager"]
+            SpecGenFlow["SpecGenFlow Manager"]
+            RetrievalFlow["RetrievalFlow Manager"]
+            Worker["Task Queue / Worker Pool"]
         end
 
         RAGPlatform["RAG Platform<br>(e.g., Dify, LangGraph)"]
@@ -121,22 +124,30 @@ graph TB
 
     LUser --> LFrontend
     WebApp --> APIGateway
-    APIGateway --> IndexMgr
-    APIGateway --> RAGMgr
 
-    IndexMgr --> Queue
-    IndexMgr --> RelDB
-    IndexMgr --> VecDB
-    RAGMgr --> VecDB
-    RAGMgr --> OpenAI
-    RAGMgr --> Gemini
-    RAGMgr --> Cohere
+    APIGateway --> IndexFlow
+    APIGateway --> SpecGenFlow
+    APIGateway --> RetrievalFlow
 
-    RAGMgr --> ToolInventory
+    IndexFlow --> Worker
+    SpecGenFlow --> RAGPlatform
+    RetrievalFlow --> RAGPlatform
+    Worker --> ToolInventory
+
+    RAGPlatform --> LExternal
+    RAGPlatform --> ToolInventory
+
     ToolInventory --> LData
     ToolInventory --> LExternal
-    RAGPlatform --> LExternal
-    RAGMgr --> RAGPlatform
 
 
 ```
+
+- IndexFlow Manager
+    - Workflow for indexing Repo source code
+    - Workflow for indexing Generated Specs
+    - 
+
+RAG Orchestrator
+
+Task Queue / Worker Pool
