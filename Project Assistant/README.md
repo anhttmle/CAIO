@@ -23,7 +23,7 @@
 - BA sử dụng Assistant để đặt câu hỏi và tạo tài liệu dựa trên tri thức được xây dựng.
 - Assistant hoạt động cục bộ (Local), không kết nối với hệ thống ngoài.
 
-# 2. Component:
+# 2. Container:
 
 ```mermaid
 
