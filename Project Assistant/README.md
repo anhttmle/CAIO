@@ -66,8 +66,6 @@ graph TB
     WebApp --> APIGateway
     APIGateway --> AICore
 
-    LService --> LExternal
-
     AICore --> RAGPlatform
     RAGPlatform --> ToolInventory
     AICore --> Worker
@@ -100,10 +98,16 @@ graph TB
 
     subgraph LService["Service Layer"]
         subgraph AICore["AI Core Service"]
+            AI["AI API"]
             IndexFlow["IndexFlow Manager"]
             SpecGenFlow["SpecGenFlow Manager"]
             RetrievalFlow["RetrievalFlow Manager"]
-            Worker["Task Queue / Worker Pool"]
+            AIWorker["Task Queue / Worker Pool"]
+        end
+
+        subgraph BEService["BE Service"]
+            BE["BE API"]
+            BEWorker["Task Queue / Worker Pool"]
         end
 
         RAGPlatform["RAG Platform<br>(e.g., Dify, LangGraph)"]
@@ -126,14 +130,17 @@ graph TB
     LUser --> LFrontend
     WebApp --> APIGateway
 
-    APIGateway --> IndexFlow
-    APIGateway --> SpecGenFlow
-    APIGateway --> RetrievalFlow
+    APIGateway --> AI
+    APIGateway --> BE
 
-    IndexFlow --> Worker
+    AI --> IndexFlow
+    AI --> SpecGenFlow
+    AI --> RetrievalFlow
+
+    IndexFlow --> AIWorker
     SpecGenFlow --> RAGPlatform
     RetrievalFlow --> RAGPlatform
-    Worker --> ToolInventory
+    AIWorker --> ToolInventory
 
     RAGPlatform --> LExternal
     RAGPlatform --> ToolInventory
