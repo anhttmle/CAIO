@@ -9,7 +9,7 @@
         BA["BA (Business Analyst)<br>Understands business logic"]
     end
 
-    subgraph Assistant_System["Assistant System (Local Deployment)"]
+    subgraph Assistant_System["Assistant System"]
         Assistant["Assistant"]
     end
 
@@ -37,15 +37,15 @@ graph TB
         WebApp["WebApp (Chat Interface)"]
     end
 
-    subgraph LAPI["API Layer"]
-        APIGateway["API Gateway (Integration Point)"]
+    subgraph LAPI["API Gateway"]
+        BE["Backend Service (Integration Point)"]
     end
 
     subgraph LService["Service Layer"]
-        AICore["AI Core Service<br>(Indexing, RAG Control, Tool Calls)"]
+        AI["AI Core Service<br>(Indexing, RAG Control, Tool Calls)"]
+        Worker["Task Queue / Worker Pool"]
         RAGPlatform["RAG Platform<br>(e.g., Dify, LangGraph)"]
         ToolInventory["Tool Inventory<br>(MCP Tool Server)"]
-        Worker["Task Queue / Worker Pool"]
     end
 
     subgraph LData["Data Layer"]
@@ -62,14 +62,14 @@ graph TB
     end
 
     LUser --> LFrontend
+    WebApp --> LAPI
+    LAPI --> AI
     
-    WebApp --> APIGateway
-    APIGateway --> AICore
-
-    AICore --> RAGPlatform
-    RAGPlatform --> ToolInventory
-    AICore --> Worker
+    AI --> RAGPlatform
+    AI --> Worker
+    LAPI --> Worker
     Worker --> ToolInventory
+    RAGPlatform --> ToolInventory
 
     ToolInventory --> LData
     ToolInventory --> LExternal
@@ -105,11 +105,6 @@ graph TB
             AIWorker["Task Queue / Worker Pool"]
         end
 
-        subgraph BEService["BE Service"]
-            BE["BE API"]
-            BEWorker["Task Queue / Worker Pool"]
-        end
-
         RAGPlatform["RAG Platform<br>(e.g., Dify, LangGraph)"]
         ToolInventory["Tool Inventory<br>(MCP Tool Server)"]
     end
@@ -131,7 +126,6 @@ graph TB
     WebApp --> APIGateway
 
     APIGateway --> AI
-    APIGateway --> BE
 
     AI --> IndexFlow
     AI --> SpecGenFlow
