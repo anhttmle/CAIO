@@ -67,7 +67,6 @@ graph TB
     
     AI --> RAGPlatform
     AI --> Worker
-    LAPI --> Worker
     Worker --> ToolInventory
     RAGPlatform --> ToolInventory
 
@@ -83,20 +82,25 @@ graph TB
 ```mermaid
 
 graph TB
+    %% User Layer
     subgraph LUser["User Layer"]
         SME["SME (Software Engineer)"]
         BA["BA (Business Analyst)"]
     end
 
+    %% Frontend Layer
     subgraph LFrontend["Frontend Layer"]
         WebApp["WebApp (Chat Interface)"]
     end
 
+    %% API Layer
     subgraph LAPI["API Layer"]
-        APIGateway["API Gateway (Integration Point)"]
+        APIGateway["API Gateway<br/>(Integration Point)"]
     end
 
+    %% Service Layer
     subgraph LService["Service Layer"]
+
         subgraph AICore["AI Core Service"]
             AI["AI API"]
             IndexFlow["IndexFlow Manager"]
@@ -105,42 +109,62 @@ graph TB
             AIWorker["Task Queue / Worker Pool"]
         end
 
-        RAGPlatform["RAG Platform<br>(e.g., Dify, LangGraph)"]
-        ToolInventory["Tool Inventory<br>(MCP Tool Server)"]
+        RAGPlatform["RAG Platform<br/>(e.g., Dify, LangGraph)"]
+        ToolInventory["Tool Inventory<br/>(MCP Tool Server)"]
     end
 
+    %% Data Layer
     subgraph LData["Data Layer"]
-        RelDB["Relational DB"]
-        VecDB["Vector DB"]
-        GraphDB["Graph DB"]
-        TextDB["Text DB"]
+
+        %% RelDB["Relational DB<br/>(Project Metadata, User Spec, etc.)"]
+        %% VecDB["Vector DB<br/>(Code, Spec Embeddings)"]
+        %% GraphDB["Graph DB<br/>(Dependency Graphs, Relations)"]
+        %% TextDB["Text DB<br/>(Full Text Index - Elastic/Lucene)"]
+
     end
 
+    %% External Services
     subgraph LExternal["External Services"]
-        OpenAI["OpenAI"]
-        Gemini["Gemini"]
-        Cohere["Cohere"]
+        %% OpenAI["OpenAI"]
+        %% Gemini["Gemini"]
+        %% Cohere["Cohere"]
     end
 
-    LUser --> LFrontend
+    %% Flow Connections
+
+    %% User to WebApp
+    SME --> WebApp
+    BA --> WebApp
+
+    %% Frontend to API Gateway
     WebApp --> APIGateway
 
+    %% API Gateway to AI Core
     APIGateway --> AI
 
+    %% AI Core: dispatch flows
     AI --> IndexFlow
     AI --> SpecGenFlow
     AI --> RetrievalFlow
 
+    %% AI Core to Worker
     IndexFlow --> AIWorker
-    SpecGenFlow --> RAGPlatform
-    RetrievalFlow --> RAGPlatform
+
+    %% Worker interacts with ToolInventory
     AIWorker --> ToolInventory
 
+    %% RAG Platform receives call from SpecGen/Retrieval
+    SpecGenFlow --> RAGPlatform
+    RetrievalFlow --> RAGPlatform
+
+    %% RAG Platform interacts with LLMs + ToolInventory
     RAGPlatform --> LExternal
+
     RAGPlatform --> ToolInventory
 
-    ToolInventory --> LData
+    %% Tool Inventory interacts with data stores & external tools
     ToolInventory --> LExternal
+    ToolInventory --> LData
 
 
 ```
