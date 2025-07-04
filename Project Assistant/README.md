@@ -90,9 +90,9 @@ graph TB
             IndexFlow["IndexFlow Manager"]
             SpecGenFlow["SpecGenFlow Manager"]
             RetrievalFlow["RetrievalFlow Manager"]
-            AIWorker["Task Queue / Worker Pool"]
         end
 
+        AIWorker["Task Queue / Worker Pool"]
         RAGPlatform["RAG Platform<br/>(e.g., Dify, LangGraph)"]
         ToolInventory["Tool Inventory<br/>(MCP Tool Server)"]
     end
