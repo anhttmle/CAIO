@@ -82,22 +82,6 @@ graph TB
 ```mermaid
 
 graph TB
-    %% User Layer
-    subgraph LUser["User Layer"]
-        SME["SME (Software Engineer)"]
-        BA["BA (Business Analyst)"]
-    end
-
-    %% Frontend Layer
-    subgraph LFrontend["Frontend Layer"]
-        WebApp["WebApp (Chat Interface)"]
-    end
-
-    %% API Layer
-    subgraph LAPI["API Layer"]
-        APIGateway["API Gateway<br/>(Integration Point)"]
-    end
-
     %% Service Layer
     subgraph LService["Service Layer"]
 
