@@ -61,6 +61,10 @@ graph TB
         Cohere["Cohere"]
     end
 
+    LUser --> LFrontend
+    WebApp --> LAPI
+    LAPI --> AI
+
     AI --> RAGPlatform
     AI --> Worker
     Worker --> ToolInventory
@@ -109,15 +113,6 @@ graph TB
         %% Gemini["Gemini"]
         %% Cohere["Cohere"]
     end
-
-    %% Flow Connections
-
-    %% User to WebApp
-    SME --> WebApp
-    BA --> WebApp
-
-    %% Frontend to API Gateway
-    WebApp --> APIGateway
 
     %% API Gateway to AI Core
     APIGateway --> AI
