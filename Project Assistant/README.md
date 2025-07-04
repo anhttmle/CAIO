@@ -144,12 +144,11 @@ graph TB
 
 ```
 
-- IndexFlow Manager
+- IndexFlow Manager: Manage Indexing workflows, such as:
     - Workflow for indexing Repo source code (define in RAG platform)
     - Workflow for indexing Generated Specs (define in RAG platform)
-- SpecGenFlow Manager
+- SpecGenFlow Manager: Manage Specs Generating workflows, such as:
     - Workflow for generating Specification
-- RetrievalFlow Manager
+- RetrievalFlow Manager: Manage Retrieval workflows, such as:
     - Workflow for retrieve context for QA    
-- Task Queue / Worker Pool:
-    - Async & Distributed workload
+- Task Queue / Worker Pool: Execute steps/tasks in a workflow asynchronously
