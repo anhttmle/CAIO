@@ -61,10 +61,6 @@ graph TB
         Cohere["Cohere"]
     end
 
-    LUser --> LFrontend
-    WebApp --> LAPI
-    LAPI --> AI
-    
     AI --> RAGPlatform
     AI --> Worker
     Worker --> ToolInventory
