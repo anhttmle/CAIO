@@ -15,20 +15,17 @@ erDiagram
         int parent_id
         int depth
         string title
-        ...
     }
     citations {
         int id
         string file
         string source
-        ...
     }
     detailed_citation {
         int id
         int citation_id
         int start_line
         int end_line
-        ...
     }
     links {
         int id
@@ -36,7 +33,6 @@ erDiagram
         int id_B
         string link_type
         string project_id
-        ...
     }
 ```
 
