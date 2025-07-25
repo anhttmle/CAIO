@@ -4,35 +4,36 @@
 - Lưu trữ cấu trúc tài liệu, trích dẫn, liên kết dạng cây cho file COBOL/COPY/JCL hoặc tài liệu lớn.
 - Tối ưu cho truy vấn, phân tích, tái cấu trúc dữ liệu dạng wiki.
 
-## 2. Schema chính
+## 2. Schema chi tiết
 ```mermaid
 erDiagram
     sections ||--o{ links : "id_A, id_B, link_type"
     sections ||--o{ citations : "section_id"
     citations ||--o{ detailed_citation : "citation_id"
     sections {
-        int id
-        int parent_id
-        int depth
-        string title
+        int id PK "Tự tăng, khóa chính"
+        string name "Tên section"
+        text content "Nội dung section"
+        int depth "Độ sâu trong cây"
     }
     citations {
-        int id
-        string file
-        string source
+        int id PK "Tự tăng, khóa chính"
+        string cite_id "SHA256 hash của file_path"
+        string file_path "Đường dẫn file gốc"
+        text title "Tiêu đề hoặc tên file"
     }
     detailed_citation {
-        int id
-        int citation_id
-        int start_line
-        int end_line
+        int id PK "Tự tăng, khóa chính"
+        int citation_id FK "Khóa ngoại đến citations.id"
+        int start_line "Dòng bắt đầu trích dẫn"
+        int end_line "Dòng kết thúc trích dẫn"
     }
     links {
-        int id
-        int id_A
-        int id_B
-        string link_type
-        string project_id
+        int id PK "Tự tăng, khóa chính"
+        int id_A "ID node nguồn (section hoặc section)"
+        int id_B "ID node đích (section hoặc detailed_citation)"
+        text link_type "Loại liên kết: 'section' hoặc 'citation'"
+        string project_id "ID project để phân tách dữ liệu"
     }
 ```
 
