@@ -6,7 +6,6 @@ gantt
     title Roadmap Development Plan
     dateFormat  YYYY-MM-DD
     axisFormat  %Y-%m-%d
-    section Features
     Zoom in context                     :active, zoom, 2025-07-06, 2025-08-17
 
     Re-design DB schema                :db_schema, 2025-07-13, 2025-07-20
