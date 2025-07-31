@@ -26,7 +26,12 @@ gantt
 
     Support up to 1000 files           :active, scale_up, 2025-08-17, 2025-09-28
 
-    
+    Knowledge extraction for Overview    :knowledge_extract, 2025-08-17, 2025-08-24
+    Aggregate Overview    :aggregate_overview, 2025-08-17, 2025-08-31
+    Sizing VectorDB    :sizing_vectordb, 2025-08-17, 2025-09-07
+    Queuing on token quota limit    :queue_on_limit, 2025-08-24, 2025-09-07
+    Construct LLM Gateway    :llm_gateway, 2025-08-31, 2025-09-14
+
 
 
 
