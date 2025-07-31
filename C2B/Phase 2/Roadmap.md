@@ -7,7 +7,7 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %Y-%m-%d
     section Features
-    Zoom in context                     :active, zoom, 2025-07-06, 2025-08-18
+    Zoom in context                     :active, zoom, 2025-07-06, 2025-08-17
 
     Re-design DB schema                :db_schema, 2025-07-13, 2025-07-20
     API detail (Swagger)            :doc_api, 2025-07-13, 2025-07-20
@@ -20,11 +20,17 @@ gantt
     Zoom-in API   :zoom-in, 2025-07-27, 2025-08-03
     Doc-tree API   :doc-tree, 2025-07-27, 2025-08-03
 
-    Markdown Download   :markdown, 2025-08-03, 2025-08-10
-    User Guide          :user-guide, 2025-08-03, 2025-08-10
+    Iterative update from SME Feedback  :optimize, 2025-08-03, 2025-08-17
+    Markdown Aggregation & Download   :markdown, 2025-08-03, 2025-08-17
+    User Guide          :user-guide, 2025-08-03, 2025-08-17
 
 
-    Support up to 1000 files           :active, scale_up, 2025-08-18, 2025-09-28
+    Support up to 1000 files           :active, scale_up, 2025-08-17, 2025-09-28
+
+    
+
+
+
 
 
 ```
