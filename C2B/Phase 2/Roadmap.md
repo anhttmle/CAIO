@@ -31,7 +31,7 @@ gantt
     section "Sprint 8"
 
     Iterative update from SME Feedback  :optimize, 2025-08-03, 2025-08-24
-    Markdown Aggregation & Download   :markdown, 2025-08-03, 2025-08-17
+    Markdown Aggregation & Download   :markdown, 2025-08-10, 2025-08-17
     User Guide          :user-guide, 2025-08-03, 2025-08-17
 
     section "Sprint 9"
