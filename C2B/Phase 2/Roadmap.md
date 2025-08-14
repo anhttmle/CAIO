@@ -12,7 +12,7 @@ gantt
     Zoom in context                     :active, zoom, 2025-07-13, 2025-08-17
     Support up to 1000 files           :active, scale_up, 2025-08-17, 2025-09-28
 
-    section "Sprint"
+    section "Sprints"
     Sprint 6                        :sprint_6, 2025-07-13, 2025-07-27
     Re-design DB schema                :db_schema, 2025-07-13, 2025-07-20
     API detail (Swagger)            :doc_api, 2025-07-13, 2025-07-20
