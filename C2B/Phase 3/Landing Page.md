@@ -30,6 +30,14 @@
 ## Chat 
 <img width="1291" height="508" alt="image" src="https://github.com/user-attachments/assets/4c8ccd25-201f-4610-ae28-1da3e31e0d4d" />
 
+# 4. Export
+
+<img width="1600" height="927" alt="image" src="https://github.com/user-attachments/assets/60dbb4ab-47ce-48c8-bbba-12b6dd32ef77" />
+
+# 5. Zoom-in
+## Pop up:
+
+
 
 
 
