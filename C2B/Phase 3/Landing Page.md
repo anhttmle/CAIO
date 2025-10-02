@@ -30,13 +30,17 @@
 ## Chat 
 <img width="1216" height="471" alt="image" src="https://github.com/user-attachments/assets/a6ba6baa-90d1-4946-ac81-ea2e90829c32" />
 
+# 4. Zoom-in
+## Generated specs:
+<img width="1607" height="952" alt="image" src="https://github.com/user-attachments/assets/c04aff5f-6dee-403d-a8c3-de581b441a71" />
 
-# 4. Import
+## Focus to section:
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/ae968da4-1a91-4bc4-9daf-db568079080a" />
 
-# 5. Export
+## Pop up
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/206432ff-b53e-467c-a918-9e56456bb479" />
 
-# 6. Zoom-in
-## Pop up:
+
 
 
 
