@@ -21,8 +21,11 @@
 ## Role's Permissions in Project
 <img width="1325" height="555" alt="image" src="https://github.com/user-attachments/assets/2ae170d8-5f1f-4ef6-87be-64b275572973" />
 
+# 3. Upload Repo
+<img width="1416" height="917" alt="image" src="https://github.com/user-attachments/assets/ddb94c5e-c1cf-4f8b-84b9-c2227c10507e" />
 
-# 3. Chat
+
+# 4. Chat
 
 ## New chat & History
 <img width="1595" height="543" alt="image" src="https://github.com/user-attachments/assets/30082b22-779f-4bd7-af11-3c17bdb12a95" />
@@ -30,7 +33,7 @@
 ## Chat 
 <img width="1216" height="471" alt="image" src="https://github.com/user-attachments/assets/a6ba6baa-90d1-4946-ac81-ea2e90829c32" />
 
-# 4. Zoom-in
+# 5. Zoom-in
 ## Generated specs:
 <img width="1607" height="952" alt="image" src="https://github.com/user-attachments/assets/c04aff5f-6dee-403d-a8c3-de581b441a71" />
 
