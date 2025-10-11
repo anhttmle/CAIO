@@ -9,13 +9,23 @@
 
 # GPU
 
-| Tên              | RAM            | FLOPs  |
-| RTX 3060/4090    | 
-
-
+| Tên                 | RAM            | FLOPs         |
+| ------------------- | -------------- | -------------- |
+| GeForce RTX 4090    | 24 GB          |  82.6 TFLOPS   |
+| GeForce RTX 5090    | 32 GB          | 104.8 TFLOPS   |
+| NVIDIA A100         | 80 GB          | 156   TFLOPS   |
+| NVIDIA H100         | 80 GB          | 900   TFLOPS   |
 
 # Performance
-|                  | RTX 3060/4090           | GeForce RTX 5090   | NVIDIA H100/A100    |
-| ---------------- | ----------------------- | ------------------ | ------------------- |
-| **gpt-oss-120B** | 60 tokens/s             | 256 tokens/s       | ------------------- |
-| **gpt-oss-20B**  | khoảng 21B parameters                | ~-3.6B active parameters mỗi token ([OpenAI][1])     | cần ~16GB GPU            |
+
+|                   | GeForce RTX 4090        | GeForce RTX 5090   | NVIDIA A100         | NVIDIA H100         |
+| ----------------- | ----------------------- | ------------------ | ------------------- | ------------------- |
+| **gpt-oss-20B**   | 200 tokens/s            | 256 tokens/s       |  150 tokens/s       | 350 tokens/s        |
+| **gpt-oss-120B**  | N/A                     | N/A                |  50 tokens/s        | 150 tokens/s        |
+
+# Infra for 20 CCU
+>> Assume 10 tokens/s for each user
+|                   | GeForce RTX 4090        | GeForce RTX 5090   | NVIDIA A100         | NVIDIA H100         |
+| ----------------- | ----------------------- | ------------------ | ------------------- | ------------------- |
+| **gpt-oss-20B**   | 1                       | 1                  |  2                  | 1                   |
+| **gpt-oss-120B**  | N/A                     | N/A                |  5                  | 2                   |
