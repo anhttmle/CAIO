@@ -9,7 +9,7 @@
 
 # GPU
 
-| Tên                 | RAM            | FLOPs         |
+| Tên                 | VRAM           | FLOPs         |
 | ------------------- | -------------- | -------------- |
 | GeForce RTX 4090    | 24 GB          |  82.6 TFLOPS   |
 | GeForce RTX 5090    | 32 GB          | 104.8 TFLOPS   |
@@ -31,4 +31,6 @@
 | **gpt-oss-20B**   | 1                       | 1                  |  2                  | 1                   |
 | **gpt-oss-120B**  | N/A                     | N/A                |  5                  | 2                   |
 
-- Infra require GPU and CPU/RAM, storage
+### Infra require GPU and CPU/RAM, storage
+- RAM = 150% GPU VRAM
+- CPU depend on Data processing tasks
