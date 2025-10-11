@@ -32,5 +32,6 @@
 | **gpt-oss-120B**  | N/A                     | N/A                |  5                  | 2                   |
 
 ### Infra require GPU and CPU/RAM, storage
-- RAM = 150% GPU VRAM
-- CPU depend on Data processing tasks
+- RAM (for data processing) = 150% GPU VRAM
+- CPU depend on Data processing tasks (RAG, Document extract)
+- CPU/RAM for application
