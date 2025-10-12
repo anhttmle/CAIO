@@ -53,3 +53,11 @@
 - Operation cost (monthly):
   - On Premise: ~1500$
   - Cloud: ~8000$
+ 
+## OpenAI API
+- Initialize cost:
+  - On Premise: ~ 1000$ (Server)
+  - Cloud: 0$
+- Operation cost (monthly):
+  - On Premise: ~500$ + OpenAI fee (200$ -> 2000$ depend on Model Type)
+  - Cloud: ~200$ + OpenAI fee (200$ -> 2000$ depend on Model Type)
