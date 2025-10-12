@@ -35,3 +35,21 @@
 - RAM (for data processing) = 150% GPU VRAM
 - CPU depend on Data processing tasks (RAG, Document extract)
 - CPU/RAM for application
+
+# Total
+
+## gpt-oss-20B
+- Initialize cost:
+  - On Premise: ~10.000$ (Server + GPU)
+  - Cloud: 0$
+- Operation cost (monthly):
+  - On Premise: ~1000$
+  - Cloud: ~2000$
+ 
+## gpt-oss-120B
+- Initialize cost:
+  - On Premise: ~80.000$ (Server + GPU)
+  - Cloud: 0$
+- Operation cost (monthly):
+  - On Premise: ~1500$
+  - Cloud: ~8000$
