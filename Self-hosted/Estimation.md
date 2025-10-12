@@ -7,7 +7,7 @@
 
 [1]: https://openai.com/blog/introducing-gpt-oss/?utm_source=chatgpt.com "Introducing gpt-oss | OpenAI"
 
-# GPU
+# Proposed GPU
 
 | Tên                 | VRAM           | FLOPs         |
 | ------------------- | -------------- | -------------- |
