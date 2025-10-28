@@ -248,4 +248,70 @@
 | **Total** | | **12.5 MM** |
 
 ## Phase 2: Maintenance
-To be defined...
+
+#### 1. Frontend Maintenance (React/TypeScript)
+
+**Tasks**:
+- Bug fixes
+- Feature updates
+- Performance optimization
+- Security patches
+- Dependencies updates
+
+**Effort per Month**:
+
+| Role | Effort |
+|------|--------|
+| **Frontend Dev** | 1 MM |
+| **QA/Tester** | 0.2 MM |
+| **DevOps** | 0.1 MM | 
+
+#### 2. Backend Maintenance (FastAPI/Python)
+
+**Tasks**:
+- API updates
+- Security fixes
+- Database migrations
+- Performance tuning
+- Library updates
+
+**Effort per Month**:
+
+| Role | Effort |
+|------|--------|
+| **Backend Dev** | 1 MM |
+| **QA/Tester** | 0.2 MM | 
+| **DevOps** | 0.2 MM | 
+
+#### 3. Core Engine Maintenance (lfx)
+
+**Tasks**:
+- Component system updates
+- Execution engine optimization
+- Graph engine improvements
+- Memory management
+- Async performance
+
+**Effort per Month**:
+
+| Role | Effort |
+|------|--------|
+| **AI Engineer** | 1.0 MM |
+| **Backend Dev** | 0.5 MM |
+| **QA/Tester** | 0.2 MM |
+
+#### 4. DevOps & Deployment
+
+**Tasks**:
+- Infrastructure management
+- CI/CD maintenance
+- Monitoring & alerting
+- Security scanning
+- Backup & disaster recovery
+- Deployment automation
+
+**Effort per Month**:
+
+| Role | Effort |
+|------|--------|
+| **DevSecOps Engineer** | 0.5 MM |
