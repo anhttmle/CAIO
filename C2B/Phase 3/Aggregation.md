@@ -103,7 +103,7 @@ graph TD
 
 - Graph Reduction -> Gently remove non-important node & aggregate sub-graph -> do it multiple times back to Introduction & Purpose (**increasing latency**)
   - Separate external CALL & internal CALL
-  - Pruning isolated node
+  - Pruning isolated node, duplicate edge
   - Display isolated sub-graph as independent diagram
   - Clustering nodes to k-cluster -> summarize the k-cluster (can do it multiple time)
   - Searching for important node (which has many neighbors in k-hop)
