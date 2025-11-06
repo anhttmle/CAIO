@@ -7,7 +7,12 @@
 > Link to detail of JCL, COBOL, COPY // (2.1) | (2.2) | (2.3)
 
 ## 1.3 System Architecture & Key Components
-> PERFORM/CALL among COBOL files to COBOL/COPY -> draw by engineer, zoom-in by file-context + sub-graph (node, k-hop neighbor)
+> CALL among COBOL files to COBOL/COPY -> draw by engineer, zoom-in by file-context + sub-graph (node, k-hop neighbor)
+
+#### Solutions
+- Graph Reduction -> Gently remove non-important node & aggregate sub-graph -> do it multiple times back to Introduction & Purpose
+- Re-implement new template as C4 Design or DDD
+- Keep current specs as Assistant knowledge & build new module for generating Docs (Java version) from the knowledge
 
 ## 1.4 Overall Data Flow
 > Parsing I/O for each file -> draw by engineer, zoom-in by file-context + sub-graph (node, k-hop neighbor)
