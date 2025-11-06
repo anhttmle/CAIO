@@ -105,7 +105,7 @@ graph TD
   - Separate external CALL & internal CALL
   - Pruning isolated node, duplicate edge
   - Display isolated sub-graph as independent diagram
-  - Clustering nodes to k-cluster -> summarize the k-cluster (can do it multiple time a.k.a hierachy clustering)
+  - Clustering nodes to k-cluster -> summarize the k-cluster (can do it multiple time a.k.a hierachical clustering)
   - Searching for important node (which has many neighbors in k-hop)
   - Tagging node (by its function) -> grouping by the tags
 - Re-implement new template as C4 Design or DDD (**high development cost**)
