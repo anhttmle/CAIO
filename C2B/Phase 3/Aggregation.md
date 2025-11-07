@@ -101,7 +101,7 @@ graph TD
     PAUDBUNL -->|"L257"| CBLTDLI
 ```
 
-- Graph Reduction -> Gently remove non-important node & aggregate sub-graph -> do it multiple times back to Introduction & Purpose (**increasing latency**)
+- Graph Reduction follow a set of rules (can be enrich overtime) -> Gently remove non-important node & aggregate sub-graph -> do it multiple times back to Introduction & Purpose (**increasing latency**). The rules:
   - Separate external CALL & internal CALL
   - Pruning isolated node, duplicate edge
   - Display isolated sub-graph as independent diagram
