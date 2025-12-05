@@ -2,8 +2,11 @@
 Restructure-AI (ReAI) centralize work-load from transforming legacy project to modern one
 
 > ReAI help analyze source code COBOL
+> 
 > ReAI help Q&A (source code, biz -> calendar/roadmap/workload/...)
+> 
 > ReAI can be fit into ecosystem of software development (calendar, task management, ... as tool)
+> 
 > ReAI can collab with human (they plan, execute & human review & adjust)
 > ...
 
