@@ -14,6 +14,7 @@ Restructure-AI (ReAI) centralize work-load from transforming legacy project to m
 
 - Multiple level of automation
 - Apply to each module
+  - Understanding  
   - Documentation
   - Planing
   - Management
