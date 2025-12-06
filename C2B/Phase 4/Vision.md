@@ -11,8 +11,11 @@ Some main features that ReAI can have to assist human on the transformation
   
 # Mindset (like the [1st proposal](https://github.com/anhttmle/CAIO/blob/main/C2B/%5B0%5D%20Proposal.md))
 - Multiple level of automation
+  - Human can do everything (level 0)
+  - Human can ask AI to support at specific piece of work (level 1)
+  - Human let AI do a complex work and reviewing step by step (level 2)
+  - Human let AI do a complex work and reviewing final result (level 3)
 - Apply to each module
-  - Understanding  
   - Documentation
   - Planing
   - Management
@@ -20,4 +23,14 @@ Some main features that ReAI can have to assist human on the transformation
   - Testing   
 
 # System's components
+
+## 1. Documentation
+
+## 2. Planing
+
+## 3. Management
+
+## 4. Development
+
+## 5. Testing
 
