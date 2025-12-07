@@ -1,4 +1,6 @@
-# Ultimate Goal
+<h1 style="text-align:center;">Restructure-AI (ReAI) Vision</h1>
+
+## A. Ultimate Goal
 Restructure-AI (**ReAI**) system **centralizes work-load from transforming legacy projects** like COBOL to modern ones
 Some main features that ReAI can have to assist human on the transformation
 
@@ -9,7 +11,7 @@ Some main features that ReAI can have to assist human on the transformation
   - ReAI **plans** & **executes**
   - Human provide **domain knowledge**, **review** result from ReAI and make **adjustment**
   
-# ReAI collaborates tighly with humans
+## B. ReAI collaborates tighly with humans
 - Like proposal from [Phase 1](https://github.com/anhttmle/CAIO/blob/main/C2B/%5B0%5D%20Proposal.md#a-by-level-of-automation)
 - In ReAI, instead of build unique workflow we **should build multiple level of automation & collaboration between AI <-> Humans**
   - **Level 0**: Humans **manually** do everything
@@ -23,7 +25,7 @@ Some main features that ReAI can have to assist human on the transformation
   - **Level 4**: Human let AI do a complex work and reviewing final result
     > **ReAI automatically generating specs/wiki & back to user review**
 - And will apply to each module of ReAI. Such as:
-  - **Documentation** for **Cobol Engineer**, **BA**: Understanding legacy project source code to preparing documents (specs/wiki)
+  - **Documentization** for **Cobol Engineer**, **BA**: Understanding legacy project source code to preparing documents (specs/wiki)
   - **Planing** for **Product Owner/Director**: short-term  & long-term plan for the transformation
     - Long-term: preparing vision & roadmap for the transformation
     - Short-term: Scoping workload, task and preparing backlog
@@ -31,15 +33,15 @@ Some main features that ReAI can have to assist human on the transformation
   - **Development** for **Java Developer**: from the plan and backlog, gradually develop new system by integrating with AI code like Cursor/Claude Code/...
   - **Testing** for **Tester/QA/QC**: beside CI/CD, ReAI provide testing report by collaborate with Tester  
 
-# System's components
+## C. System's components
 
-## 1. Documentization
+### 1. Documentization
 
-## 2. Planing
+### 2. Planing
 
-## 3. Management
+### 3. Management
 
-## 4. Development
+### 4. Development
 
-## 5. Testing
+### 5. Testing
 
