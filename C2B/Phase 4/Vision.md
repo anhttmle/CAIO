@@ -29,7 +29,7 @@ Some main features that ReAI can have to assist human on the transformation
   - **Planing** for **Product Owner/Director**: short-term  & long-term plan for the transformation
     - Long-term: preparing vision & roadmap for the transformation
     - Short-term: Scoping workload, task and preparing backlog
-  - **Management** for **Project Owner/Manager**: tracing progress & raise alert on any potential delay or risk of quality by integrating with software development tools (calendar, project management, issue tracking)
+  - **Management** for **Project Owner/Manager**: distributing workload, tracing progress & raise alert on any potential delay or risk of quality by integrating with software development tools (calendar, project management, issue tracking)
   - **Development** for **Java Developer**: from the plan and backlog, gradually develop new system by integrating with AI code like Cursor/Claude Code/...
   - **Testing** for **Tester/QA/QC**: beside CI/CD, ReAI provide testing report by collaborate with Tester  
 
