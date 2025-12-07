@@ -20,7 +20,7 @@ Some main features that ReAI can have to assist human on the transformation
     > **ReAI automatically provides recommendation when user manually operate on editor**
   - **Level 2**: Humans request AI to do some specific piece of work and humans reviews/adjusts the result
     > **User request ReAI zoom-in on specific section or node in a diagram**
-  - **Level 3**: Human let AI do a complex work and reviewing step by step
+  - **Level 3**: Human let AI do a complex work and reviewing each step
     > **ReAI preparing summarization for each source code file & user select groups of context/file & ReAI generating overview of the group**
   - **Level 4**: Human let AI do a complex work and reviewing final result
     > **ReAI automatically generating specs/wiki & back to user review**
