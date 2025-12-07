@@ -1,5 +1,5 @@
 # Ultimate Goal
-Restructure-AI (ReAI) system centralizes work-load from transforming legacy projects like COBOL to modern ones
+Restructure-AI (**ReAI**) system **centralizes work-load from transforming legacy projects** like COBOL to modern ones
 Some main features that ReAI can have to assist human on the transformation
 
 - ReAI help analyze source code COBOL to **build up projects specs** (_Phase 1-2-3_)
