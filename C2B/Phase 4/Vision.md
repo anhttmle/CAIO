@@ -33,15 +33,6 @@ Some main features that ReAI can have to assist human on the transformation
   - **Development** for **Java Developer**: from the plan and backlog, gradually develop new system by integrating with AI code like Cursor/Claude Code/...
   - **Testing** for **Tester/QA/QC**: beside CI/CD, ReAI provide testing report by collaborate with Tester  
 
-## C. System's components
+<img width="1261" height="1501" alt="Proposal-Mockup-Vision" src="https://github.com/user-attachments/assets/17c2fbe6-e932-437f-8b3e-e1163cfa5f32" />
 
-### 1. Documentization
-
-### 2. Planing
-
-### 3. Management
-
-### 4. Development
-
-### 5. Testing
 
