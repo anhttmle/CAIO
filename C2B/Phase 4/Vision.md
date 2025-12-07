@@ -24,7 +24,7 @@ Some main features that ReAI can have to assist human on the transformation
     > **ReAI preparing summarization for each source code file & user select groups of context/file & ReAI generating overview of the group**
   - **Level 4**: Human let AI do a complex work and reviewing final result
     > **ReAI automatically generating specs/wiki & back to user review**
-- And will apply to each module of ReAI. Such as:
+- And will apply to each component of ReAI. Such as:
   - **Documentization** for **Cobol Engineer**, **BA**: Understanding legacy project source code to preparing documents (specs/wiki)
   - **Planing** for **Product Owner/Director**: short-term  & long-term plan for the transformation
     - Long-term: preparing vision & roadmap for the transformation
