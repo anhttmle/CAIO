@@ -3,7 +3,7 @@
 2. Impact Analysis trên knowledge graph (Call Graph + Business Logic)  
 3. Living Documentation trên graph (Docs-as-Code + Versioned Graph)
 
-Bối cảnh: hệ thống đã có khả năng trích xuất **call graph** từ COBOL/RPG, dùng LLM để bóc tách các tầng nghiệp vụ, modules, luồng logic chi tiết, và lưu trữ chúng như một **knowledge graph của codebase**.[web:18][web:22][web:39]
+Bối cảnh: hệ thống đã có khả năng trích xuất **call graph** từ COBOL/RPG, dùng LLM để bóc tách các tầng nghiệp vụ, modules, luồng logic chi tiết, và lưu trữ chúng như một **knowledge graph của codebase**.
 
 ---
 
