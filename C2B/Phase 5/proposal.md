@@ -128,8 +128,8 @@ flowchart LR
 - Java Specs (Base) + Java Specs 1.0.0 + Java Specs 1.1.0 → AI (Specs Diff) → Backlog (có reviewer).
 - Backlog → Dev: team thực thi và tiếp tục vòng lặp.
 - Ý nghĩa:
-- Backlog không tạo thủ công mà sinh ra từ việc so sánh các specs.
-- Đảm bảo backlog luôn bám sát mục tiêu (Cobol → Java) và trạng thái thực tế.
+    - Backlog không tạo thủ công mà sinh ra từ việc so sánh các specs.
+    - Đảm bảo backlog luôn bám sát mục tiêu (Cobol → Java) và trạng thái thực tế.
 
 ### 5. Vai trò reviewer
 - Xuất hiện ở nhiều bước (tạo specs, diff specs, backlog).
