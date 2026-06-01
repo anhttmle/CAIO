@@ -2,9 +2,9 @@
 ```mermaid
 
 flowchart LR
-    A[(Cobol Repo)] --> B["Restructure AI<br/>(Specs Gen)"]
+    A[(Cobol Repo)] --> B[/"Restructure AI<br/>(Specs Gen)"/]
     B --> C[(Cobol Specs)]
-    C --> D["Restructure AI<br/>(Specs Migration)"]
+    C --> D[/"Restructure AI<br/>(Specs Migration)"/]
     D --> E[(Java Specs)]
     E --> F[Backlog]
 
@@ -53,26 +53,28 @@ flowchart LR
 
   %% Cobol path (top)
   CobolRepo[(Cobol Repo)]
-  RespecGen1["Restructure AI<br/>(Specs Gen)"]
+  RespecGen1[/"Restructure AI<br/>(Specs Gen)"/]
   CobolSpecs[(Cobol Specs)]
-  RespecDiffTop["Restructure AI<br/>(Specs Diff)"]
-  Backlog[/"Backlog"/]
+  RespecDiffTop[/"Restructure AI<br/>(Specs Diff)"/]
+  Backlog["Backlog"]
 
-  CobolRepo -->|generate| RespecGen1
+  CobolRepo --> RespecGen1
   RespecGen1 -->|reviewer| CobolSpecs
-  CobolSpecs --> RespecDiffTop
+
+  CobolSpecs --> migrate[/"Restructure AI<br/>(Specs Migration)"/]
+  migrate --> javaspecs[("Java Specs (Base)")]
+  javaspecs --> RespecDiffTop
   RespecDiffTop --> Backlog
-  CobolSpecs -. reviewer .-> Backlog
 
   %% Java path (middle)
   JavaRepo_old[("Java Repo<br/>1.0.0")]
-  RespecGen2["Restructure AI<br/>(Specs Gen)"]
+  RespecGen2[/"Restructure AI<br/>(Specs Gen)"/]
   JavaSpecs_old[("Java Specs<br/>1.0.0")]
-  RespecDiffMid["Restructure AI<br/>(Specs Diff)"]
+  RespecDiffMid[/"Restructure AI<br/>(Specs Diff)"/]
   JavaSpecs_new[("Java Specs<br/>1.1.0")]
 
   Dev --> JavaRepo_old
-  JavaRepo_old -->|generate| RespecGen2
+  JavaRepo_old --> RespecGen2
   RespecGen2 -->|reviewer| JavaSpecs_old
   JavaSpecs_old --> RespecDiffMid
   RespecDiffMid --> JavaSpecs_new
@@ -81,14 +83,14 @@ flowchart LR
   %% Source diff path (bottom)
   JavaRepo_new[("Java Repo<br/>1.1.0")]
   SourceDiff[/"Source Diff"/]
-  SrcRespecDiff["Restructure AI<br/>(Specs Diff)"]
+  SrcRespecDiff[/"Restructure AI<br/>(Specs Diff)"/]
 
   Dev --> JavaRepo_new
-  JavaRepo_old -->|source code| SourceDiff
-  JavaRepo_new -->|source code| SourceDiff
+  JavaRepo_old --> SourceDiff
+  JavaRepo_new --> SourceDiff
   SourceDiff --> SrcRespecDiff
-  SrcRespecDiff --> JavaSpecs_new
-  SrcRespecDiff -. reviewer .-> JavaSpecs_new
+  JavaSpecs_old --> SrcRespecDiff
+  SrcRespecDiff --reviewer--> JavaSpecs_new
 
   %% Connections to backlog and reviewers
   JavaSpecs_old --> RespecDiffTop
@@ -104,7 +106,7 @@ flowchart LR
   classDef actor fill:#ffffff,stroke:#222,stroke-width:1px;
 
   class CobolRepo,JavaRepo_old,JavaRepo_new repo;
-  class RespecGen1,RespecGen2,RespecDiffTop,RespecDiffMid,SrcRespecDiff ai;
+  class migrate,RespecGen1,RespecGen2,RespecDiffTop,RespecDiffMid,SrcRespecDiff ai;
   class CobolSpecs,JavaSpecs_old,JavaSpecs_new specs;
 
 ```
