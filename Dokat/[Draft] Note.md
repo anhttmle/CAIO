@@ -18,6 +18,7 @@
 - Add/invite friend
 - Sync contact
 - CRUD group
+- Offline with friend. Photo + Video after capture will store location & time -> landmark data
 
 ### 3. Capture
 - Capture image:
