@@ -21,16 +21,16 @@
 - Offline with friend. Photo + Video after capture will store location & time -> landmark data **<MVP>** (Store only)
 
 ### 3. Capture
-- Capture image:
-  - 720p **<MVP>**
-  - 1080p  
-  - Only Dog/Cat video, no human -> using AI model to validate on client/server **<MVP>**
-  - Image editor:
-    - filter
-    - basic edit (flip, zoom-in,...)
-    - sticker
-    - AI  generate [(price)](#ai-generate-price)
-- Capture video:
+#### Capture image:
+- 720p **<MVP>**
+- 1080p  
+- Only Dog/Cat video, no human -> using AI model to validate on client/server **<MVP>**
+- Image editor:
+  - filter
+  - basic edit (flip, zoom-in,...)
+  - sticker
+  - AI  generate [(price)](#ai-generate-price)
+#### Capture video:
   - Only Dog/Cat video, no human -> using AI model to validate on client/server
   - Short video: 10s
   - Video editor:
