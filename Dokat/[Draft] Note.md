@@ -1,6 +1,17 @@
 # Features:
 - **Auth**:
-  -   
+  - Quick Auth
+  - Link Auth
+  - Group Auth
+- **Owner profile**
+  - Name
+  - Gender
+  - Birthday
+- **Pet profile**
+  - Name
+  - Gender
+  - Type
+  - Birthday  
 - **Capture image**:
   - Only Dog/Cat video, no human -> using AI model to validate on client/server
   - Image editor:
@@ -16,7 +27,12 @@
     - basic edit (flip, zoom-in,...)
     - sticker
     - AI  generate [(price)](#ai-generate-price)
-- **View video**
+- **View image/video**
+  - Widget view
+  - App view
+  - Reaction: Like/Haha/Wow...
+  - Reply by capture
+  - Comment
 
 ### AI generate price
 | Platform                    | Resolution | 5s video          | 10s video   | 15s video | Price/s     |
