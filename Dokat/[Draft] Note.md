@@ -1,8 +1,8 @@
 # Features:
 ### 1. Onboarding
-- **Auth**
-  - Quick Auth **<MVP>**
-  - Link Auth **<MVP>** (Apple/Google/Facebook)
+- Auth
+  - Quick Auth **"MVP"**
+  - Link Auth **"MVP"** (Apple/Google/Facebook)
   - Group Auth
 - Owner profile
   - Name
@@ -15,22 +15,22 @@
   - Birthday
  
 ### 2. Social graph (< 20 friends)
-- Add/invite friend **<MVP>** (QR code)
+- Add/invite friend **"MVP"** (QR code)
 - Sync contact
 - CRUD group
 - Offline with friend. Photo + Video after capture will store location & time -> landmark data **<MVP>** (Store only)
 
 ### 3. Capture
-#### Capture image:
-- 720p **<MVP>**
-- 1080p  
-- Only Dog/Cat video, no human -> using AI model to validate on client/server **<MVP>**
-- Image editor:
-  - filter
-  - basic edit (flip, zoom-in,...)
-  - sticker
-  - AI  generate [(price)](#ai-generate-price)
-#### Capture video:
+- Capture image:
+  - 720p **"MVP"**
+  - 1080p  
+  - Only Dog/Cat video, no human -> using AI model to validate on client/server **"MVP"**
+  - Image editor:
+    - filter
+    - basic edit (flip, zoom-in,...)
+    - sticker
+    - AI  generate [(price)](#ai-generate-price)
+- Capture video:
   - Only Dog/Cat video, no human -> using AI model to validate on client/server
   - Short video: 10s
   - Video editor:
@@ -40,35 +40,35 @@
     - AI  generate [(price)](#ai-generate-price)
    
 ### 4. Send
-- Send to person **<MVP>**
+- Send to person **"MVP"**
 - Send to group
 
 ### 5. Widget/View
 - View image/video
   - Widget view
-  - App view **<MVP>**
+  - App view **"MVP"**
  
 ### 6. Response
 - Reaction: Like/Haha/Wow...
 - Comment/Quick response
 - Reply by capture 
-- Seen by **<MVP>**
+- Seen by **"MVP"**
 
 ### 7. History
-- Look back 1 day **<MVP>**
+- Look back 1 day **"MVP"**
 
 ### 8. Notification
-- On new image **<MVP>**
+- On new image **"MVP"**
 - On new video
-- Daily pet activity **<MVP>**
+- Daily pet activity **"MVP"**
 
 ### 9. Setting
 - Privacy
 - Block/Report
 - Hide user/post
 - Cache cleaning
-- Link Apple/Google/Facebook **<MVP>**
-- Logout **<MVP>**
+- Link Apple/Google/Facebook **"MVP"**
+- Logout **"MVP"**
 
 # Biz Model
 ### Free
