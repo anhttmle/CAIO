@@ -1,25 +1,33 @@
 # Features:
-- **Auth**:
+### 1. Onboarding
+- Auth
   - Quick Auth
   - Link Auth
   - Group Auth
-- **Owner profile**
+- Owner profile
   - Name
   - Gender
   - Birthday
-- **Pet profile**
+- Pet profile
   - Name
   - Gender
   - Type
-  - Birthday  
-- **Capture image**:
+  - Birthday
+ 
+### 2. Social graph
+- Add/invite friend
+- Sync contact
+- CRUD group
+
+### 3. Capture
+- Capture image:
   - Only Dog/Cat video, no human -> using AI model to validate on client/server
   - Image editor:
     - filter
     - basic edit (flip, zoom-in,...)
     - sticker
     - AI  generate [(price)](#ai-generate-price)
-- **Capture video**:
+- Capture video:
   - Only Dog/Cat video, no human -> using AI model to validate on client/server
   - Short video: 10s
   - Video editor:
@@ -27,12 +35,37 @@
     - basic edit (flip, zoom-in,...)
     - sticker
     - AI  generate [(price)](#ai-generate-price)
-- **View image/video**
+   
+### 4. Send
+- Send to person
+- Send to group
+
+### 5. Widget/View
+- View image/video
   - Widget view
   - App view
-  - Reaction: Like/Haha/Wow...
-  - Reply by capture
-  - Comment
+ 
+### 6. Response
+- Reaction: Like/Haha/Wow...
+- Comment/Quick response
+- Reply by capture
+- Seen by
+
+### 6. History
+
+### 7. Notification
+
+### 8. Setting
+- Privacy
+- Block/Report
+- Hide user/post
+- Cache cleaning
+
+# Biz Model
+### Free
+
+### Premium
+
 
 ### AI generate price
 | Platform                    | Resolution | 5s video          | 10s video   | 15s video | Price/s     |
