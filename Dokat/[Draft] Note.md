@@ -51,11 +51,11 @@
 - Reply by capture
 - Seen by
 
-### 6. History
+### 7. History
 
-### 7. Notification
+### 8. Notification
 
-### 8. Setting
+### 9. Setting
 - Privacy
 - Block/Report
 - Hide user/post
