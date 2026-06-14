@@ -1,28 +1,28 @@
 # Features:
 ### 1. Onboarding
-- Auth
-  - Quick Auth
-  - Link Auth
+- **Auth**
+  - Quick Auth **MVP**
+  - Link Auth **MVP** (Apple/Google/Facebook)
   - Group Auth
 - Owner profile
   - Name
   - Gender
   - Birthday
-- Pet profile
+- Pet profile (AI gen)
   - Name
   - Gender
   - Type
   - Birthday
  
-### 2. Social graph
-- Add/invite friend
+### 2. Social graph (< 20 friends)
+- Add/invite friend **MVP** (QR code)
 - Sync contact
 - CRUD group
-- Offline with friend. Photo + Video after capture will store location & time -> landmark data
+- Offline with friend. Photo + Video after capture will store location & time -> landmark data **MVP** (Store only)
 
 ### 3. Capture
-- Capture image:
-  - Only Dog/Cat video, no human -> using AI model to validate on client/server
+- Capture image: 
+  - Only Dog/Cat video, no human -> using AI model to validate on client/server **MVP**
   - Image editor:
     - filter
     - basic edit (flip, zoom-in,...)
@@ -38,29 +38,35 @@
     - AI  generate [(price)](#ai-generate-price)
    
 ### 4. Send
-- Send to person
+- Send to person **MVP**
 - Send to group
 
 ### 5. Widget/View
 - View image/video
   - Widget view
-  - App view
+  - App view **MVP**
  
 ### 6. Response
 - Reaction: Like/Haha/Wow...
 - Comment/Quick response
-- Reply by capture
-- Seen by
+- Reply by capture 
+- Seen by **MVP**
 
 ### 7. History
+- Look back 1 day **MVP**
 
 ### 8. Notification
+- On new image **MVP**
+- On new video
+- Daily pet activity **MVP**
 
 ### 9. Setting
 - Privacy
 - Block/Report
 - Hide user/post
 - Cache cleaning
+- Link Apple/Google/Facebook **MVP**
+- Logout **MVP**
 
 # Biz Model
 ### Free
