@@ -314,7 +314,7 @@ graph TD
     subgraph Data Sources
         S1["POS / Bán hàng"] 
         S2["ERP / Mua hàng & Kho"]
-        S3["Ngân hàng\ne-statement2]
+        S3["Ngân hàng\ne-statement"]
         S4["HR / Chấm công"]
         S5["e-Invoice\nHóa đơn điện tử"]
     end
