@@ -275,12 +275,12 @@ Nghiệp vụ:
 
 ```mermaid
 flowchart LR
-    A[Sổ cái & sổ chi tiết] --> B[Bảng cân đối số phát sinh]
-    B --> C[Lập Bảng cân đối kế toán]
-    B --> D[Lập Báo cáo KQKD]
-    B --> E[Lập Báo cáo lưu chuyển tiền tệ]
-    B --> F[Thuyết minh BCTC]
-    C & D & E & F --> G[Báo cáo quản trị nội bộ\n(dashboard, KPI...)]
+    A["Sổ cái & sổ chi tiết] --> B[Bảng cân đối số phát sinh"]
+    B --> C["Lập Bảng cân đối kế toán"]
+    B --> D["Lập Báo cáo KQKD"]
+    B --> E["Lập Báo cáo lưu chuyển tiền tệ"]
+    B --> F["Thuyết minh BCTC"]
+    C & D & E & F --> G["Báo cáo quản trị nội bộ\n(dashboard, KPI...)"]
 ```
 
 Theo các hướng dẫn thực hành, quy trình lập BCTC gồm: sắp xếp chứng từ, hạch toán, phân loại theo kỳ, rà soát, bút toán kết chuyển, rồi lập bộ báo cáo đầy đủ.   
@@ -300,9 +300,9 @@ Chuyển đổi số trong kế toán là quá trình **chuyển mô hình kế 
 
 ```mermaid
 flowchart LR
-    A[Quy trình kế toán truyền thống\n(giấy, Excel, thao tác thủ công)] --> B[Quy trình kế toán số\n(ERP, e-invoice, e-sign, DMS)]
-    B --> C[Kế toán + AI\n(automation, anomaly detection, forecasting)]
-    C --> D[Hệ sinh thái dữ liệu tài chính\nthông minh]
+    A["Quy trình kế toán truyền thống\n(giấy, Excel, thao tác thủ công)] --> B[Quy trình kế toán số\n(ERP, e-invoice, e-sign, DMS)"]
+    B --> C["Kế toán + AI\n(automation, anomaly detection, forecasting)"]
+    C --> D["Hệ sinh thái dữ liệu tài chính\nthông minh"]
 ```
 
 ---
@@ -312,31 +312,31 @@ flowchart LR
 ```mermaid
 graph TD
     subgraph Data Sources
-        S1[POS / Bán hàng] 
-        S2[ERP / Mua hàng & Kho]
-        S3[Ngân hàng\ne-statement]
-        S4[HR / Chấm công]
-        S5[e-Invoice\nHóa đơn điện tử]
+        S1["POS / Bán hàng"] 
+        S2["ERP / Mua hàng & Kho"]
+        S3["Ngân hàng\ne-statement2]
+        S4["HR / Chấm công"]
+        S5["e-Invoice\nHóa đơn điện tử"]
     end
 
     subgraph Accounting Core
-        C1[Ingestion & ETL\n(chứng từ, giao dịch)]
-        C2[Ledger Engine\n(Nhật ký, Sổ cái, Sổ chi tiết)]
-        C3[Tax Module]
-        C4[Financial Reporting]
+        C1["Ingestion & ETL\n(chứng từ, giao dịch)"]
+        C2["Ledger Engine\n(Nhật ký, Sổ cái, Sổ chi tiết)"]
+        C3["Tax Module"]
+        C4["Financial Reporting"]
     end
 
     subgraph AI & Analytics
-        A1[OCR + NLP\nxử lý chứng từ]
-        A2[Rule/ML\nkiểm tra & cảnh báo]
-        A3[Forecasting\n(dòng tiền, doanh thu)]
-        A4[Assistant\nLLM cho kế toán & lãnh đạo]
+        A1["OCR + NLP\nxử lý chứng từ"]
+        A2["Rule/ML\nkiểm tra & cảnh báo"]
+        A3["Forecasting\n(dòng tiền, doanh thu)"]
+        A4["Assistant\nLLM cho kế toán & lãnh đạo"]
     end
 
     subgraph UX
-        U1[Dashboard CFO/CEO]
-        U2[Workflow portal\nphê duyệt chứng từ]
-        U3[APIs cho tích hợp]
+        U1["Dashboard CFO/CEO"]
+        U2["Workflow portal\nphê duyệt chứng từ"]
+        U3["APIs cho tích hợp"]
     end
 
     S1 & S2 & S3 & S4 & S5 --> C1
