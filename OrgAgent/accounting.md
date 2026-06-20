@@ -130,13 +130,13 @@ Quản lý luồng: yêu cầu mua → đặt hàng → nhận hàng → nhập 
 
 ```mermaid
 flowchart LR
-    A[Đề nghị mua hàng] --> B[PO / Hợp đồng với NCC]
-    B --> C[Nhập hàng / Biên bản giao nhận]
-    C --> D[Nhận hóa đơn NCC]
-    D --> E[Kiểm tra chứng từ\nsố lượng, đơn giá, thuế]
-    E --> F[Ghi nhận hàng tồn kho\nhoặc chi phí]
-    F --> G[Ghi nhận công nợ phải trả]
-    G --> H[Thanh toán\n(tiền mặt/ngân hàng)]
+    A["Đề nghị mua hàng"] --> B["PO / Hợp đồng với NCC"]
+    B --> C["Nhập hàng / Biên bản giao nhận"]
+    C --> D["Nhận hóa đơn NCC"]
+    D --> E["Kiểm tra chứng từ\nsố lượng, đơn giá, thuế"]
+    E --> F["Ghi nhận hàng tồn kho\nhoặc chi phí"]
+    F --> G["Ghi nhận công nợ phải trả"]
+    G --> H["Thanh toán\n(tiền mặt/ngân hàng)"]
 ```
 
 Nghiệp vụ:     
@@ -157,10 +157,10 @@ Quản lý dòng tiền: thu – chi – đối chiếu sao kê ngân hàng – 
 
 ```mermaid
 flowchart LR
-    A[Phát sinh thu/chi] --> B[Lập phiếu thu/chi\nhoặc ủy nhiệm chi]
-    B --> C[Ghi sổ quỹ tiền mặt / tiền gửi]
-    C --> D[Đối chiếu sao kê ngân hàng]
-    D --> E[Báo cáo lưu chuyển tiền tệ\nvà dòng tiền nội bộ]
+    A["Phát sinh thu/chi] --> B[Lập phiếu thu/chi\nhoặc ủy nhiệm chi"]
+    B --> C["Ghi sổ quỹ tiền mặt / tiền gửi"]
+    C --> D["Đối chiếu sao kê ngân hàng"]
+    D --> E["Báo cáo lưu chuyển tiền tệ\nvà dòng tiền nội bộ"]
 ```
 
 Nghiệp vụ chính:    
@@ -181,10 +181,10 @@ Theo dõi từng đối tượng (khách hàng, nhà cung cấp) và từng hóa
 
 ```mermaid
 flowchart LR
-    A[Phát sinh hóa đơn bán/mua] --> B[Cập nhật sổ chi tiết công nợ]
-    B --> C[Đối chiếu định kỳ\n(với khách hàng/NCC)]
-    C --> D[Nhắc nợ, xử lý nợ quá hạn]
-    D --> E[Báo cáo tuổi nợ, dự phòng nợ xấu]
+    A["Phát sinh hóa đơn bán/mua] --> B[Cập nhật sổ chi tiết công nợ"]
+    B --> C["Đối chiếu định kỳ\n(với khách hàng/NCC)"]
+    C --> D["Nhắc nợ, xử lý nợ quá hạn"]
+    D --> E["Báo cáo tuổi nợ, dự phòng nợ xấu"]
 ```
 
 Nghiệp vụ:     
@@ -205,10 +205,10 @@ Quản lý vòng đời tài sản: ghi tăng – khấu hao – thanh lý.
 
 ```mermaid
 flowchart LR
-    A[Mua sắm / hoàn thành xây dựng] --> B[Đưa vào sử dụng\n(Ghi tăng TSCĐ)]
-    B --> C[Tính và hạch toán khấu hao định kỳ]
-    C --> D[Kiểm kê, điều chuyển, sửa chữa]
-    D --> E[Thanh lý / Nhượng bán\n(Ghi giảm TSCĐ)]
+    A["Mua sắm / hoàn thành xây dựng"] --> B["Đưa vào sử dụng\n(Ghi tăng TSCĐ)"]
+    B --> C["Tính và hạch toán khấu hao định kỳ"]
+    C --> D["Kiểm kê, điều chuyển, sửa chữa"]
+    D --> E["Thanh lý / Nhượng bán\n(Ghi giảm TSCĐ)"]
 ```
 
 Nghiệp vụ:    
@@ -229,10 +229,10 @@ Gắn với HR nhưng tạo khối nghiệp vụ lớn cho kế toán.
 
 ```mermaid
 flowchart LR
-    A[Dữ liệu chấm công, KPI] --> B[Tính lương, phụ cấp, thưởng]
-    B --> C[Tính các khoản trích nộp\nBHXH, BHYT, BHTN, TNCN]
-    C --> D[Thanh toán lương\nvà nộp các khoản bảo hiểm, thuế]
-    D --> E[Ghi sổ chi phí nhân công\nvà công nợ liên quan]
+    A["Dữ liệu chấm công, KPI] --> B[Tính lương, phụ cấp, thưởng"]
+    B --> C["Tính các khoản trích nộp\nBHXH, BHYT, BHTN, TNCN"]
+    C --> D["Thanh toán lương\nvà nộp các khoản bảo hiểm, thuế"]
+    D --> E["Ghi sổ chi phí nhân công\nvà công nợ liên quan"]
 ```
 
 Nghiệp vụ:    
@@ -252,10 +252,10 @@ Bao gồm VAT, CIT, PIT, báo cáo tình hình sử dụng hóa đơn, BCTC nộ
 
 ```mermaid
 flowchart LR
-    A[Tổng hợp số liệu thuế từ các module] --> B[Lập tờ khai thuế\n(GTGT, TNDN, TNCN...)]
-    B --> C[Kiểm tra, đối chiếu\nvới sổ sách và báo cáo tài chính]
-    C --> D[Nộp tờ khai & nộp thuế]
-    D --> E[Lưu trữ hồ sơ thuế]
+    A["Tổng hợp số liệu thuế từ các module] --> B[Lập tờ khai thuế\n(GTGT, TNDN, TNCN...)"]
+    B --> C["Kiểm tra, đối chiếu\nvới sổ sách và báo cáo tài chính"]
+    C --> D["Nộp tờ khai & nộp thuế"]
+    D --> E["Lưu trữ hồ sơ thuế"]
 ```
 
 Nghiệp vụ:     
