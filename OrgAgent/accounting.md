@@ -87,7 +87,7 @@ flowchart LR
     A3 --> A4["Rà soát, đối chiếu\n(kho, ngân hàng, công nợ)"]
     A4 --> A5["Bút toán điều chỉnh & kết chuyển\n(chi phí, doanh thu, lãi/lỗ)"]
     A5 --> A6["Lập Bảng cân đối số phát sinh"]
-    A6 --> A7["Lập Báo cáo tài chính\n+Báo cáo thuế"]F
+    A6 --> A7["Lập Báo cáo tài chính\n+Báo cáo thuế"]
     A7 --> A8["Phân tích & trình ký\nBan giám đốc, cơ quan nhà nước"]
 ```
 
@@ -124,9 +124,9 @@ Nghiệp vụ chính:
 
 ---
 
-### 5.2. Kế toán mua hàng & kho
+### 5.2. Kế toán xuất/nhập kho
 
-Quản lý luồng: yêu cầu mua → đặt hàng → nhận hàng → nhập kho → thanh toán → hạch toán chi phí.   
+Quản lý luồng nhập kho: yêu cầu mua → đặt hàng → nhận hàng → nhập kho → thanh toán → hạch toán chi phí.
 
 ```mermaid
 flowchart LR
@@ -134,9 +134,24 @@ flowchart LR
     B --> C["Nhập hàng / Biên bản giao nhận"]
     C --> D["Nhận hóa đơn NCC"]
     D --> E["Kiểm tra chứng từ\nsố lượng, đơn giá, thuế"]
-    E --> F["Ghi nhận hàng tồn kho\nhoặc chi phí"]
+    E --> E1["Nhập kho (Lập phiếu nhập kho)"]
+    E1 --> F["Ghi nhận hàng tồn kho\nhoặc chi phí"]
     F --> G["Ghi nhận công nợ phải trả"]
     G --> H["Thanh toán\n(tiền mặt/ngân hàng)"]
+```
+
+Quản lý luồng xuất kho: yêu cầu xuất kho → kiểm tra tồn kho → xuất hàng → giao hàng → hạch toán giá vốn → thanh toán (nếu bán).
+
+```mermaid
+
+flowchart LR
+    X1["Đề nghị xuất kho"] --> X2["Kiểm tra tồn kho"]
+    X2 --> X3["Lập phiếu xuất kho"]
+    X3 --> X4["Xuất hàng / Giao hàng"]
+    X4 --> X5["Ghi nhận giá vốn\nhàng xuất kho"]
+    X5 --> X6["Ghi nhận doanh thu\n(knếu bán)"]
+    X6 --> X7["Ghi nhận công nợ\nphải thu (nếu bán)"]
+
 ```
 
 Nghiệp vụ:     
