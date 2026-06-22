@@ -56,8 +56,8 @@ Mỗi domain bên dưới sẽ có:
 
 ```mermaid
 flowchart LR
-    A["Lập / Tiếp nhận chứng từ\n(hóa đơn, phiếu thu/chi, hợp đồng...)"] --> B["Số hóa chứng từ\n(scan, import e-invoice)"]
-    B --> C["Kiểm tra tính hợp lệ\n(hình thức, nội dung, pháp lý)"]
+    A["Lập / Tiếp nhận chứng từ\n(hóa đơn, phiếu thu/chi, hợp đồng...)"]
+    A --> C["Kiểm tra tính hợp lệ\n(hình thức, nội dung, pháp lý)"]
     C --> D["Hoàn chỉnh & phê duyệt\n(ký, bổ sung thông tin)"]
     D --> E["Luân chuyển chứng từ\nđến kế toán phụ trách"]
     E --> F["Ghi sổ kế toán\n(định khoản, nhập phần mềm)"]
@@ -160,7 +160,7 @@ flowchart LR
     A["Phát sinh thu/chi] --> B[Lập phiếu thu/chi\nhoặc ủy nhiệm chi"]
     B --> C["Ghi sổ quỹ tiền mặt / tiền gửi"]
     C --> D["Đối chiếu sao kê ngân hàng"]
-    D --> E["Báo cáo lưu chuyển tiền tệ\nvà dòng tiền nội bộ"]
+    D --> E["Báo cáo dòng tiền tại một thời điểm"]
 ```
 
 Nghiệp vụ chính:    
