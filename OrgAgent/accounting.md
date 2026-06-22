@@ -230,8 +230,8 @@ Gắn với HR nhưng tạo khối nghiệp vụ lớn cho kế toán.
 ```mermaid
 flowchart LR
     A["Dữ liệu chấm công, KPI] --> B[Tính lương, phụ cấp, thưởng"]
-    B --> C["Tính các khoản trích nộp\nBHXH, BHYT, BHTN, TNCN"]
-    C --> D["Thanh toán lương\nvà nộp các khoản bảo hiểm, thuế"]
+    B --> C["Tính các khoản trích nộp\nBHXH, BHYT, BHTN, TNCN, \nKinh phí công đoàn (bắt buộc) , \nĐoàn phí công đoàn (nếu có)"]
+    C --> D["Thanh toán lương\nvà nộp các khoản bảo hiểm, thuế, \nKinh phí công đoàn (bắt buộc) , \nĐoàn phí công đoàn (nếu có)"]
     D --> E["Ghi sổ chi phí nhân công\nvà công nợ liên quan"]
 ```
 
