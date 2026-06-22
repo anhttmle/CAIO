@@ -154,10 +154,38 @@ flowchart LR
 
 ```
 
-Nghiệp vụ:     
-- Ghi nhận mua hàng, nhập kho, thuế GTGT đầu vào.  
-- Tính giá vốn hàng xuất kho.  
-- Theo dõi công nợ phải trả nhà cung cấp.
+Quản lý luồng tồn kho: kiểm kê tồn kho → xác định sai lệch → điều chỉnh tồn → hạch toán chênh lệch → cập nhật số tồn.
+```mermaid
+
+flowchart LR
+    X1["Đề nghị xuất kho"] --> X2["Kiểm tra tồn kho"]
+    X2 --> X3["Lập phiếu xuất kho"]
+    X3 --> X4["Xuất hàng / Giao hàng"]
+    X4 --> X5["Ghi nhận giá vốn\nhàng xuất kho"]
+    X5 --> X6["Ghi nhận doanh thu\n(khnếu bán)"]
+    X6 --> X7["Ghi nhận công nợ\nphải thu (nếu bán)"]
+
+```
+
+- Nghiệp vụ nhập kho:
+    - Ghi nhận mua hàng, nhập kho, thuế GTGT đầu vào .
+    - Tính giá vốn hàng xuất kho (chuẩn bị cho xuất kho).
+    - Theo dõi công nợ phải trả nhà cung cấp.
+- Nghiệp vụ xuất kho:
+    - Lập phiếu xuất kho theo yêu cầu (bán hàng, dùng nội bộ, chuyển kho).
+    - Kiểm tra tồn kho trước xuất.
+    - Ghi nhận giá vốn hàng xuất kho (FIFO, bình quân gia quyền, hoặc nhập trước xuất trước).
+    - Ghi nhận doanh thu bán hàng (nếu xuất để bán).
+    - Theo dõi công nợ phải thu khách hàng (nếu bán chưa thanh toán).
+    - Cập nhật số lượng hàng tồn kho sau xuất.
+- Nghiệp vụ tồn kho:
+    - Kiểm kê tồn kho định kỳ (tháng/quý/năm) hoặc khi có yêu cầu.
+    - So sánh tồn thực tế vs tồn sổ sách để xác định sai lệch.
+    - Lập biên bản điều chỉnh tồn khi có chênh lệch thiếu/quá.
+    - Hạch toán chênh lệch tồn kho (chi phí mất mát, lỗ tồn kho, hoặc thu nhập quá tồn).
+    - Cập nhật số tồn kho cuối kỳ trên sổ sách kế toán.
+    - Theo dõi ** hàng tồn kho cất chéo**, hàng tồn kho lâu ngày, hàng cận ngày hết hạn.
+- Ba luồng này tạo thành vòng khép kín: nhập kho → tăng tồn → xuất kho → giảm tồn → kiểm kê → điều chỉnh tồn, đảm bảo tính chính xác của số tồn kho và hạch toán kế toán.
 
 **Điểm AI/digital:**
 
