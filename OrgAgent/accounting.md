@@ -184,7 +184,7 @@ flowchart LR
     - Lập biên bản điều chỉnh tồn khi có chênh lệch thiếu/quá.
     - Hạch toán chênh lệch tồn kho (chi phí mất mát, lỗ tồn kho, hoặc thu nhập quá tồn).
     - Cập nhật số tồn kho cuối kỳ trên sổ sách kế toán.
-    - Theo dõi ** hàng tồn kho cất chéo**, hàng tồn kho lâu ngày, hàng cận ngày hết hạn.
+    - Theo dõi **hàng tồn kho cất chéo**, **hàng tồn kho lâu ngày**, **hàng cận ngày hết hạn**.
 - Ba luồng này tạo thành vòng khép kín: nhập kho → tăng tồn → xuất kho → giảm tồn → kiểm kê → điều chỉnh tồn, đảm bảo tính chính xác của số tồn kho và hạch toán kế toán.
 
 **Điểm AI/digital:**
