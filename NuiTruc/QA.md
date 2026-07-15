@@ -6,6 +6,8 @@
 
 ### Price for commitment? Base on scope?
 
+### Data strategy?
+
 # 2. Products
 
 ### NT Investment overlap with Financial Assistant -> might make user confuse or misuse on runtime
