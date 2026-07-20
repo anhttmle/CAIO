@@ -1,0 +1,32 @@
+---
+alwaysApply: true
+---
+
+# SDD Rules
+
+## Before writing ANY code
+1. Read the relevant spec file in `specs/<feature>/`
+2. If no spec exists, STOP and tell the user to create one first
+3. Only implement what is explicitly stated in requirements.md and design.md
+4. Do not add "nice to have" features, over-engineer, or add security layers unless stated
+5. If user request should be a task, create a task using `update-backlog` skill & notify user
+
+## Task execution
+- Only implement the ONE task given to you
+- Write tests BEFORE implementation (TDD)
+- After finishing a task, summarize what was done and what test covers it
+- Do not read tasks.md in full — only process the task given in the prompt
+- Use `update-backlog` after create/doing anytask
+
+## Decision log
+- If you make any design decision not explicitly covered in the spec, add it to `specs/<feature>/decision_log.md`
+
+## Scope
+- When in doubt, do LESS not more
+- This is not an enterprise product unless the spec says so
+- Repo source code of each module/service always has Makefile to run on local (each module/service should be a folder on root of the workspace)
+
+## Documentation
+- Update ONBOARDING.md for when anything change that related to onboarding new member
+- Update AGENT.md for helping agent understand the code base on new task
+- When edit any line of code, beware the requirements.md/design.md/decision_log.md so update them if needed
