@@ -300,4 +300,5 @@ Mục tiêu: bảo đảm mọi ca phức tạp hoặc nhạy cảm đều đư�
   - Gói deployment/implementation cụ thể cho mỗi clinic/agency (setup + kịch bản + integration).
   - Subscription cho pack voice appointment/reminders (per clinic/per minute hybrid).
   - Commission from matching Clinic & khách (Clinic có thêm khách, khách được chiết khấu, Nuitruc được hoa hồng)
+  
 </details>
