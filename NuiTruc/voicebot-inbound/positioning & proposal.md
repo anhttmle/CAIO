@@ -85,6 +85,7 @@
 ### 6.1 Tổng quan
 <details>
 <summary>Chi tiết</summary>
+  
 Sản phẩm là một Dental Voice AI Platform dành cho phòng khám răng tại Việt Nam/ASEAN, giúp tự động hóa các giao tiếp front‑desk bằng giọng nói và đa kênh (website, Zalo, SMS) mà không yêu cầu phòng khám phải thay đổi PMS, CRM hay hệ thống hiện có.
 
 Nền tảng cung cấp một “lễ tân AI” hoạt động 24/7, có thể:
@@ -95,12 +96,14 @@ Nền tảng cung cấp một “lễ tân AI” hoạt động 24/7, có thể:
 - Hỗ trợ đào tạo lễ tân mới.
 - Chuyển tiếp thông minh tới nhân sự cấp cao (CS senior, y tá, bác sĩ) khi cần.
 Thiết kế sản phẩm theo triết lý hybrid AI + người thật, với mức độ tự động hóa “khuyến nghị” (AI xử lý routine, người thật xử lý ca khó) để bảo toàn trải nghiệm bệnh nhân và danh tiếng phòng khám.
+
 </details>
 
 ### 6.2 Các thành phần chính
 #### a. Voice AI cho hotline phòng khám (gói trả phí)
 <details>
 <summary>Chi tiết</summary>
+  
 - **Chức năng cốt lõi**:
   - Nhận và xử lý cuộc gọi 24/7 <br>
   AI tiếp nhận cuộc gọi vào số điện thoại của phòng khám, chào hỏi theo thương hiệu, hiểu nhu cầu (đặt lịch, đổi lịch, hủy, hỏi dịch vụ, hỏi khẩn cấp) và dẫn dắt cuộc hội thoại một cách tự nhiên.
@@ -123,12 +126,14 @@ Thiết kế sản phẩm theo triết lý hybrid AI + người thật, với m�
 
   - **Mức độ tự động hóa “khuyến nghị”** <br>
     Mặc định, AI xử lý khoảng 60–70% cuộc gọi routine (đặt lịch, đổi lịch, nhắc hẹn, FAQ đơn giản), phần còn lại (~30–40%) được chuyển sang người thật theo rule và tín hiệu AI → giảm rủi ro ảnh hưởng tới patient satisfaction.
+    
 </details>
 
 #### b. Web/Zalo Assistant (freemium)
 
 <details>
 <summary>Chi tiết</summary>
+  
 Đây là tầng freemium/low‑risk, giúp phòng khám có thể thử AI mà gần như không phải đầu tư chi phí đầu tiên.
 
 **Chức năng**:
@@ -150,6 +155,7 @@ Freemium tier này giải bài toán: clinic lo chi phí và chất lượng AI,
 
 <details>
 <summary>Chi tiết</summary>
+  
 **Dashboard vận hành**:
   - Thống kê theo ngày/tuần/tháng:
     - Số cuộc gọi AI xử lý, số cuộc gọi chuyển tiếp.
@@ -168,10 +174,12 @@ Freemium tier này giải bài toán: clinic lo chi phí và chất lượng AI,
   - Appointment, Reminders, Upsale, PMS Integration.
 - Xem hiệu quả từng pack (booking tăng, no‑show giảm, recall hiệu quả…) để quyết định tiếp tục, mở rộng hoặc thu hẹp.
 </details>
+
 ### 6.3. Hỗ trợ nhân sự & fallback an toàn
 #### a. AI coach cho lễ tân newbie
 <details>
 <summary>Chi tiết</summary>
+  
 Mục tiêu: giúp nhân sự mới (lễ tân mới tuyển, CS mới) tự tin xử lý cuộc gọi từ sớm, giảm lỗi đặt lịch, tăng chất lượng tư vấn.
 
 **Chức năng**:
@@ -189,12 +197,14 @@ Mục tiêu: giúp nhân sự mới (lễ tân mới tuyển, CS mới) tự tin
     - Danh sách cuộc gọi do lễ tân mới xử lý.
     - Highlight lỗi thường gặp và đề xuất cải thiện.
     - Transcript đi kèm nhận xét AI (những chỗ nên hỏi sâu hơn, chỗ trả lời chưa rõ).
+    
 </details>
 
 #### b. Smart fallback tới nhân sự cấp cao
 
 <details>
 <summary>Chi tiết</summary>
+  
 Mục tiêu: bảo đảm mọi ca phức tạp hoặc nhạy cảm đều được xử lý bởi người phù hợp (CS lâu năm, y tá, bác sĩ), không để AI hoặc người mới tự “xoay” một mình.
 **Chức năng**:
   - **Rule‑based & AI‑based escalation**
@@ -218,6 +228,7 @@ Mục tiêu: bảo đảm mọi ca phức tạp hoặc nhạy cảm đều đư�
       - Nhóm nhân sự nhận nhiều escalation nhất.
       - Thời gian xử lý trung bình và kết quả. <br>
         Từ đó điều chỉnh rule, tăng/giảm ca trực, phân công nhân sự cho giờ cao điểm.
+        
 </details>
 
 ### 6.4 Kiến trúc kỹ thuật & tích hợp
