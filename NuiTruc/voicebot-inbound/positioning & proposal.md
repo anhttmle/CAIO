@@ -38,8 +38,16 @@
 - omnichannel (AnveVoice, CloudTalk, Weave).
 
 ### Việt Nam:
-- Chatbot/omnichannel cho nha khoa (ChatPilot, Preny, Addy, ChatbotViet, AI CRM…)
-- voice/auto bot đa ngành (BussCall, Sokucom).
+- Chatbot/omnichannel cho nha khoa
+  - ChatPilot: chưa có voice, chatbot AI khá giống với 1 chatGPT app
+  - Preny: chưa có voice
+  - Addy: chatbot có support RAG, chưa có voice
+  - ChatbotViet: chưa có voice
+  - AI CRM: các bên sở hữu các hệ thống CRM cũng manh mún đưa AI vào hệ thống đang có của họ
+  - Nhiều bên tính tích hợp knowledge base với [ElevenlabAI](https://elevenlabs.io/). Nhưng chưa có kịch bản chốt đơn, chăm sóc cụ thể.
+- voice/auto bot đa ngành
+  - BussCall: lâu năm, nhiều data, chưa có AI
+  - Sokucom: có workflow, chưa có AI
 
 ### Positioning:
 - Dental Voice AI vertical cho Việt Nam/ASEAN:
