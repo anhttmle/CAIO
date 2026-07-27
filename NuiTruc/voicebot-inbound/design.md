@@ -1,78 +1,116 @@
 **Architecture**:
+
 ```mermaid
 
 flowchart LR
+  %% Clients
   subgraph Clients
-    P1[Phone Caller]
-    P2[Web/Zalo User]
+    P_phone[Patient via phone]
+    P_zalo[Patient via Zalo OA]
+    P_web[Patient via web browser]
   end
 
-  subgraph Telephony
-    T1["Telephony Gateway<br>(SIP PBX / DID)"]
-    V1["Voice Agent Engine<br>Streaming STT/TTS + VAD"]
+  %% Voice entry (multi channel)
+  subgraph VoiceGateway[Voice gateway and media layer]
+    VG_sip[SIP trunk and PBX]
+    VG_zalo[Zalo OA call entry]
+    VG_webrtc[WebRTC voice entry]
+    VG_router[Media router and mixer]
   end
 
-  subgraph CoreLogic[Conversation & Workflow Layer]
-    C1["LLM/NLP & Intent Router"]
-    C2["Dialogue & Workflow Engine\n(Hybrid AI + Human)"]
-    C3["Escalation & Routing Service"]
+  %% Core voice agent
+  subgraph VoiceAgent[Voice agent engine]
+    VA_stttts[Streaming STT TTS and VAD]
   end
 
-  subgraph Domain["Dental Domain Backend"]
-    D1["Appointment Service"]
-    D2["Reminder & Recall Service"]
-    D3["FAQ/Triage & Upsale Service"]
-    D4["AI Coach Service"]
-    D5["Clinic Config & Packs Service"]
+  %% Conversation and workflow
+  subgraph CoreLogic[Conversation and workflow layer]
+    CL_nlp[LLM NLP and intent router]
+    CL_flow[Dialogue and workflow engine]
+    CL_hybrid[Hybrid AI human rules]
+    CL_escalation[Escalation routing service]
   end
 
-  subgraph Integrations["Integration Layer"]
-    I1["PMS/CRM Adapters"]
-    I2["Calendar Adapter<br>(GCal / Outlook)"]
-    I3["SMS/Zalo/Email Gateways"]
+  %% Dental domain backend
+  subgraph Domain[Dental domain backend]
+    D_apt[Appointment service]
+    D_rem[Reminder and recall service]
+    D_faq[FAQ triage and upsale service]
+    D_coach[AI coach for staff]
+    D_cfg[Clinic config and packs]
   end
 
+  %% Integrations
+  subgraph Integrations[Integration layer]
+    I_pms[PMS CRM adapters]
+    I_cal[Calendar adapter]
+    I_msg[SMS Zalo Email gateways]
+  end
+
+  %% Frontends
   subgraph Frontends
-    F1["Web/Zalo Assistant UI"]
-    F2["Dashboard & Portal"]
+    F_webui[Web chat and voice widget]
+    F_zaloUI[Zalo OA chatbot and actions]
+    F_dash[Clinic dashboard and portal]
   end
 
-  subgraph Data["Data, Analytics & Privacy"]
-    A1["Operational DBs<br>(Appointments, Patients, Config)"]
-    A2["Logs & Analytics Store"]
-    A3["Auth & Privacy Module<br>RBAC, Consent, Encryption"]
+  %% Data and privacy
+  subgraph DataPrivacy[Data analytics and privacy]
+    DP_db[Operational databases]
+    DP_logs[Logs and analytics store]
+    DP_auth[Auth RBAC consent encryption]
   end
 
-  %% client flows
-  P1 --> T1 --> V1 --> C1 --> C2
-  P2 --> F1 --> C1
+  %% Flows from clients to gateway
+  P_phone --> VG_sip
+  P_zalo --> VG_zalo
+  P_web --> VG_webrtc
 
-  %% core to domain
-  C2 --> D1
-  C2 --> D2
-  C2 --> D3
-  C2 --> D5
-  C2 --> C3
-  C2 --> D4
+  VG_sip --> VG_router
+  VG_zalo --> VG_router
+  VG_webrtc --> VG_router
 
-  %% domain to integrations
-  D1 --> I1
-  D1 --> I2
-  D2 --> I3
-  D3 --> I3
+  VG_router --> VA_stttts
 
-  %% dashboards
-  F2 --> D5
-  F2 --> A2
-  F2 --> A3
+  %% Voice agent to core logic
+  VA_stttts --> CL_nlp
+  CL_nlp --> CL_flow
+  CL_flow --> CL_hybrid
+  CL_flow --> CL_escalation
 
-  %% data & privacy
-  D1 --> A1
-  D2 --> A1
-  D3 --> A1
-  D4 --> A1
-  C3 --> A2
-  V1 --> A2
-  A1 --> A3
+  %% Core logic to domain services
+  CL_flow --> D_apt
+  CL_flow --> D_rem
+  CL_flow --> D_faq
+  CL_flow --> D_cfg
+  CL_flow --> D_coach
+
+  %% Domain to integrations
+  D_apt --> I_pms
+  D_apt --> I_cal
+  D_rem --> I_msg
+  D_faq --> I_msg
+
+  %% Frontends connections
+  P_web --> F_webui
+  P_zalo --> F_zaloUI
+
+  F_webui --> CL_nlp
+  F_zaloUI --> CL_nlp
+
+  F_dash --> D_cfg
+  F_dash --> DP_logs
+  F_dash --> DP_auth
+
+  %% Data and privacy links
+  D_apt --> DP_db
+  D_rem --> DP_db
+  D_faq --> DP_db
+  D_coach --> DP_db
+  CL_escalation --> DP_logs
+  VG_router --> DP_logs
+
+  DP_db --> DP_auth
+  DP_logs --> DP_auth
 
 ```
