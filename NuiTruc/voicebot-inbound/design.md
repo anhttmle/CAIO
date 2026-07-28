@@ -83,8 +83,14 @@
 
   media_layer --> voice_engine
 
-  %% Dental domain backend
-  subgraph domain_backend["Domain Backend<br>(Dental)"]
+  subgraph data_layer["Data layer"]
+    operation_db["Operation DB<br>(RDBMS)"]
+    semantic_db["Semantic DB<br>(VectorDB)"]
+    text_db["Text DB<br>(Search Engine)"]
+    kg_db["Knowledge Graph DB<br>(Graph DB)"]
+  end
+
+  subgraph domain_backend["Domain Backend (Dental)"]
     appointment_service["Appointment"]
     reminder_service["Reminder"]
     recall_service["Recall"]
@@ -92,6 +98,25 @@
     upsell_service["Upsell"]
   end
 
-  workflow_engine --> domain_backend
+  ai_core_engine --> data_layer
+  domain_backend --> data_layer
 
+  inbound --> appointment_service
+  inbound --> faq_triage_service
+  reminder --> reminder_service
+  recall --> recall_service
+  upsell --> upsell_service
+
+  subgraph integration_layer["Integration layer"]
+    psm["PMS CRM adapters"]
+    calendar["Calendar adapter"]
+    message["SMS Zalo Email gateways"]
+  end
+
+  appointment_service --> psm
+  appointment_service --> calendar
+  reminder_service --> message
+  recall_service --> message
+  faq_triage_service --> message
+  upsell_service --> message
 ```
