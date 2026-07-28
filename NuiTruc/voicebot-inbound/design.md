@@ -1,10 +1,13 @@
 ## Components
 
+
 ```mermaid
 
   flowchart LR
 
   user["User"]
+  client["Client"]
+  admin["Super Admin"]
 
   subgraph channels["Channels"]
     phone["Phone"]
@@ -32,6 +35,10 @@
   user --> web
   web --> webRTC
 
+  tenant_portal["Tenant Portal"]
+  admin_portal["Admin Portal"]
+  NT_be["NT Backend"]
+  
   subgraph ai_core_engine["AI Core Engine"]
     subgraph voice_engine["Voice Engine"]
       STT["Speech2Text"]
@@ -54,8 +61,6 @@
     conversation_engine --> workflow_engine
   end
 
-  media_layer --> voice_engine
-
   subgraph data_layer["Data layer"]
     operation_db["Operation DB<br>(RDBMS)"]
     meta_db["Meta DB<br>(RDBMS)"]
@@ -72,6 +77,13 @@
     upsell_service["Upsell"]
     fallback_human["Fallback to Human"]
   end
+
+  media_layer --> voice_engine
+  client --> tenant_portal
+  tenant_portal --"config"--> ai_core_engine
+  admin --> admin_portal
+  admin_portal --> NT_be
+  NT_be --"tenant account"--> data_layer
 
   ai_core_engine --> semantic_db
   ai_core_engine --> text_db
