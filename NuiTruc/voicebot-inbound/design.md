@@ -5,9 +5,9 @@
 
   flowchart LR
 
-  user["User"]
-  client["Client"]
-  admin["Super Admin"]
+  user(("User"))
+  client(("Client"))
+  admin(("Super Admin"))
 
   subgraph channels["Channels"]
     phone["Phone"]
