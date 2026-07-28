@@ -36,12 +36,62 @@
   subgraph channels["Channels"]
     phone["Phone"]
     chatApp["Zalo"]
-    web["WebRTC"]
+    web["Web"]
+  end
+
+  subgraph gateway["Voice Gateway"]
+    sip["SIP trunk and PBX"]
+    zaloOA["Zalo OA call entry"]
+    webRTC["WebRTC voice entry"]
+    media_layer["Media layer<br>router and mixer"]
+
+    sip --> media_layer
+    zaloOA --> media_layer
+    webRTC --> media_layer
   end
 
   user --> phone
+  phone --> sip
+
   user --> chatApp
+  chatApp --> zaloOA
+
   user --> web
-  
+  web --> webRTC
+
+  subgraph ai_core_engine["AI Core Engine"]
+    subgraph voice_engine["Voice Engine"]
+      STT["Speech2Text"]
+      TTS["Text2Speech"]
+      VAD["Voice Activity Detection"]
+    end
+
+    subgraph conversation_engine["Conversation Engine"]
+      
+    end
+
+    subgraph workflow_engine["Workflow Engine"]
+      inbound["Inbound flow<br>(appointment, faq triage)"]
+      reminder["Reminder flow"]
+      recall["Recall flow"]
+      upsell["Upsell flow"]
+    end
+
+    voice_engine <--text--> conversation_engine
+    conversation_engine --> workflow_engine
+  end
+
+  media_layer --> voice_engine
+
+  %% Dental domain backend
+  subgraph domain_backend["Domain Backend<br>(Dental)"]
+    appointment_service["Appointment"]
+    reminder_service["Reminder"]
+    recall_service["Recall"]
+    faq_triage_service["FAQ triage"]
+    upsell_service["Upsell"]
+  end
+
+  workflow_engine --> domain_backend
 
 ```
