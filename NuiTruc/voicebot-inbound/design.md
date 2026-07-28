@@ -135,7 +135,7 @@ flowchart LR
   - **Recall**: Gọi nhắc tái khám định kỳ
   - **FAQ triage**: Quy trình đánh giá và phân loại các câu hỏi hoặc yêu cầu hỗ trợ của khách
   - **Upsell**: Tư vấn bán thêm dịch vụ nâng cao
-  - **AI coach for staff**: Đào tạo và hỗ trợ new Operator khi làm việc với User
+  - **AI coach for staff**: Đào tạo và hỗ trợ Operator khi làm việc với User
   - TBD...
 - 
 
