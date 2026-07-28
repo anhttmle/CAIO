@@ -44,10 +44,10 @@
     end
 
     subgraph workflow_engine["Workflow Engine"]
-      inbound["Inbound flow<br>(appointment, faq triage)"]
       reminder["Reminder flow"]
       recall["Recall flow"]
       upsell["Upsell flow"]
+      inbound["Inbound flow<br>(appointment, faq triage)"]
     end
 
     voice_engine <--text--> conversation_engine
@@ -58,6 +58,7 @@
 
   subgraph data_layer["Data layer"]
     operation_db["Operation DB<br>(RDBMS)"]
+    meta_db["Meta DB<br>(RDBMS)"]
     semantic_db["Semantic DB<br>(VectorDB)"]
     text_db["Text DB<br>(Search Engine)"]
     kg_db["Knowledge Graph DB<br>(Graph DB)"]
@@ -69,16 +70,21 @@
     recall_service["Recall"]
     faq_triage_service["FAQ triage"]
     upsell_service["Upsell"]
+    fallback_human["Fallback to Human"]
   end
 
-  ai_core_engine --> data_layer
-  domain_backend --> data_layer
+  ai_core_engine --> semantic_db
+  ai_core_engine --> text_db
+  ai_core_engine --> kg_db
+  ai_core_engine --> meta_db
+  domain_backend --> operation_db
 
-  inbound --> appointment_service
-  inbound --> faq_triage_service
   reminder --> reminder_service
   recall --> recall_service
   upsell --> upsell_service
+  inbound --> appointment_service
+  inbound --> faq_triage_service
+  inbound --> fallback_human
 
   subgraph integration_layer["Integration layer"]
     psm["PMS CRM adapters"]
