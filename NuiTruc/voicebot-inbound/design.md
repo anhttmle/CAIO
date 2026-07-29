@@ -168,8 +168,8 @@
 
 | Component | Loại | Mô tả |
 | --- | --- | --- |
-| Tenant Portal | Portal | Giao diện để Client (Clinic Owner/Operator) cấu hình dịch vụ, gửi config tới NT Backend |
-| Admin Portal | Portal | Giao diện để Super Admin quản lý tenant, tài khoản, cấu hình hệ thống |
+| [Tenant Portal](./tenant_portal.md) | Portal | Giao diện để Client (Clinic Owner/Operator) cấu hình dịch vụ, gửi config tới NT Backend |
+| [Admin Portal](./admin_portal.md) | Portal | Giao diện để Super Admin quản lý tenant, tài khoản, cấu hình hệ thống |
 | NT Backend | Backend core | Xử lý logic quản trị tenant, nhận config từ 2 portal và ghi dữ liệu vào Data layer |
 
 ### AI Core Engine
