@@ -17,12 +17,38 @@
 - **Benchmark tiêu biểu**: HotpotQA, Musique
 - **Phương pháp phổ biến cho không gian rời rạc**: Path-Ranking Algorithm (PRA) — dùng random walk rời rạc để dò đường đi
 
+
 ### Deep Path
 > biến việc "tìm đường đi suy luận" thành một bài toán quyết định tuần tự (sequential decision making), giải bằng RL.
+> 
 > Agent đứng ở một thực thể nguồn, tại mỗi bước phải "chọn" một quan hệ để nhảy sang thực thể kế tiếp, giống như đi bộ trên graph nhưng có mục tiêu rõ ràng (đến thực thể đích) và có "phần thưởng" định hướng chất lượng đường đi.
+> 
 > Vì trạng thái được biểu diễn bằng embedding liên tục (thay vì ký hiệu rời rạc), agent có thể "cảm nhận" được sự tương đồng ngữ nghĩa giữa các thực thể/quan hệ khác nhau — đây là điểm khác biệt mấu chốt so với PRA
 
 - KG với các triple: Entity - Relation - Entity
 - Thực thể: $e_{\text{entity}} \in \mathbb{R}^{200}$
 - Quan hệ: $r_{\text{relation}} \in \mathbb{R}^{200}$
 
+#### Markov Decision Process
+> Biểu diễn bởi tuple ⟨S, A, P, R⟩:
+> 
+> **S (State space)**: không gian trạng thái liên tục.
+> Trạng thái tại bước $\(t\)$ được định nghĩa là $\( s_t = (e_t, e_{target} - e_t) \)$, trong đó:
+>  >  
+>  > $\(e_t\)$ là embedding của thực thể hiện tại
+>  >
+>  > $\(e_{target}\)$ là embedding của thực thể đích.
+>  > Vector hiệu $\(e_{target}-e_t\)$ cho agent biết "còn cách đích bao xa/theo hướng nào" trong không gian vector.
+>
+> **A (Action space)**: tập tất cả các quan hệ có trong KG (bao gồm cả quan hệ nghịch, ký hiệu $\(r^{-1}\))$
+>
+> agent "hành động" bằng cách chọn một quan hệ để đi tiếp.
+
+
+Cho quan hệ $\(r\)$:
+
+$$(h,\, r,\, t) \Longleftrightarrow (t, r^{-1}, h)$$
+
+- $\(h\)$: head (thực thể đầu)
+- $\(t\)$: tail (thực thể cuối)
+- $\(r^{-1}\)$: quan hệ nghịch của $\(r\)$
