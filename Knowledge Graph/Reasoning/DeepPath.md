@@ -48,6 +48,24 @@
 >  
 > **$R\(s,a\)$**: hàm phần thưởng cho mỗi cặp (trạng thái, hành động).
 
+#### Agent
+> được biểu diễn bằng một **policy network** $\(\pi_\theta(s,a) = p(a|s;\theta)\)$
+>
+> kiến trúc mạng neural 2 lớp ẩn (ReLU) + softmax ở đầu ra, ánh xạ trạng thái sang phân phối xác suất trên các action.
+> 
+> Tác giả chọn phương pháp **policy-based** (thay vì DQN dạng value-based) vì hai lý do:
+>  > (1) không gian hành động rất lớn khiến DQN khó hội tụ
+>  > (2) policy ngẫu nhiên (stochastic) giúp agent không bị "kẹt" tại một trạng thái trung gian — khác với chính sách greedy của DQN
+
+#### Reward
+hàm reward tổng hợp 3 tiêu chí: độ chính xác, hiệu quả, và đa dạng.
+
+- **Global accuracy** $r_{GLOBAL}$: +1 nếu đường đi tới được thực thể đích, -1 nếu không. Vì số lượng chuỗi hành động sai tăng theo cấp lũy mũ với độ dài đường đi, reward này là cơ chế cơ bản định hướng agent đến đích. [sites.cs.ucsb](https://sites.cs.ucsb.edu/~william/papers/DeepPath.pdf)
+- **Path efficiency** $r_{EFFICIENCY} = \dfrac{1}{length(p)}$ , trong đó $\(length(p)\)$ là số quan hệ trong đường đi $\(p = r_1 \to r_2 \to ... \to r_n\)$. Ý tưởng: đường đi ngắn thường đáng tin cậy hơn và giúp suy luận hiệu quả hơn, nên được thưởng cao hơn khi ngắn. 
+- **Path diversity** $r_{DIVERSITY} = -\dfrac{1}{|F|}\sum_{i=1}^{|F|} \cos(p, p_i)$ , trong đó $\(p = \sum_{i=1}^n r_i\)$ là embedding của đường đi (tổng embedding các quan hệ), $\(p_i\)$ là các đường đi đã tìm được trước đó trong tập $\(F\)$ , và $\(\cos(\cdot,\cdot)\)$ là độ tương đồng cosine. Vì nhiều mẫu huấn luyện có trạng thái tương tự nhau, agent dễ tìm ra các đường đi "giống nhau về cú pháp/ngữ nghĩa" — chứa thông tin dư thừa. Reward này phạt các đường đi quá giống các đường đi cũ, khuyến khích agent khám phá đường đi mới, đa dạng hơn.
+
+Tổng reward khi thành công là tổ hợp tuyến tính: $\(R_{total} = \lambda_1 r_{GLOBAL} + \lambda_2 r_{EFFICIENCY} + \lambda_3 r_{DIVERSITY}\)$, với $\(\lambda_1,\lambda_2,\lambda_3\)$ là các trọng số cân bằng ba tiêu chí.
+
 ### Annotation
 #### Quan hệ nghịch
 Cho quan hệ $\(r\)$: $(h,\, r,\, t) \Longleftrightarrow (t, r^{-1}, h)$
@@ -55,3 +73,17 @@ Cho quan hệ $\(r\)$: $(h,\, r,\, t) \Longleftrightarrow (t, r^{-1}, h)$
 - $\(h\)$: head (thực thể đầu)
 - $\(t\)$: tail (thực thể cuối)
 - $\(r^{-1}\)$: quan hệ nghịch của $\(r\)$
+
+#### Pipeline khái quát
+1. RL agent roll out nhiều episode
+        ↓
+2. Mỗi episode thành công → một instance path
+        ↓
+3. Bóc tách chuỗi quan hệ → path formula
+        ↓
+4. Gom vào tập F (tối đa ~10 formula / target relation)
+        ↓
+5. Dùng F như feature (kiểu PRA):
+   với cặp (h,t) mới, formula nào “chạy” được trên KG?
+        ↓
+6. Classifier / ranking → link prediction / fact prediction
