@@ -23,4 +23,6 @@
 > Vì trạng thái được biểu diễn bằng embedding liên tục (thay vì ký hiệu rời rạc), agent có thể "cảm nhận" được sự tương đồng ngữ nghĩa giữa các thực thể/quan hệ khác nhau — đây là điểm khác biệt mấu chốt so với PRA
 
 - KG với các triple: Entity - Relation - Entity
-- Entity: 
+- Thực thể: $e_{\text{entity}} \in \mathbb{R}^{200}$
+- Quan hệ: $r_{\text{relation}} \in \mathbb{R}^{200}$
+
