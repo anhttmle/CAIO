@@ -80,10 +80,10 @@
 
   media_layer --> voice_engine
   client --> tenant_portal
-  tenant_portal --"config"--> data_layer
+  tenant_portal --"config"--> NT_be
   admin --> admin_portal
   admin_portal --> NT_be
-  NT_be --"tenant account"--> data_layer
+  NT_be --"tenant data"--> data_layer
 
   ai_core_engine --> semantic_db
   ai_core_engine --> text_db
