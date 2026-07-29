@@ -40,7 +40,7 @@
 >  > $e_{target}$ là embedding của thực thể đích.
 >  > Vector hiệu $\(e_{target}-e_t\)$ cho agent biết "còn cách đích bao xa/theo hướng nào" trong không gian vector.
 >
-> **A (Action space)**: tập tất cả các quan hệ có trong KG (bao gồm cả [quan hệ nghịch](####Quan-hệ-nghịch), ký hiệu $\(r^{-1}\))$
+> **A (Action space)**: tập tất cả các quan hệ có trong KG (bao gồm cả [quan hệ nghịch](#Quan-hệ-nghịch), ký hiệu $\(r^{-1}\))$
 >
 >  > agent "hành động" bằng cách chọn một quan hệ để đi tiếp.
 > 
