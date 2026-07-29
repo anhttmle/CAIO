@@ -1,6 +1,6 @@
 ## Basic
 
-| Nhóm chức năng           | Tính năng đề xuất                   | Mô tả                                                                           |
+| Nhóm chức năng           | Tính năng                           | Mô tả                                                                           |
 | ------------------------ | ----------------------------------- | ------------------------------------------------------------------------------- |
 | Quản lý tài khoản        | Quản lý user nội bộ                 | Tenant Admin tạo/xoá tài khoản Operator, phân quyền lễ tân                      |
 | Cấu hình Clinic          | Thông tin phòng khám                | Cập nhật giờ làm việc, danh sách dịch vụ, bảng giá, chi nhánh                   |
