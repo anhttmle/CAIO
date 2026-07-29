@@ -1,4 +1,4 @@
-| Nhóm chức năng    | Tính năng đề xuất                   | Mô tả                                                                                             |
+| Nhóm chức năng    | Tính năng                           | Mô tả                                                                                             |
 | ----------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Quản lý Tenant    | Tạo/kích hoạt/tạm ngưng Tenant      | Đăng ký Clinic mới, cấu hình gói dịch vụ, khoá tài khoản khi vi phạm/nợ phí                       |
 | Quản lý Tenant    | Xem chi tiết & "Impersonate" tenant | Đăng nhập giả lập vào tài khoản Client để hỗ trợ debug mà không cần mật khẩu reddit               |
