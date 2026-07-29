@@ -50,9 +50,7 @@
 
 ### Annotation
 #### Quan hệ nghịch
-Cho quan hệ $\(r\)$:
-
-$$(h,\, r,\, t) \Longleftrightarrow (t, r^{-1}, h)$$
+Cho quan hệ $\(r\)$: $(h,\, r,\, t) \Longleftrightarrow (t, r^{-1}, h)$
 
 - $\(h\)$: head (thực thể đầu)
 - $\(t\)$: tail (thực thể cuối)
