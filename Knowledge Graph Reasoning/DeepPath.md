@@ -33,18 +33,23 @@
 > Biểu diễn bởi tuple ⟨S, A, P, R⟩:
 > 
 > **S (State space)**: không gian trạng thái liên tục.
-> Trạng thái tại bước $\(t\)$ được định nghĩa là $\( s_t = (e_t, e_{target} - e_t) \)$, trong đó:
+> Trạng thái tại bước $t$ được định nghĩa là $s_t = (e_t, e_{target} - e_t)$, trong đó:
 >  >  
->  > $\(e_t\)$ là embedding của thực thể hiện tại
+>  > $e_t$ là embedding của thực thể hiện tại
 >  >
->  > $\(e_{target}\)$ là embedding của thực thể đích.
+>  > $e_{target}$ là embedding của thực thể đích.
 >  > Vector hiệu $\(e_{target}-e_t\)$ cho agent biết "còn cách đích bao xa/theo hướng nào" trong không gian vector.
 >
-> **A (Action space)**: tập tất cả các quan hệ có trong KG (bao gồm cả quan hệ nghịch, ký hiệu $\(r^{-1}\))$
+> **A (Action space)**: tập tất cả các quan hệ có trong KG (bao gồm cả [quan hệ nghịch](####Quan-hệ-nghịch), ký hiệu $\(r^{-1}\))$
 >
-> agent "hành động" bằng cách chọn một quan hệ để đi tiếp.
+>  > agent "hành động" bằng cách chọn một quan hệ để đi tiếp.
+> 
+> **$P$**: ma trận xác suất chuyển trạng thái $\(P(S_{t+1}=s'|S_t=s, A_t=a)\)$.
+>  
+> **$R\(s,a\)$**: hàm phần thưởng cho mỗi cặp (trạng thái, hành động).
 
-
+### Annotation
+#### Quan hệ nghịch
 Cho quan hệ $\(r\)$:
 
 $$(h,\, r,\, t) \Longleftrightarrow (t, r^{-1}, h)$$
