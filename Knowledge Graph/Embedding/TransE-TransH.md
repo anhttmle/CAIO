@@ -23,7 +23,7 @@ $$(\text{Paris}, \text{capitalOf}, \text{France})$$
 
 Nếu một triple $(h, r, t)$ là đúng (valid), thì trong không gian embedding, vector của head entity ($\mathbf{h}$) cộng với vector của relation ($\mathbf{r}$) sẽ xấp xỉ bằng vector của tail entity ($\mathbf{t}$):
 
-$$\mathbf{h} + \mathbf{r} \approx \mathbf{t}$$
+$\mathbf{h} + \mathbf{r} \approx \mathbf{t}$
 
 Hình dung đơn giản: Nếu bạn đang đứng tại điểm $\mathbf{h}$ trên bản đồ, và bạn "bước" một đoạn theo hướng và độ dài của mũi tên $\mathbf{r}$, bạn sẽ rơi vào vị trí rất gần điểm $\mathbf{t}$. 
 
