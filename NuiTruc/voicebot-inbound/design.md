@@ -25,7 +25,7 @@
   - **Calendar**: Google Calendar,...
   - **Vận hành phòng khám**: PSM, CRM,...
 
-## Design
+## Architecture
 
 
 ```mermaid
