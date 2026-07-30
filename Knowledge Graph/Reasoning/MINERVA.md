@@ -131,11 +131,7 @@ Trong đó:
 Tập action hợp lệ tại trạng thái $S_t$ là:
 
 $$
-\mathcal{A}_{S_t}
-=
-\{(e_t, r, v) \in E\}
-\cup
-\{\text{NOOP}\}
+\mathcal{A}_{S_t} = \{(e_t, r, v) \in E\} \cup \{\text{NOOP}\}
 $$
 
 `NOOP` là self-loop: ở nguyên node hiện tại. Nó cho phép triển khai mọi query với cùng horizon $T$, kể cả khi câu hỏi dễ chỉ cần một bước. Nếu đáp án đã đạt được ở step sớm, agent tiếp tục chọn `NOOP` cho các bước còn lại.  
@@ -169,9 +165,7 @@ $$
 Transition là deterministic:
 
 $$
-\delta(S_t, A_t)
-=
-(v, e_1^q, r_q, e_2^q)
+\delta(S_t, A_t) = (v, e_1^q, r_q, e_2^q)
 $$
 
 Nếu action là $A_t=(e_t,r,v)$, agent chắc chắn đến $v$. Không có randomness từ môi trường; randomness chỉ đến từ policy khi sampling action.  
@@ -181,11 +175,7 @@ Nếu action là $A_t=(e_t,r,v)$, agent chắc chắn đến $v$. Không có ran
 Reward chỉ cấp ở terminal step $T$:
 
 $$
-R(S_T) =
-\begin{cases}
-1, & \text{nếu } e_T=e_2^q \\
-0, & \text{ngược lại}
-\end{cases}
+R(S_T) = \begin{cases} 1, & \text{nếu } e_T=e_2^q \\ 0, & \text{ngược lại} \end{cases}
 $$
 
 Nói cách khác, không có reward cho “đi đúng hướng”, “đi qua relation hợp lý”, hay “đến gần đáp án”. Chỉ khi endpoint đúng chính xác thì reward bằng 1. Đây là **sparse terminal reward**, khiến credit assignment khó: nếu path thất bại, agent không biết chính xác bước nào đã sai.  
@@ -235,14 +225,7 @@ $$
 LSTM nén lịch sử đó thành hidden state:
 
 $$
-\mathbf{h}_t
-=
-\operatorname{LSTM}
-\left(
-\mathbf{h}_{t-1},
-[\mathbf{a}_{t-1}; \mathbf{o}_t]
-\right)
-\tag{1}
+\mathbf{h}_t = \text{LSTM} \left(\mathbf{h}_{t-1}, [\mathbf{a}_{t-1}; \mathbf{o}_t]\right)\tag{1}
 $$
 
 Trong đó:
@@ -276,38 +259,26 @@ $$
 Trong đó $\mathbf{r}_{q}$ là embedding của query relation $r_q$. Qua MLP hai tầng:
 
 $$
-\mathbf{z}_t
-=
-\mathbf{W}_2
-\operatorname{ReLU}
-\left(
-\mathbf{W}_1
-[\mathbf{h}_t;\mathbf{o}_t;\mathbf{r}_{q}]
-\right)
+\mathbf{z}_t = \mathbf{W}_2\text{ReLU}\left(\mathbf{W}_1[\mathbf{h}_t;\mathbf{o}_t;\mathbf{r}_{q}]\right)
 $$
 
 Sau đó score từng action và normalize:
 
 $$
-\mathbf{d}_t
-=
-\operatorname{softmax}
-\left(
-\mathbf{A}_t \mathbf{z}_t
-\right)
+\mathbf{d}_t=\text{softmax}\left(\mathbf{A}_t \mathbf{z}_t\right)
 $$
 
 $$
-A_t \sim \operatorname{Categorical}(\mathbf{d}_t)
+A_t \sim \text{Categorical}(\mathbf{d}_t)
 $$
 
 Ý nghĩa:
 
 - $\mathbf{W}_1,\mathbf{W}_2$: tham số MLP học cách biến context thành “hướng đi mong muốn”.
-- $\operatorname{ReLU}$: phi tuyến, giúp model học logic điều kiện phức tạp.
+- $\text{ReLU}$: phi tuyến, giúp model học logic điều kiện phức tạp.
 - $\mathbf{A}_t\mathbf{z}_t$: dot product giữa “mỗi action đang có” và “action profile mà context mong muốn”.
-- $\operatorname{softmax}$: biến score thành phân phối xác suất trên chỉ các cạnh hợp lệ.
-- $\operatorname{Categorical}$: sampling một action rời rạc từ phân phối đó.  
+- $\text{softmax}$: biến score thành phân phối xác suất trên chỉ các cạnh hợp lệ.
+- $\text{Categorical}$: sampling một action rời rạc từ phân phối đó.  
 
 Công thức trong PDF có ký hiệu hơi không nhất quán ở phần observation/query embedding; cách diễn giải đúng theo đoạn văn là policy phải kết hợp **history $h_t$**, **entity hiện tại $e_t$**, và **query-relation $r_q$**.  
 
@@ -320,17 +291,7 @@ Thay vì train một classifier hoặc rule-set cho từng query relation, MINER
 Paper tối đa hóa expected terminal reward:
 
 $$
-J(\theta)
-=
-\mathbb{E}_{
-(e_1,r,e_2)\sim \mathcal{D},
-A_1,\ldots,A_{T-1}\sim \pi_\theta
-}
-\left[
-R(S_T)
-\mid
-S_1=(e_1,e_1,r,e_2)
-\right]
+J(\theta) = \mathbb{E}_{(e_1,r,e_2)\sim \mathcal{D},A_1,\ldots,A_{T-1}\sim \pi_\theta}\left[R(S_T)\mid S_1=(e_1,e_1,r,e_2)\right]
 $$
 
 Trong đó:
@@ -350,7 +311,7 @@ Nói đơn giản: tối ưu $\theta$ sao cho nếu lấy một fact training, c
 Không thể backprop trực tiếp qua action sampling rời rạc:
 
 $$
-A_t \sim \operatorname{Categorical}(\mathbf{d}_t)
+A_t \sim \text{Categorical}(\mathbf{d}_t)
 $$
 
 Do đó paper dùng **REINFORCE**, một policy-gradient estimator. Dạng trực giác:
@@ -386,20 +347,13 @@ Paper dùng 20 rollouts cho mỗi training example để xấp xỉ expectation 
 Loss còn có entropy regularization với hệ số $\beta$:
 
 $$
-\mathcal{L}
-\approx
--\mathbb{E}[R]
--
-\beta \sum_t \mathcal{H}(\pi_\theta(\cdot\mid H_t))
+\mathcal{L} \approx -\mathbb{E}[R] - \beta \sum_t \mathcal{H}(\pi_\theta(\cdot\mid H_t))
 $$
 
 Entropy của policy là:
 
 $$
-\mathcal{H}(\pi)
-=
--\sum_{a \in \mathcal{A}_{S_t}}
-\pi(a)\log \pi(a)
+\mathcal{H}(\pi) = -\sum_{a \in \mathcal{A}_{S_t}} \pi(a)\log \pi(a)
 $$
 
 Entropy cao nghĩa là action distribution còn đa dạng; entropy thấp nghĩa là policy quá tự tin vào ít action. Thêm term này trong training ngăn policy sớm collapse vào một vài path tình cờ thành công, khuyến khích khám phá alternative paths.  
@@ -434,11 +388,7 @@ Beam search thay sampling ngẫu nhiên bằng một chiến lược tìm kiếm
 Nếu fact cần suy luận qua nhiều relation:
 
 $$
-\text{Person}
-\xrightarrow{r_1}
-\text{Organization}
-\xrightarrow{r_2}
-\text{Location}
+\text{Person} \xrightarrow{r_1} \text{Organization} \xrightarrow{r_2} \text{Location}
 $$
 
 thì MINERVA thực hiện hard discrete selection ở từng hop. Đây là khác biệt lớn với embedding model, vốn thường suy luận gián tiếp qua hình học không gian vector hơn là sinh một evidence path rõ ràng.  
@@ -448,23 +398,13 @@ thì MINERVA thực hiện hard discrete selection ở từng hop. Đây là kh�
 MINERVA không xuất rule symbolic rõ ràng, nhưng có thể học policy tương ứng với rule như:
 
 $$
-\operatorname{LocatedIn}(X,Y)
-\Leftarrow
-\operatorname{NeighborOf}(X,Z)
-\land
-\operatorname{LocatedIn}(Z,Y)
+\text{LocatedIn}(X,Y) \Leftarrow \text{NeighborOf}(X,Z) \land \text{LocatedIn}(Z,Y)
 $$
 
 hoặc rule ba bước:
 
 $$
-\operatorname{LocatedIn}(X,Y)
-\Leftarrow
-\operatorname{NeighborOf}(X,Z)
-\land
-\operatorname{NeighborOf}(Z,W)
-\land
-\operatorname{LocatedIn}(W,Y)
+\text{LocatedIn}(X,Y) \Leftarrow \text{NeighborOf}(X,Z) \land \text{NeighborOf}(Z,W) \land \text{LocatedIn}(W,Y)
 $$
 
 Trực giác: path type $(\text{NeighborOf}, \text{LocatedIn})$ hoạt động như một Horn rule body; endpoint là conclusion. Khác với ILP cổ điển, rule này được biểu diễn ngầm trong parameters của LSTM + MLP policy.  
@@ -480,11 +420,7 @@ $$
 Ví dụ mọi path dạng:
 
 $$
-\text{Person}
-\xrightarrow{\text{WorksFor}}
-\text{Company}
-\xrightarrow{\text{LocatedIn}}
-\text{City}
+\text{Person} \xrightarrow{\text{WorksFor}} \text{Company} \xrightarrow{\text{LocatedIn}} \text{City}
 $$
 
 có chung path type $(\text{WorksFor},\text{LocatedIn})$. MINERVA tổng quát hóa tốt khi path type có tính lặp lại đủ nhiều trong graph, vì agent có thể học rằng loại chain này dự báo tốt cho một query relation.  
@@ -507,11 +443,7 @@ MINERVA mạnh khi dữ liệu cần reasoning path và relation pattern lặp l
 Với WikiMovies, query không còn relation schema cố định mà là câu như “Which is a film written by Herb Freed?”. Paper entity-link entity trong câu vào KB bằng string matching, rồi biểu diễn phần query relation bằng trung bình embedding của các từ trong question:
 
 $$
-\mathbf{r}_q
-\approx
-\frac{1}{n}
-\sum_{i=1}^{n}
-\mathbf{w}_i
+\mathbf{r}_q \approx \frac{1}{n} \sum_{i=1}^{n} \mathbf{w}_i
 $$
 
 Trong đó:
