@@ -54,7 +54,7 @@ Trực giác: relation query `LocatedIn` không chỉ là “nhãn cần dự đ
 Các model Knowledge Graph embedding như DistMult, ComplEx, ConvE thường tính score cho mọi candidate answer $x \in \mathcal{E}$:
 
 $$
-\operatorname{score}(e_1^q, r_q, x)
+\text{score}(e_1^q, r_q, x)
 $$
 
 Sau đó xếp hạng toàn bộ entity. Cách này mạnh với pattern thống kê nhưng inference thường có chi phí phụ thuộc vào tổng số entity, xấp xỉ $O(|\mathcal{E}|)$ cho mỗi query.   
