@@ -109,11 +109,7 @@ $$
 Không có item đích biết trước → **không** dùng reward nhị phân. Chỉ thưởng ở **terminal state**, và là **soft** (liên tục):
 
 $$
-R_T =
-\begin{cases}
-\max\left(0,\; \dfrac{f(u, e_T)}{\max_{i \in I} f(u,i)}\right) & \text{nếu } e_T \in I \$$6pt]
-0 & \text{ngược lại}
-\end{cases} \tag{2}
+R_T = \begin{cases} \max\left(0,\; \dfrac{f(u, e_T)}{\max_{i \in I} f(u,i)}\right) & \text{nếu } e_T \in I \$$6pt] 0 & \text{ngược lại} \end{cases} \tag{2}
 $$
 
 | Đại lượng | Ý nghĩa |
@@ -149,11 +145,7 @@ $$
 **Policy network + Value network** (cùng feature layers):
 
 $$
-\begin{align}
-x &= \operatorname{dropout}\bigl(\sigma\bigl(\operatorname{dropout}(\sigma(s W_1)) W_2\bigr)\bigr) \tag{5} \\
-\pi(\cdot \mid s, \tilde{A}_u) &= \operatorname{softmax}\bigl(\tilde{A}_u \odot (x W_p)\bigr) \tag{6} \\
-\hat{v}(s) &= x W_v \tag{7}
-\end{align}
+\begin{align} x &= \operatorname{dropout}\bigl(\sigma\bigl(\operatorname{dropout}(\sigma(s W_1)) W_2\bigr)\bigr) \tag{5} \\ \pi(\cdot \mid s, \tilde{A}_u) &= \operatorname{softmax}\bigl(\tilde{A}_u \odot (x W_p)\bigr) \tag{6} \\ \hat{v}(s) &= x W_v \tag{7} \end{align}
 $$
 
 | Ký hiệu | Ý nghĩa |
@@ -200,13 +192,7 @@ $$
 ### Công thức scoring tổng quát
 
 $$
-f(e_0, e_k \mid \tilde{r}_{k,j})
-=
-\Biggl\langle
-e_0 + \sum_{s=1}^{j} r_s,\;
-e_k + \sum_{s=j+1}^{k} r_s
-\Biggr\rangle
-+ b_{e_k} \tag{9}
+f(e_0, e_k \mid \tilde{r}_{k,j}) = \Biggl\langle e_0 + \sum_{s=1}^{j} r_s,\; e_k + \sum_{s=j+1}^{k} r_s \Biggr\rangle + b_{e_k} \tag{9}
 $$
 
 | Đại lượng | Ý nghĩa |
@@ -240,29 +226,19 @@ $$
 Muốn maximize $P(e'\mid e, \tilde{r}_{k,j})$:
 
 $$
-P(e'\mid e,\tilde{r}_{k,j})
-=
-\frac{\exp\bigl(f(e,e'\mid\tilde{r}_{k,j})\bigr)}
-{\sum_{e''\in\mathcal{E}}\exp\bigl(f(e,e''\mid\tilde{r}_{k,j})\bigr)} \tag{12}
+P(e'\mid e,\tilde{r}_{k,j}) = \frac{\exp\bigl(f(e,e'\mid\tilde{r}_{k,j})\bigr)} {\sum_{e''\in\mathcal{E}}\exp\bigl(f(e,e''\mid\tilde{r}_{k,j})\bigr)} \tag{12}
 $$
 
 Xấp xỉ bằng negative sampling ($m$ mẫu âm $e''$):
 
 $$
-\log P \approx
-\log\sigma\bigl(f(e,e'\mid\ldots)\bigr)
-+ m\,\mathbb{E}_{e''}\bigl[\log\sigma\bigl(-f(e,e''\mid\ldots)\bigr)\bigr] \tag{13}
+\log P \approx \log\sigma\bigl(f(e,e'\mid\ldots)\bigr) + m\,\mathbb{E}_{e''}\bigl[\log\sigma\bigl(-f(e,e''\mid\ldots)\bigr)\bigr] \tag{13}
 $$
 
 Objective trên toàn KG:
 
 $$
-J(G_R)
-=
-\sum_{e,e'\in\mathcal{E}}
-\sum_{k=1}^{K}
-\mathbf{1}\{(e,\tilde{r}_{k,j},e')\}
-\log P(e'\mid e,\tilde{r}_{k,j}) \tag{14}
+J(G_R) = \sum_{e,e'\in\mathcal{E}} \sum_{k=1}^{K} \mathbf{1}\{(e,\tilde{r}_{k,j},e')\} \log P(e'\mid e,\tilde{r}_{k,j}) \tag{14}
 $$
 
 $\mathbf{1}\{\cdot\}=1$ khi pattern hợp lệ giữa $(e,e')$.[file:1]
