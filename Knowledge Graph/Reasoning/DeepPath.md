@@ -66,6 +66,22 @@ hàm reward tổng hợp 3 tiêu chí: độ chính xác, hiệu quả, và đa 
 
 Tổng reward khi thành công là tổ hợp tuyến tính: $\(R_{total} = \lambda_1 r_{GLOBAL} + \lambda_2 r_{EFFICIENCY} + \lambda_3 r_{DIVERSITY}\)$, với $\(\lambda_1,\lambda_2,\lambda_3\)$ là các trọng số cân bằng ba tiêu chí.
 
+#### Training
+- **Phase 1 - Supervised policy learning**
+  - Dùng thuật toán **BFS hai chiều ngẫu nhiên hóa** (randomized bidirectional BFS) để tìm các đường đi đúng giữa các cặp thực thể mẫu, rồi cập nhật $\(\theta\)$ để tối đa hóa kỳ vọng tổng reward (dùng thuật toán REINFORCE — Monte-Carlo Policy Gradient):
+
+```math
+J(\theta) = \mathbb{E}_{a \sim \pi(a \mid s;\theta)}
+\left( \sum_t R_{s_t,a_t} \right)
+```
+
+-
+  - Gradient xấp xỉ: $\(\nabla_\theta J(\theta) \approx \nabla_\theta \sum_t \log \pi(a=r_t|s_t;\theta)\)$. Để tránh thiên vị đường đi ngắn (nhược điểm của BFS thuần), tác giả chọn ngẫu nhiên một nút trung gian $\(e_{inter}\)$ rồi chạy BFS hai lần (nguồn→trung gian, trung gian→đích) và nối lại — giúp agent học được cả đường đi dài hơn.
+  
+- **Phase 2**
+  - **Retraining với reward functions** (Algorithm 1): Bắt đầu từ policy đã huấn luyện giám sát, agent tương tác với môi trường thật. Mỗi bước thất bại (đi vào "ngõ cụt") bị lưu lại và phạt bằng gradient cập nhật riêng; mỗi episode thành công thì cập nhật theo $\(R_{total}\)$ như công thức. Độ dài episode bị giới hạn (max_length) để tăng hiệu quả huấn luyện.
+  - **Bi-directional Path-constrained Search** (Algorithm 2): Sau khi có các "công thức" đường đi (path formulas) từ RL agent, DeepPath cần kiểm chứng chúng trên dữ liệu thật — tìm kiếm hai chiều: mở rộng đường đi đồng thời từ cả hai đầu (nguồn và đích) theo công thức quan hệ đã học, và kiểm tra xem hai tập nút mở rộng có giao nhau không. Kỹ thuật này giải quyết vấn đề "supernode" — một thực thể (như "United States") có thể liên kết tới vô số nút hàng xóm qua một quan hệ chung, khiến việc mở rộng một chiều bị nổ số tổ hợp; tìm từ hai phía giúp giảm mạnh số nút trung gian cần xét.
+
 ### Annotation
 #### Quan hệ nghịch
 Cho quan hệ $\(r\)$: $(h,\, r,\, t) \Longleftrightarrow (t, r^{-1}, h)$
