@@ -348,4 +348,3 @@ Các hướng cải tiến mà paper gợi ý:
 
 ***
 
-Để đào sâu hơn: bạn muốn mình đi chi tiết thêm vào phần toán của ComplEx scoring (cách định nghĩa dot product phức, conj, etc.), hay muốn mình phác thảo pseudo-code cho policy network + beam search + voting theo style hệ thống thực thi (định nghĩa API, pipeline) cho một implementation thực tế?
