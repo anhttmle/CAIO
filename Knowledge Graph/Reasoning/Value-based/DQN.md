@@ -7,7 +7,7 @@
 Trong học tăng cường, có hai cách tiếp cận chính:
 
 - **Value-Based Methods** (phương pháp dựa trên giá trị): học hàm giá trị, rồi suy ra chính sách từ hàm này. [milvus](https://milvus.io/ai-quick-reference/what-are-valuebased-methods-in-reinforcement-learning)
-- **Policy-Based Methods** (phương pháp dựa trên chính sách): học trực tiếp chính sách \(\pi(a|s)\) mà không cần hàm giá trị trung gian.  [aioconquer.aivietnam.edu](https://aioconquer.aivietnam.edu.vn/posts/reinforcement-learning-overview)
+- **Policy-Based Methods** (phương pháp dựa trên chính sách): học trực tiếp chính sách $\pi(a|s)$ mà không cần hàm giá trị trung gian.  [aioconquer.aivietnam.edu](https://aioconquer.aivietnam.edu.vn/posts/reinforcement-learning-overview)
 
 DQN thuộc nhóm **value-based**, cùng với Q-Learning cổ điển. [phamduytung](https://www.phamduytung.com/blog/2024-10-27-mario-reinfomation-learning-double-dqn/)
 
