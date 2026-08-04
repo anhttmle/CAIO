@@ -20,7 +20,7 @@ Ký hiệu $Q^\pi(s, a)$ là tổng phần thưởng chiết khấu kỳ vọng 
 Mục tiêu: học hàm $Q^*(s, a)$ tối ưu, sao cho:
 
 $$
-Q^*(s, a) = \mathbb{E}\left [ r + \gamma \max_{a'} Q^*(s', a') \mid s, a \right]
+Q^*(s, a) = \mathbb{E}\left [r + \gamma \max_{a'} Q^*(s', a') \mid s, a \right]
 $$
 
 đây là phương trình Bellman tối ưu cho Q-function. [milvus](https://milvus.io/ai-quick-reference/what-are-valuebased-methods-in-reinforcement-learning)
