@@ -88,3 +88,65 @@
     * *Experience Replay* (Bộ nhớ đệm trải nghiệm) (107:11 - 108:30).
     * *Fixed Q-Targets* (Cố định mục tiêu Q) (112:00 - 113:30).
     * *The Deadly Triad* (Bộ ba nguy hiểm gây mất ổn định trong học tăng cường: Function approximation, Bootstrapping, Off-policy learning) (103:00 - 105:00).
+
+# [Lecture 5: Policy Search 1]()
+
+*   **Value-based methods (Phương pháp dựa trên giá trị):** Tập trung vào việc học giá trị của các trạng thái hoặc cặp trạng thái-hành động (ví dụ: *Q-learning*, *Deep Q-Network - DQN*).
+*   **Policy Search (Tìm kiếm chính sách):** Trực tiếp tối ưu hóa chính sách (policy) $\pi(a|s)$ mà không cần biểu diễn tường minh hàm giá trị (3:53).
+*   **Stochastic Policies (Chính sách ngẫu nhiên):** Các chính sách ánh xạ trạng thái sang phân phối xác suất của hành động, quan trọng trong việc khám phá và xử lý các vấn đề không quan sát được đầy đủ (10:48).
+*   **Optimization (Tối ưu hóa):** Coi việc tìm chính sách tốt là bài toán tối ưu hóa các tham số $\theta$ của chính sách để tối đa hóa hàm giá trị (17:57).
+*   **Policy Gradient (Gradient chính sách):** Phương pháp dựa trên gradient để cập nhật trực tiếp tham số chính sách, bao gồm thuật toán *REINFORCE* (23:44).
+*   **Likelihood Ratio (Tỷ lệ khả năng):** Kỹ thuật toán học dùng để tính gradient của kỳ vọng mà không cần biết mô hình động lực học (35:55).
+*   **Score Function (Hàm điểm số):** Đạo hàm của log xác suất chính sách theo tham số (48:18).
+*   **Actor-Critic Methods (Phương pháp Actor-Critic):** Sự kết hợp giữa các phương pháp dựa trên giá trị và dựa trên chính sách (10:14).
+*   **Realizability (Khả năng thực hiện):** Vấn đề về việc liệu bộ xấp xỉ hàm có đủ khả năng biểu diễn hàm mục tiêu hay không (2:47).
+*   **Baseline (Đường cơ sở):** Kỹ thuật dùng để giảm phương sai (variance) trong ước lượng gradient mà không gây ra sai lệch (bias) (1:05:27).
+*   **Episodic MDPs (Quá trình quyết định Markov từng tập):** Cấu trúc bài toán trong đó tác nhân thực hiện các hành động theo từng tập (episode) có điểm kết thúc (17:35).
+*   **Cross-Entropy Method (CEM):** Một phương pháp tối ưu hóa không dựa trên gradient (20:57).
+*   **Partial Observability (Tính quan sát một phần):** Các tình huống mà tác nhân không nhìn thấy toàn bộ trạng thái hệ thống (14:02).
+
+
+# [Lecture 6: Policy Search 2]()
+
+*   **Policy Gradient Methods (Phương pháp gradient chính sách):** Các phương pháp tìm kiếm trực tiếp trong không gian tham số chính sách (0:09, 3:04).
+*   **Baseline (Đường cơ sở):** Kỹ thuật giảm phương sai của ước lượng gradient mà không gây ra sai lệch (bias) (0:30, 5:05).
+*   **Likelihood Ratio / Score Function (Tỷ lệ khả năng / Hàm điểm):** Phương pháp ước lượng đạo hàm của giá trị kỳ vọng (3:26).
+*   **Temporal Structure (Cấu trúc thời gian):** Tận dụng tính chất phần thưởng tại một thời điểm không phụ thuộc vào các hành động tương lai (4:27).
+*   **Actor-Critic Methods (Phương pháp Actor-Critic):** Kiến trúc kết hợp Actor (chính sách) và Critic (hàm giá trị) để giảm phương sai (16:30, 17:05).
+*   **On-policy vs Off-policy Estimation:** Sự khác biệt giữa việc học từ dữ liệu do chính sách hiện tại thu thập và việc sử dụng dữ liệu cũ (35:39, 36:12).
+*   **Performance Difference Lemma (Bổ đề sai biệt hiệu năng):** Công thức toán học dùng để so sánh hiệu năng của hai chính sách khác nhau (44:06).
+*   **Discounted Future State Distribution (Phân phối trạng thái tương lai có chiết khấu):** Trọng số được sử dụng để đánh giá các trạng thái dựa trên nhân tố chiết khấu $\gamma$ (47:16, 50:18).
+*   **Important Sampling (Lấy mẫu quan trọng):** Kỹ thuật re-weight (tái trọng số) để ước lượng giá trị của một chính sách mới từ dữ liệu của chính sách cũ (53:46, 54:56).
+*   **KL Divergence (Phân kỳ Kullback-Leibler):** Thước đo sự khác biệt giữa hai phân phối xác suất (hành động của hai chính sách), dùng để giới hạn vùng tin cậy (57:34, 59:21).
+*   **Trust Region (Vùng tin cậy):** Ý tưởng giới hạn bước cập nhật chính sách để đảm bảo tính ổn định (1:02:30).
+*   **Proximal Policy Optimization (PPO):** Thuật toán tối ưu hóa chính sách phổ biến, sử dụng ràng buộc KL hoặc hàm mục tiêu bị cắt (clipped objective) (1:02:45, 1:06:37).
+*   **Clipped Objective (Hàm mục tiêu bị cắt):** Cơ chế trong PPO giúp ngăn chặn các bước cập nhật quá lớn (1:06:37, 1:07:05).
+
+# [Lecture 7: Policy Search 3]()
+
+**1. Các phương pháp Gradient Chính sách (Policy Gradient Methods):**
+*   **Reinforce (0:46):** Thuật toán cơ bản dựa trên lấy mẫu dữ liệu để tối ưu hóa không gian chính sách.
+*   **Baseline (0:13):** Sử dụng hàm cơ sở để giảm phương sai (variance) trong ước tính gradient.
+*   **Policy Search (0:07):** Các phương pháp tìm kiếm chính sách tối ưu.
+*   **Deterministic vs. Stochastic Policy (3:31 - 3:58):** Vấn đề khi khởi tạo chính sách tất định (không khám phá được toàn bộ không gian hành động).
+
+**2. Cải tiến và tối ưu hóa:**
+*   **Monotonic Improvement (4:12):** Đảm bảo cải thiện đơn điệu qua các bước cập nhật chính sách.
+*   **PPO (Proximal Policy Optimization) (4:19):** Thuật toán phổ biến nhằm cân bằng giữa hiệu quả mẫu và sự ổn định.
+*   **KL Divergence (6:26):** Khoảng cách Kullback-Leibler dùng để ràng buộc sự thay đổi giữa chính sách cũ và mới.
+*   **Clipped Objective (6:43):** Phương pháp cắt mục tiêu trong PPO để tránh các bước cập nhật quá lớn.
+
+**3. Ước tính lợi thế (Advantage Estimation):**
+*   **Advantage Function (6:55):** Hàm lợi thế đo lường giá trị của hành động so với giá trị trung bình của trạng thái.
+*   **Generalized Advantage Estimation (GAE) (4:52 - 26:49):** Kỹ thuật kết hợp có trọng số các ước lượng lợi thế để cân bằng giữa *bias* (độ chệch) và *variance* (phương sai).
+*   **Telescoping Sum (11:50):** Kỹ thuật cộng dồn triệt tiêu các thành phần trung gian để đơn giản hóa biểu thức.
+*   **Temporal Difference (TD) Learning (7:35):** Phương pháp học dựa trên sự khác biệt thời gian.
+*   **Monte Carlo Estimate (7:57):** Phương pháp ước tính giá trị dựa trên các tập mẫu toàn phần.
+
+**4. Học bắt chước (Imitation Learning):**
+*   **Behavior Cloning (48:00 - 54:10):** Phương pháp học bắt chước bằng cách coi bài toán RL như học có giám sát (supervised learning).
+*   **Compounding Errors (55:01):** Lỗi tích lũy xảy ra khi các dự đoán sai lầm trong quá khứ ảnh hưởng đến các trạng thái tương lai.
+*   **DAgger (Dataset Aggregation) (54:40 - 1:03:00):** Thuật toán học bắt chước lặp lại bằng cách thu thập thêm dữ liệu từ các trạng thái mà chính sách chưa từng thấy.
+*   **Inverse Reinforcement Learning (IRL) (1:03:50):** Bài toán suy diễn hàm phần thưởng (reward function) từ các biểu diễn của chuyên gia.
+*   **Maximum Entropy Inverse Reinforcement Learning (1:18:15):** Phương pháp tối đa hóa entropy để giải quyết vấn đề nhận dạng (identifiability) trong IRL.
+*   **Feature Matching (1:17:20):** Kỹ thuật khớp các đặc trưng giữa chính sách của chuyên gia và chính sách đang học.
