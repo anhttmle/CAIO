@@ -30,4 +30,15 @@ Tóm lại:
   - Dùng Imitation Learning khi: Bạn đã có sẵn nguồn dữ liệu chất lượng cao về cách thực hiện tác vụ và muốn mô hình sao chép hành vi đó một cách nhanh chóng.
   - Dùng RL khi: Bạn muốn hệ thống tự cải thiện để đạt kết quả tốt nhất có thể, hoặc khi việc thu thập dữ liệu chuyên gia là quá tốn kém, không khả thi, hoặc khi bạn muốn AI tìm ra những giải pháp đột phá nằm ngoài hiểu biết hiện tại của con người.
 
+## Dynamic Model
+> Dynamic Model (Mô hình động học) được Giáo sư Emma Brunskill định nghĩa là thành phần mô tả cách thức trạng thái của thế giới thay đổi khi tác nhân (agent) thực hiện một hành động (1:08:30).
+
+Cụ thể, khái niệm này bao gồm các ý chính sau:
+- Định nghĩa: Nó cho biết xác suất hoặc quy luật để chuyển từ trạng thái hiện tại () sang trạng thái tiếp theo () sau khi thực hiện một hành động (). Đây là cách thế giới phản ứng với quyết định của tác nhân (1:09:15).
+- Tính ngẫu nhiên (Stochasticity): Các hệ thống trong thực tế thường mang tính ngẫu nhiên. Ví dụ về Mars Rover (xe tự hành trên sao Hỏa): khi xe cố gắng di chuyển sang phải, nó không phải lúc nào cũng thành công 100%. Có thể có 50% khả năng nó đi đúng hướng, nhưng 50% còn lại nó có thể đứng yên hoặc đi chệch hướng do các tác động ngoại cảnh (1:09:00 - 1:10:00).
+- Sự khác biệt giữa mô hình và thực tế: Giáo sư nhấn mạnh rằng Dynamic Model là cách mà tác nhân hiểu hoặc dự đoán về thế giới. Trong nhiều trường hợp, tác nhân có thể có một mô hình sai lệch so với thực tế vì nó chỉ học hỏi thông qua trải nghiệm (trial and error) (1:10:30).
+- Vai trò trong học tăng cường: Trong các phương pháp dựa trên mô hình (Model-based RL), tác nhân sử dụng Dynamic Model này để lập kế hoạch (planning) trước khi ra quyết định, thay vì chỉ phản ứng trực tiếp với dữ liệu (1:14:27).
+
+Tóm lại, Dynamic Model đóng vai trò như một "bản đồ dự đoán" về kết quả của các hành động, giúp tác nhân hiểu được mối quan hệ nhân quả trong môi trường mà nó đang hoạt động.
+
 # Lecture 2:
