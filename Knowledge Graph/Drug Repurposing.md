@@ -5,6 +5,20 @@
 
 # Drug timeline
 
+| Mốc thời gian  | Giai đoạn                  | Hoạt động chính                                                                                                                                                         | Kết quả / quyết định                                                      |
+| -------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Năm 0–2        | Hiểu bệnh & xác định đích  | Nghiên cứu cơ chế bệnh; chọn “đích” như protein, enzyme, thụ thể, gene hoặc tác nhân gây bệnh                                                                           | Đích phải có bằng chứng rằng can thiệp vào nó có thể tạo lợi ích điều trị |
+| Năm 1–4        | Khám phá thuốc (discovery) | Sàng lọc hàng nghìn–triệu phân tử; thiết kế phân tử, mô phỏng, AI/ML; tìm hit rồi tối ưu thành lead                                                                     | Chọn được ứng viên thuốc có hoạt tính và tính chất ban đầu phù hợp        |
+| Năm 3–6        | Tối ưu ứng viên            | Tinh chỉnh hiệu lực, độ chọn lọc, hấp thu–phân bố–chuyển hóa–thải trừ (ADME), độc tính, khả năng bào chế và tổng hợp                                                    | Chọn “drug candidate” chính thức để tiến vào tiền lâm sàng                |
+| Năm 4–7        | Tiền lâm sàng              | Thử nghiệm in vitro và trên động vật: dược lực học, dược động học, độc tính cấp/mạn, độc tính sinh sản, nguy cơ ung thư…; phát triển quy trình sản xuất và dạng bào chế | Đủ dữ liệu lợi ích–rủi ro để xin phép thử trên người                      |
+| Khoảng năm 6–7 | Xin phép thử lâm sàng      | Nộp hồ sơ cho cơ quan quản lý (ví dụ IND ở Mỹ; tại Việt Nam theo yêu cầu của Bộ Y tế/Cục Quản lý Dược) cùng hồ sơ chất lượng, tiền lâm sàng và đề cương thử nghiệm      | Được phép khởi động thử nghiệm trên người                                 |
+| Năm 7–8        | Lâm sàng Pha I             | Thường vài chục đến ~100 người, thường là người khỏe mạnh; đánh giá an toàn, dung nạp, PK/PD và khoảng liều                                                             | Chọn liều hợp lý, phát hiện sớm tín hiệu độc tính                         |
+| Năm 8–10       | Lâm sàng Pha II            | Vài trăm bệnh nhân mắc bệnh mục tiêu; tìm bằng chứng hiệu quả ban đầu, tối ưu liều/chế độ dùng, tiếp tục đánh giá an toàn                                               | Chứng minh “proof of concept” và chọn liều cho pha III                    |
+| Năm 10–13      | Lâm sàng Pha III           | Thử nghiệm lớn, thường hàng trăm đến hàng nghìn bệnh nhân; so sánh với placebo hoặc điều trị chuẩn; xác nhận hiệu quả và hồ sơ an toàn                                  | Bộ dữ liệu then chốt cho đăng ký lưu hành                                 |
+| Năm 12–14      | Đăng ký & thẩm định        | Nộp hồ sơ đăng ký thuốc mới: toàn bộ dữ liệu chất lượng–sản xuất, tiền lâm sàng, lâm sàng, nhãn thuốc và kế hoạch quản lý rủi ro                                        | Cơ quan quản lý phê duyệt, yêu cầu bổ sung, hoặc từ chối                  |
+| Năm 13+        | Sản xuất & ra thị trường   | Scale-up sản xuất theo GMP, định giá/hoàn trả, phân phối, đào tạo sử dụng an toàn                                                                                       | Thuốc bắt đầu tiếp cận bệnh nhân                                          |
+| Sau phê duyệt  | Pha IV / cảnh giác dược    | Theo dõi tác dụng bất lợi hiếm hoặc dài hạn trong thực tế; nghiên cứu hiệu quả thực tế, tương tác thuốc, nhóm bệnh nhân mới                                             | Có thể cập nhật nhãn, giới hạn chỉ định, mở rộng chỉ định hoặc rút thuốc  |
+
 ```mermaid
 
   graph LR
