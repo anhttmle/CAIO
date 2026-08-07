@@ -44,6 +44,12 @@
 - Phản ánh chính xác cách cơ thể sống phản ứng với thuốc hoặc tác nhân.
 - Tốn kém, mất nhiều thời gian và vướng các vấn đề đạo đức nghiêm ngặt.
 
+| Hướng              | Dựa vào dữ liệu gì?                                             | Ví dụ cách làm                               |
+| ------------------ | --------------------------------------------------------------- | -------------------------------------------- |
+| Drug-oriented      | Cấu trúc hóa học, target, tác dụng phụ, nhãn phê duyệt          | Off-label use, phenotypic screening, docking |
+| Disease-oriented   | Pathway bệnh, genomics, proteomics, protein interaction network | Disease signature, pathway/network analysis  |
+| Treatment-oriented | Omics trước/sau điều trị, chiến lược điều trị                   | Phân tích cơ chế và drug resistance          |
+
 # Drug repurposing approaches
 
 - **Blinded/phenotypic**: sàng lọc theo phenotype (ví dụ thay đổi hành vi tế bào, mô, hoặc động vật) mà không cần biết rõ cơ chế, thường dùng high‑throughput screening trên thư viện thuốc hiện có.
