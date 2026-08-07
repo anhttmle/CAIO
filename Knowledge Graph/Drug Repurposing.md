@@ -50,5 +50,7 @@
 - **Target‑based**: yêu cầu thông tin cấu trúc 3D của target, cấu trúc hoá học của thuốc/ligand để thực hiện docking, screening cấu trúc và các phương pháp liên quan.
 - **Knowledge‑based**: dựa trên drug–target, cấu trúc, ADR, label regulatory, dữ liệu pathway,… để trích luật, mô hình suy luận hoặc thiết kế scoring cho cặp thuốc–bệnh tiềm năng.
 - **Signature‑based**: yêu cầu dữ liệu omics của bệnh và của thuốc (ví dụ profile biểu hiện gen khi dùng thuốc), từ đó so khớp hoặc tối ưu tiêu chuẩn “đảo chiều” profile bệnh.
+- **Pathway/network-based**: tận dụng protein interaction network, signaling/metabolic pathway để tìm target/pathway then chốt.
+- **Targeted mechanism-based**: dùng dữ liệu omics trước–sau khi điều trị để tìm off-target, cơ chế tác dụng và cơ chế kháng thuốc.
 
 # 
