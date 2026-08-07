@@ -73,4 +73,4 @@ Chiến lược mới mà một số nhóm hướng tới là tập trung vào r
 
 Infantile NCL thường đề cập đến các thể khởi phát rất sớm như CLN1 hoặc CLN2, với diễn biến nhanh và tiên lượng rất xấu. Như đã nói, CLN2 đã có cerliponase alfa (Brineura) – enzyme thay thế TPP1 truyền nội não thất mỗi 2 tuần – được FDA phê duyệt năm 2017 và được coi là cột mốc lớn trong điều trị NCL. [link.springer](https://link.springer.com/article/10.1007/s40263-019-00620-8)
 
-Song song với đó
+Song song với Brineura (ERT) cho CLN2, cộng đồng đang chạy một “stack” các hướng điều trị khác cho infantile NCL. Cụ thể: có nhiều thử nghiệm gene therapy nhắm vào CLN2, CLN3, CLN6 (AAV vào não, và cả các thử nghiệm nhắm riêng vào tổn thương võng mạc như TTX‑381), cùng với các thử nghiệm enzyme replacement, cell‑based therapy và immunomodulation trên model động vật và bước đầu trên người. Ngoài ra, nhóm small molecules repurposed như gemfibrozil, fenofibrate và các phối hợp (gemfibrozil + all‑trans‑retinoic acid, PLX‑100) đang được đánh giá như điều trị hỗ trợ ít xâm lấn, với dữ liệu preclinical khá tốt ở mô hình CLN2/CLN3 và một số dữ liệu an toàn ban đầu trên trẻ
