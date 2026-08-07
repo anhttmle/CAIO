@@ -1,0 +1,7 @@
+-	Tay-Sachs disease
+-	Niemann-Pick disease type C
+-	Niemann-Pick disease
+-	Canavan disease
+-	neuronal ceroid lipofuscinosis
+-	infantile neuronal ceroid lipofuscinosis
+-	neuronal ceroid lipofuscinosis 8 northern epilepsy variant
