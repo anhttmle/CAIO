@@ -1,7 +1,6 @@
 # Plan: Shared Resources & Super User Templates
 
 > **Ngày tạo:** 2026-08-09  
-> **Trạng thái:** Draft — chờ review (Opus 5)  
 > **Nguồn tham chiếu API hiện tại:** [`API_REFERENCE.md`](API_REFERENCE.md)
 
 ## Quyết định đã chốt (từ stakeholder)
