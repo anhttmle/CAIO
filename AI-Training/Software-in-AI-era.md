@@ -7,7 +7,7 @@
 Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng phần mềm (dù đơn giản hay phức tạp) muốn hiểu sâu từ trực quan (intuition) đến chi tiết triển khai (workflow, công cụ, best practices) về phát triển phần mềm trong kỷ nguyên AI — đặc biệt là kỷ nguyên **Agentic AI**, nơi các AI agent có khả năng tự lập kế hoạch, sử dụng công cụ, ghi nhớ ngữ cảnh và thực thi tác vụ end-to-end.
 
 **Mục tiêu**:
-- Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quá trình phát triển phần mềm (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
+- Nắm được sự chuyển dịch vai trò của con người trong quá trình phát triển phần mềm.
 - Hiểu rõ các cấu phần (building blocks) của phần mềm hiện đại. Chẳng hạn như:
   - Phần mềm truyền thống (Software 1.0 như theo định nghĩa của [Andrej Kapathy](https://karpathy.medium.com/software-2-0-a64152b37c35)).
   - AI blocks (Software 2.0 & Software 3.0).
@@ -17,7 +17,7 @@ Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng
 
 <br>
 
-## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong phát triển phần mềm
+## 1. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong phát triển phần mềm
 <br>
 <img width="1005" height="422" alt="image" src="https://github.com/user-attachments/assets/e249d409-290f-48cf-8c2f-fd0172251522" />
 
@@ -50,9 +50,9 @@ Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /use
 
 <br>
 
-## 1. Programming in Agentic AI era: Phần mềm trong kỷ nguyên AI agent
+## 2. Programming in Agentic AI era: Phần mềm trong kỷ nguyên AI agent
 
-### A.Software is made by combining & structuring building blocks
+### A. Software is made by combining & structuring building blocks
 
 <img width="982" height="215" alt="image" src="https://github.com/user-attachments/assets/253a1863-a8ac-4aca-98be-fdd0e74a2524" />
 
@@ -92,70 +92,26 @@ Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /use
   - Voice: Whisper + ElevenLabs cho voicebot (AI block).
 - **Observability**: Sentry + LangSmith (non-AI + AI).
 
-### B. The rise of "Agentic Coding Assistant"
+### B. New philosophies: Triết lý mới trong phát triển phần mềm
 
-> Các công cụ hỗ trợ coding bằng AI đã phát triển từ autocomplete đơn thuần thành **agentic coding assistant** — những AI có khả năng tự thực thi tác vụ phức tạp across nhiều file, chạy test, debug và tạo pull request
+#### i. Code is no longer as valuable artifact as it used to be
 
-| Công cụ | Nhà phát triển | Đặc điểm nổi bật |
-|---|---|---|
-| **Claude Code** | Anthropic | Terminal-based, mạnh cho tác vụ multi-file, tự chạy test và fix lỗi |
-| **Cursor** | Cursor Inc | IDE tích hợp AI agent, hỗ trợ chat, edit code across files, tự động refactor |
-| **GitHub Copilot Workspace** | GitHub | Tích hợp sâu vào GitHub, tự tạo branch, viết code, chạy CI, tạo PR |
-| **Gemini CLI** | Google | Command-line agent, tích hợp với Google Cloud, hỗ trợ multi-step tasks |
-| **Grok Build** | xAI | Agent coding tích hợp với X/Twitter ecosystem |
-
-**Xu hướng 2026:** Sự khác biệt giữa các công cụ không còn nằm ở chất lượng autocomplete, mà ở **khả năng agentic** (tự lập kế hoạch, gọi tool, ghi nhớ ngữ cảnh) và **hiểu biết codebase** (codebase understanding). [coursiv](https://coursiv.io/blog/ai-technology-trends-2026)
-
-### C. New philosophies: Triết lý mới trong phát triển phần mềm
-
-#### Code is no longer as valuable artifact as it used to be
-
-Trước đây, code là tài sản quý giá nhất của đội kỹ thuật. Viết code tốn thời gian, khó maintain, và việc lựa chọn kiến trúc là quyết định "một chiều" (1-way door) — rất khó thay đổi sau khi đã triển khai. [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
+Trước đây, code là tài sản quý giá nhất của đội kỹ thuật. Viết code tốn thời gian, khó maintain, và việc lựa chọn kiến trúc là quyết định "một chiều" (1-way door) — rất khó thay đổi sau khi đã triển khai. 
 
 Trong kỷ nguyên AI:
-- **Code trở nên "rẻ" và nhanh chóng được sinh ra bởi AI**. [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
-- **Lựa chọn kiến trúc trở thành quyết định "hai chiều" (2-way door)**: Dễ dàng thay đổi, refactor hoặc rewrite nhờ AI hỗ trợ. [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
-- **Giá trị thực sự nằm ở việc quyết định "cái gì cần xây dựng" (what to build)**, không phải "làm thế nào để xây dựng" (how to build). [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
+- **Code trở nên "rẻ" và nhanh chóng được sinh ra bởi AI**. 
+- **Lựa chọn kiến trúc trở thành quyết định "hai chiều" (2-way door)**: Dễ dàng thay đổi, refactor hoặc rewrite nhờ AI hỗ trợ. 
+- **Giá trị thực sự nằm ở việc quyết định "cái gì cần xây dựng" (what to build)**, không phải "làm thế nào để xây dựng" (how to build).
 
-> **Ví dụ:** Trước đây, việc chuyển từ monolith sang microservices có thể tốn 6–12 tháng với đội 10 kỹ sư. Với AI agent, quá trình này có thể rút ngắn xuống 1–2 tháng, và nếu sai, có thể rollback hoặc refactor nhanh chóng.
+> **Ví dụ:** Trước đây, việc chuyển từ monolith sang microservices có thể tốn 6–12 tháng với đội 10 kỹ sư. Với AI agent, quá trình này có thể rút ngắn xuống 1–2 tháng (tuỳ vào quy mô), và nếu sai, có thể rollback hoặc refactor nhanh chóng.
 
-#### Building is easier → Deciding what to build is the bottleneck
+#### ii. Building is easier → Deciding what to build is the bottleneck
 
-Khi AI tăng tốc coding lên **10x–100x**, nút thắt (bottleneck) trong phát triển sản phẩm dịch chuyển từ **kỹ thuật** sang **sản phẩm, thiết kế, marketing và compliance**. [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
+Khi AI tăng tốc coding lên **10x–100x**, bottleneck trong phát triển sản phẩm dịch chuyển từ **kỹ thuật** sang **sản phẩm, thiết kế, marketing và compliance**. 
 
-**Hệ quả:**
-- Tỷ lệ Engineer : PM (Product Manager) giảm từ **8:1** xuống **1:1** hoặc thậm chí **1 PM + 1 Engineer**. [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
-- Đội ngũ chuyển từ **Specialist** (chuyên sâu một mảng) sang **Generalist** (đa năng, có thể làm nhiều vai trò nhờ AI hỗ trợ). [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
-- Kỹ sư cần học thêm kỹ năng **product thinking**, **user research**, **business analysis** để ra quyết định đúng về "cái gì cần xây dựng". [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
+**Sự chuyển dịch về thời gian phát triển**
 
-***
-
-******************************************************************************************************************************************************************************************************
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-**Mục tiêu**:
-- Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quy trình coding (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
-- Hiểu rõ các cấu phần (building blocks) của phần mềm hiện đại. Chẳng hạn như:
-  - Phần mềm truyền thống (Software 1.0 như theo định nghĩa của [Andrej Kapathy](https://karpathy.medium.com/software-2-0-a64152b37c35)): UI, database, identity, payment, observability
-  - AI blocks (Software 2.0 & Software 3.0): ML/DL models (driven by data & model), Foundation models techstacks (LLM, RAG, agent workflow, evals, memory, voice stack).
-- Các phương pháp tiếp cận khi phát triển phần mềm (TDD, SDD, DDD, BDD, GitOps, v.v.) và lựa chọn như thế nào khi phát triển cùng AI agent.
-- Khuyến nghị quy trình step-by-step làm việc với bộ đôi **SDD + TDD** trong môi trường AI agent.
-- Các công cụ AI agent cho coding và automation: Dify, n8n, Claude Code, Cursor, Codex, v.v.
-
-***
-
-
-
-
-
-
-## 2. Bottleneck in AI Agent coding era: Nút thắt trong kỷ nguyên coding bằng AI agent
-
-### Sự chuyển dịch về thời gian phát triển
-
-Khi con người dần **hand-off** khỏi quá trình coding (tạo code và review code), thời gian phát triển được phân bổ lại như sau: [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
+Khi con người dần **hand-off** khỏi quá trình coding (tạo code và review code), thời gian phát triển được phân bổ lại.
 
 | Giai đoạn | Trước AI (2020–2024) | Với AI Agent (2025–2026) |
 |---|---|---|
@@ -164,22 +120,21 @@ Khi con người dần **hand-off** khỏi quá trình coding (tạo code và re
 | **Review code** | 20% | 10–15% |
 | **Test & deploy** | 10% | 15–20% |
 
-**Giải thích:**
+Giải thích:
 - **Viết code** giảm mạnh vì AI sinh code nhanh.
 - **Yêu cầu & thiết kế** tăng vì cần định nghĩa rõ mục tiêu, nghiệp vụ, ràng buộc.
 - **Test & deploy** tăng nhẹ vì cần đảm bảo chất lượng khi code được sinh ra nhanh.
 
-### Thay đổi tỉ lệ đối ứng giữa các role
+**Thay đổi tỉ lệ đối ứng giữa các role**
 
-Trước kia, tỷ lệ **Engineer : PM/Design/Marketing/Compliance** khoảng **1 : 5–10** (1 kỹ sư hỗ trợ 5–10 người thuộc các vai trò khác). [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
-
+Trước kia, tỷ lệ **Engineer : PM/Design/Marketing/Compliance** khoảng **1 : 5–10** (1 kỹ sư hỗ trợ 5–10 người thuộc các vai trò khác).
 Với AI agent:
-- Tỷ lệ này dịch chuyển về **1 : 1** hoặc **1 : 2**. [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
-- **PM, Design, Marketing, Compliance** trở thành nút thắt mới vì họ cần đưa ra quyết định nhanh, chính xác về sản phẩm, trải nghiệm người dùng, chiến lược marketing và tuân thủ pháp lý. [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
+- Tỷ lệ này dịch chuyển về **1 : 1** hoặc **1 : 2**. 
+- **PM, Design, Marketing, Compliance** trở thành nút thắt mới vì họ cần đưa ra quyết định nhanh, chính xác về sản phẩm, trải nghiệm người dùng, chiến lược marketing và tuân thủ pháp lý.
 
-**Ví dụ thực tế:** Một startup fintech có thể xây dựng MVP (Minimum Viable Product) trong 2 tuần với 1 PM + 1 Engineer + AI agent, thay vì 2 tháng với 1 PM + 5 Engineers như trước đây. [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
+**Ví dụ:** Một startup fintech có thể xây dựng MVP (Minimum Viable Product) trong 2 tuần với 1 PM + 1 Engineer + AI agent, thay vì 2 tháng với 1 PM + 5 Engineers như trước đây.
 
-### Thành phần team chuyển từ Specialist sang Generalist
+**Thành phần team chuyển từ Specialist sang Generalist**
 
 Trước đây, đội ngũ phát triển phần mềm thường gồm các **Specialist**:
 - Frontend Developer (React, Vue).
@@ -189,7 +144,7 @@ Trước đây, đội ngũ phát triển phần mềm thường gồm các **Sp
 - Data Engineer (Spark, Kafka).
 
 Với AI hỗ trợ, đội ngũ chuyển sang **Generalist**:
-- Mỗi thành viên có thể làm nhiều vai trò nhờ AI hỗ trợ viết code, deploy, test. [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
+- Mỗi thành viên có thể làm nhiều vai trò nhờ AI hỗ trợ viết code, deploy, test.
 - **Kỹ sư AI-native** có thể:
   - Viết frontend + backend.
   - Thiết kế database schema.
@@ -197,21 +152,17 @@ Với AI hỗ trợ, đội ngũ chuyển sang **Generalist**:
   - Deploy lên cloud.
   - Phân tích dữ liệu.
 
-> **Lưu ý:** Generalist không có nghĩa là "biết mọi thứ ở mức nông". Thay vào đó, họ có **tư duy hệ thống**, **khả năng học nhanh**, và **kỹ năng sử dụng AI hiệu quả** để giải quyết vấn đề end-to-end. [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
-
-***
-
 ## 3. Các phương pháp tiếp cận khi xây dựng phần mềm
 
-Dưới đây là bảng tổng hợp các phương pháp phát triển phần mềm phổ biến, kèm trọng tâm cốt lõi và ví dụ áp dụng trong kỷ nguyên AI: [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
+Dưới đây là bảng tổng hợp các phương pháp phát triển phần mềm phổ biến, kèm trọng tâm cốt lõi và ví dụ áp dụng trong kỷ nguyên AI:
 
 | Nhóm Phân Loại | Ký Hiệu | Tên Tiếng Anh | Tên Tiếng Việt | Trọng Tâm Cốt Lõi | Ví dụ áp dụng với AI |
 |---|---|---|---|---|---|
-| **Kiểm thử & Chất lượng** | TDD | Test-Driven Development | Phát triển hướng kiểm thử | Viết test trước, code sau (Red-Green-Refactor)  [cloud.google](https://cloud.google.com/discover/how-test-driven-development-amplifies-ai-success) | AI viết test case từ spec, chạy test, tự fix lỗi  [tweag.github](https://tweag.github.io/agentic-coding-handbook/WORKFLOW_TDD/) |
+| **Kiểm thử & Chất lượng** | TDD | Test-Driven Development | Phát triển hướng kiểm thử | Viết test trước, code sau (Red-Green-Refactor) | AI viết test case từ spec, chạy test, tự fix lỗi |
 | | BDD | Behavior-Driven Development | Phát triển hướng hành vi | Viết kịch bản test bằng ngôn ngữ tự nhiên (Given-When-Then) | AI sinh scenario từ user story, chuyển thành test automation |
 | | ATDD | Acceptance Test-Driven Development | Phát triển hướng kiểm thử chấp nhận | Toàn đội thống nhất tiêu chí nghiệm thu trước khi code | AI tạo acceptance test từ requirement document |
 | **Thiết kế & Nghiệp vụ** | DDD | Domain-Driven Design | Thiết kế hướng miền nghiệp vụ | Lấy logic nghiệp vụ làm trung tâm kiến trúc | AI phân tích domain, đề xuất bounded context, aggregate root |
-| | SDD | Specification-Driven Development | Phát triển hướng đặc tả | Spec là nguồn chân lý, AI sinh code từ spec  [martinfowler](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) | Viết spec chi tiết (OpenAPI, Markdown), AI sinh code + test  [thebcms](https://www.thebcms.com/blog/spec-driven-development/) |
+| | SDD | Specification-Driven Development | Phát triển hướng đặc tả | Spec là nguồn chân lý, AI sinh code từ spec | Viết spec chi tiết (OpenAPI, Markdown), AI sinh code + test |
 | | MDD | Model-Driven Development | Phát triển hướng mô hình | Thiết kế mô hình UML trước, tự động sinh mã | AI chuyển UML diagram thành code skeleton |
 | **Kiến trúc dữ liệu & Luồng đi** | EDD | Event-Driven Development | Phát triển hướng sự kiện | Hệ thống giao tiếp bằng sự kiện (event) | AI thiết kế event schema, sinh producer/consumer code |
 | | DDD (Data) | Data-Driven Development | Phát triển hướng dữ liệu | Ra quyết định dựa trên phân tích dữ liệu | AI phân tích data pipeline, đề xuất optimization |
@@ -220,11 +171,12 @@ Dưới đây là bảng tổng hợp các phương pháp phát triển phần m
 | **Quản lý & Vận hành** | FDD | Feature-Driven Development | Phát triển hướng tính năng | Chia dự án thành danh sách tính năng ngắn hạn | AI ưu tiên backlog, ước lượng effort |
 | | GitOps | Git-Driven Operations | Vận hành hướng Git | Dùng Git làm trung tâm tự động hóa hạ tầng | AI tạo Terraform code, deploy qua GitOps pipeline |
 
-### Chi tiết một số phương pháp quan trọng
+***
 
-#### TDD (Test-Driven Development) với AI
 
-**Quy trình Red-Green-Refactor**: [cloud.google](https://cloud.google.com/discover/how-test-driven-development-amplifies-ai-success)
+### TDD (Test-Driven Development) với AI
+
+**Quy trình Red-Green-Refactor**: 
 1. **Red**: Viết (hoặc nhờ AI viết) một test case mô tả hành vi mong đợi. Test này **phải thất bại** ban đầu.
 2. **Green**: Viết (hoặc nhờ AI viết) code tối thiểu để test **thành công**.
 3. **Refactor**: Cải thiện code (clean code, optimization) nhưng **giữ nguyên test passing**.
@@ -246,24 +198,24 @@ Bước 2 (Green): Yêu cầu AI viết code tối thiểu để pass test.
 Bước 3 (Refactor): Yêu cầu AI refactor code (thêm docstring, type hint, error handling).
 ```
 
-**Best practices**: [tweag.github](https://tweag.github.io/agentic-coding-handbook/WORKFLOW_TDD/)
+**Best practices**: 
 - Bắt đầu với hành vi có giá trị cao, không phải edge case.
 - Đặt tên test mô tả rõ hành vi (ví dụ: `test_calculate_discount_premium_user`).
 - Giữ test scope tight: một hành vi per prompt.
 - Để AI refactor: "Clean up the logic but keep all tests green".
 - Dùng pre-commit hook để chạy test tự động.
 
-#### SDD (Specification-Driven Development) với AI
+### SDD (Specification-Driven Development) với AI
 
-**Định nghĩa:** SDD là phương pháp trong đó **specification (đặc tả)** là nguồn chân lý duy nhất, không phải code. AI agent sinh code từ spec, đảm bảo implementation luôn aligned với requirement. [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
+**Định nghĩa:** SDD là phương pháp trong đó **specification (đặc tả)** là nguồn chân lý duy nhất, không phải code. AI agent sinh code từ spec, đảm bảo implementation luôn aligned với requirement. 
 
-**Workflow 4 pha**: [jamasoftware](https://www.jamasoftware.com/blog/what-is-spec-driven-development-sdd-for-ai-powered-engineering/)
+**Workflow 4 pha**:
 1. **Capture Intent**: Viết spec chi tiết (Markdown, OpenAPI, YAML) mô tả **what** hệ thống cần làm.
 2. **Derive Plan**: AI phân tích spec, đề xuất implementation plan (kiến trúc, công nghệ, task breakdown).
 3. **Generate Code**: AI sinh code từ plan, kèm test case.
 4. **Execute & Validate**: Chạy test, validate output, cập nhật spec nếu cần.
 
-**Ví dụ spec (Markdown + OpenAPI)**: [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
+**Ví dụ spec (Markdown + OpenAPI)**: 
 ```markdown
 # Spec: User Management API
 
@@ -313,7 +265,7 @@ paths:
 )
 ```
 
-**Công cụ hỗ trợ SDD**: [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
+**Công cụ hỗ trợ SDD**:
 - **GitHub Spec Kit**: Plugin tích hợp spec vào CI/CD, tự động validate code against spec.
 - **Claude Code + Spec**: Viết spec trong Markdown, Claude Code sinh code + test.
 - **Cursor + Spec**: Import spec vào Cursor, AI sinh code across files.
@@ -322,7 +274,7 @@ paths:
 
 ## 4. Step by step working with SDD + TDD
 
-Kết hợp **SDD** (định nghĩa what) và **TDD** (kiểm soát how) là phương pháp mạnh mẽ nhất trong kỷ nguyên AI. Dưới đây là quy trình step-by-step chi tiết: [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
+Kết hợp **SDD** (định nghĩa what) và **TDD** (kiểm soát how) là phương pháp mạnh mẽ nhất trong kỷ nguyên AI. Dưới đây là quy trình step-by-step chi tiết:
 
 ### Bước 1: Viết Specification (SDD Phase 1)
 
@@ -569,35 +521,35 @@ def _calculate_shipping_fee(shipping_address: str) -> int:
     return 20000 if shipping_address in free_shipping_cities else 40000
 ```
 
-**Chạy test lại (Refactor phase):** Test vẫn **passing**, code sạch hơn, dễ maintain. [cloud.google](https://cloud.google.com/discover/how-test-driven-development-amplifies-ai-success)
+**Chạy test lại (Refactor phase):** Test vẫn **passing**, code sạch hơn, dễ maintain. 
 
 ### Bước 5: Execute, Validate & Update Spec (SDD Phase 4)
 
 - **Execute:** Deploy code lên staging/production.
 - **Validate:** Chạy integration test, end-to-end test, monitor logs/metrics.
-- **Update Spec:** Nếu có thay đổi requirement, cập nhật spec trước, sau đó lặp lại quy trình từ Bước 2. [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
+- **Update Spec:** Nếu có thay đổi requirement, cập nhật spec trước, sau đó lặp lại quy trình từ Bước 2. 
 
 ***
 
-## 5. Others tool: Công cụ hỗ trợ phát triển phần mềm với AI
+## 5. Tools: Giới thiệu các một số công cụ AI agent cho coding và automation.
 
 ### Workflow tools: Dify vs n8n
 
 | Tiêu chí | **n8n** | **Dify** |
 |---|---|---|
-| **Primary paradigm** | Workflow-first: trigger drives the flow  [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify) | AI-first: LLM là core actor  [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify) |
-| **Tích hợp** | 400+ integrations (Slack, Gmail, Google Sheets, API, v.v.)  [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify) | Tích hợp sâu với LLM, RAG, agent skills  [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify) |
-| **Use case** | Automation (ops, RevOps), AI là một bước trong workflow lớn  [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify) | Xây AI agent, chatbot, RAG pipeline, workflow AI-centric  [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify) |
+| **Primary paradigm** | Workflow-first: trigger drives the flow   | AI-first: LLM là core actor   |
+| **Tích hợp** | 400+ integrations (Slack, Gmail, Google Sheets, API, v.v.)  | Tích hợp sâu với LLM, RAG, agent skills |
+| **Use case** | Automation (ops, RevOps), AI là một bước trong workflow lớn   | Xây AI agent, chatbot, RAG pipeline, workflow AI-centric   |
 | **Self-hostable** | Có | Có |
-| **Visual builder** | Node-based workflow editor | Visual workflow + agent builder  [cyprien](https://www.cyprien.io/posts/n8n-vs-dify/) |
+| **Visual builder** | Node-based workflow editor | Visual workflow + agent builder 
 | **Learning curve** | Dễ cho ops/automation teams | Dễ cho AI/ML engineers |
 
 **Khi nào chọn n8n:**
-- Bạn cần automation đa dạng (gửi email, update database, gọi API) và AI chỉ là một phần nhỏ. [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify)
+- Bạn cần automation đa dạng (gửi email, update database, gọi API) và AI chỉ là một phần nhỏ. 
 - Đội ngũ quen với workflow automation (Zapier, Make).
 
 **Khi nào chọn Dify:**
-- Bạn xây AI agent, chatbot, RAG system làm core product. [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify)
+- Bạn xây AI agent, chatbot, RAG system làm core product. 
 - Cần tích hợp sâu với LLM, vector store, agent skills.
 
 ### AI as Coworker tools
@@ -605,18 +557,18 @@ def _calculate_shipping_fee(shipping_address: str) -> int:
 | Công cụ | Mô tả | Use case |
 |---|---|---|
 | **ChatGPT Work** | ChatGPT tích hợp vào workflow (Slack, Notion, Google Docs) | Brainstorm ý tưởng, viết content, tóm tắt tài liệu |
-| **Claude Cowork** | Claude tích hợp vào IDE, terminal, workflow | Coding, debugging, writing spec, refactoring  [coursiv](https://coursiv.io/blog/ai-technology-trends-2026) |
+| **Claude Cowork** | Claude tích hợp vào IDE, terminal, workflow | Coding, debugging, writing spec, refactoring   |
 | **Grokbot** | AI agent tích hợp với X/Twitter ecosystem | Social media automation, content generation |
-| **Cursor** | IDE tích hợp AI agent | Coding across files, chat, refactor, test  [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/) |
-| **GitHub Copilot Workspace** | AI agent tích hợp GitHub | Tạo branch, viết code, chạy CI, tạo PR  [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/) |
-| **Devin** | Agent tự động end-to-end | Nhận yêu cầu, lập kế hoạch, viết code, deploy  [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/) |
+| **Cursor** | IDE tích hợp AI agent | Coding across files, chat, refactor, test   |
+| **GitHub Copilot Workspace** | AI agent tích hợp GitHub | Tạo branch, viết code, chạy CI, tạo PR  |
+| **Devin** | Agent tự động end-to-end | Nhận yêu cầu, lập kế hoạch, viết code, deploy   |
 
-**Best practices khi dùng AI as Coworker**: [arxiv](https://arxiv.org/html/2510.10819v1)
-- **Duy trì human oversight:** AI sinh code, con người review, validate business logic. [linkedin](https://www.linkedin.com/pulse/test-driven-development-tdd-era-ai-pair-programming-qa-valley-inc-ybekc)
-- **Xem AI như partner, không phải replacement:** Con người guide, critique, refine output. [linkedin](https://www.linkedin.com/pulse/test-driven-development-tdd-era-ai-pair-programming-qa-valley-inc-ybekc)
-- **Giữ test readable, maintainable:** Refactor test do AI sinh để align với team convention. [tweag.github](https://tweag.github.io/agentic-coding-handbook/WORKFLOW_TDD/)
-- **Align AI với team standards:** Dùng style guide, linting rule để AI sinh code consistent. [linkedin](https://www.linkedin.com/pulse/test-driven-development-tdd-era-ai-pair-programming-qa-valley-inc-ybekc)
-- **Reinforce TDD cycle discipline:** Không skip bước Red-Green-Refactor. [qaskills](https://qaskills.sh/blog/tdd-ai-agents-best-practices)
+**Best practices khi dùng AI as Coworker**: 
+- **Duy trì human oversight:** AI sinh code, con người review, validate business logic. 
+- **Xem AI như partner, không phải replacement:** Con người guide, critique, refine output.
+- **Giữ test readable, maintainable:** Refactor test do AI sinh để align với team convention.
+- **Align AI với team standards:** Dùng style guide, linting rule để AI sinh code consistent.
+- **Reinforce TDD cycle discipline:** Không skip bước Red-Green-Refactor. 
 
 ***
 
