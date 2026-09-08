@@ -29,7 +29,7 @@ Quá trình áp dụng AI trong coding (từ khi ChatGPT ra đời vào năm 202
 | **Auto-complete** | AI gợi ý code ngay trong IDE dựa trên ngữ cảnh file đang mở | GitHub Copilot, Cursor, OpenCode | Tích hợp sâu vào workflow, giảm thời gian gõ code, nhưng chỉ mang tính gợi ý, con người vẫn kiểm soát hoàn toàn. Phù hợp với vai trò trợ lý cho lập trình viên |
 | **Agent AI** | AI tự lập kế hoạch, viết code across nhiều file, chạy test, tương tác với môi trường phát triển, fix lỗi, submit PR | Claude Code, Cursor, Codex, OpenCode | Tự động hóa end-to-end, giảm đáng kể thời gian coding thủ công, chuyển vai trò con người sang "người giám sát và định hướng" |
 
-*** XXXX ***
+***
 
 **Ví dụ trực quan:**
 
@@ -44,11 +44,9 @@ Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /use
 - Sinh code backend (Node.js/Python).
 - Viết test case (unit test + integration test).
 - Chạy test, tự fix lỗi nếu có.
-- Commit code và tạo pull request. [arxiv](https://arxiv.org/html/2510.10819v1)
+- Commit code và tạo pull request.
 
-> **Lưu ý quan trọng:** Sự chuyển dịch này không có nghĩa là kỹ sư phần mềm sẽ bị thay thế. Thay vào đó, vai trò chuyển từ "người viết code" sang "người định nghĩa mục tiêu, thiết kế kiến trúc, kiểm soát chất lượng và ra quyết định sản phẩm". [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
-
-***
+*** XXXX ***
 
 ## 1. Programming in Agentic AI era: Phần mềm trong kỷ nguyên AI tác nhân
 
