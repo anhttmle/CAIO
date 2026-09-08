@@ -109,6 +109,9 @@ Trong kỷ nguyên AI:
 
 Khi AI tăng tốc coding lên **10x–100x**, bottleneck trong phát triển sản phẩm dịch chuyển từ **kỹ thuật** sang **sản phẩm, thiết kế, marketing và compliance**. 
 
+<img width="929" height="333" alt="image" src="https://github.com/user-attachments/assets/0e44b4f6-ed2e-4681-9ab5-3ff8ec28a351" />
+
+
 **Sự chuyển dịch về thời gian phát triển**
 
 Khi con người dần **hand-off** khỏi quá trình coding (tạo code và review code), thời gian phát triển được phân bổ lại.
