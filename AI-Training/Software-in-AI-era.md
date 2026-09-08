@@ -1,14 +1,53 @@
 # Phát triển phần mềm trong kỷ nguyên AI
 
-## Mở đầu: Bối cảnh và mục tiêu
+## Mở đầu:
 
 <img width="1028" height="230" alt="image" src="https://github.com/user-attachments/assets/4d5fea55-e529-426a-82af-f9fb975358d9" />
 
-
-
-> Chúng ta đang sống trong một giai đoạn chuyển mình lịch sử của ngành kỹ thuật phần mềm: AI không còn là công cụ hỗ trợ bên lề mà đã trở thành "đồng nghiệp" tham gia trực tiếp vào quá trình viết code, thiết kế kiến trúc, kiểm thử và vận hành hệ thống
-
 Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng phần mềm (dù đơn giản hay phức tạp) muốn hiểu sâu từ trực quan (intuition) đến chi tiết triển khai (workflow, công cụ, best practices) về phát triển phần mềm trong kỷ nguyên AI — đặc biệt là kỷ nguyên **Agentic AI**, nơi các AI agent có khả năng tự lập kế hoạch, sử dụng công cụ, ghi nhớ ngữ cảnh và thực thi tác vụ end-to-end.
+
+**Mục tiêu**:
+- Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quá trình phát triển phần mềm (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
+- Hiểu rõ các cấu phần (building blocks) của phần mềm hiện đại. Chẳng hạn như:
+  - Phần mềm truyền thống (Software 1.0 như theo định nghĩa của [Andrej Kapathy](https://karpathy.medium.com/software-2-0-a64152b37c35)).
+  - AI blocks (Software 2.0 & Software 3.0).
+- Các phương pháp tiếp cận khi phát triển phần mềm (TDD, SDD, DDD, BDD, GitOps, v.v.) và lựa chọn như thế nào khi phát triển cùng AI agent.
+- Phát triển phần mềm với **SDD + TDD** và AI agent.
+- Giới thiệu các một số công cụ AI agent cho coding và automation.
+
+<br>
+
+## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong phát triển phần mềm
+
+<img width="1005" height="422" alt="image" src="https://github.com/user-attachments/assets/e249d409-290f-48cf-8c2f-fd0172251522" />
+
+Quá trình áp dụng AI trong coding (từ khi ChatGPT ra đời vào năm 2022) đã trải qua ba giai đoạn chính, mỗi giai đoạn đánh dấu một bước nhảy vọt về mức độ tự động hóa và giá trị mang lại.
+
+| Giai đoạn | Mô tả | Ví dụ công cụ | Đặc điểm nổi bật |
+|---|---|---|---|
+| **Ask/Copy to chatbot** | Lập trình viên hỏi chatbot (ChatGPT, Claude) rồi copy-paste code vào dự án | ChatGPT, Claude (chat interface) | Code được sinh ra nhưng thiếu ngữ cảnh dự án, dễ lỗi tích hợp, khó maintain. Phù hợp với viết function nhỏ. |
+| **Auto-complete** | AI gợi ý code ngay trong IDE dựa trên ngữ cảnh file đang mở | GitHub Copilot, Cursor, OpenCode | Tích hợp sâu vào workflow, giảm thời gian gõ code, nhưng chỉ mang tính gợi ý, con người vẫn kiểm soát hoàn toàn. Phù hợp với vai trò trợ lý cho lập trình viên |
+| **Agent AI** | AI tự lập kế hoạch, viết code across nhiều file, chạy test, tương tác với môi trường phát triển, fix lỗi, submit PR | Claude Code, Cursor, Codex, OpenCode | Tự động hóa end-to-end, giảm đáng kể thời gian coding thủ công, chuyển vai trò con người sang "người giám sát và định hướng" |
+
+**Ví dụ trực quan:**
+
+Trước đây, khi cần viết một API endpoint để lấy danh sách user từ database, bạn sẽ:
+1. Tự viết query SQL hoặc ORM code.
+2. Tạo route trong Express/FastAPI.
+3. Viết test case.
+4. Chạy test, debug nếu lỗi.
+
+Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /users trả về danh sách user từ bảng `users` trong PostgreSQL, có pagination và filter theo status"*. Agent sẽ:
+- Phân tích schema database (nếu được cung cấp).
+- Sinh code backend (Node.js/Python).
+- Viết test case (unit test + integration test).
+- Chạy test, tự fix lỗi nếu có.
+- Commit code và tạo pull request.
+
+******************************************************************************************************************************************************************************************************
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 **Mục tiêu**:
 - Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quy trình coding (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
@@ -21,20 +60,14 @@ Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng
 
 ***
 
-## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong phát triển phần mềm
+
 
 <img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/c0809724-d47a-4472-91f7-3f006eff3124" />
 
 
 ### Từ "Ask/Copy" đến "Agent AI"
 
-Quá trình áp dụng AI trong coding (từ khi ChatGPT ra đời vào năm 2022) đã trải qua ba giai đoạn chính, mỗi giai đoạn đánh dấu một bước nhảy vọt về mức độ tự động hóa và giá trị mang lại
 
-| Giai đoạn | Mô tả | Ví dụ công cụ | Đặc điểm nổi bật |
-|---|---|---|---|
-| **Ask/Copy to chatbot** | Lập trình viên hỏi chatbot (ChatGPT, Claude) rồi copy-paste code vào dự án | ChatGPT, Claude (chat interface) | Code được sinh ra nhưng thiếu ngữ cảnh dự án, dễ lỗi tích hợp, khó maintain. Phù hợp với viết function nhỏ. |
-| **Auto-complete** | AI gợi ý code ngay trong IDE dựa trên ngữ cảnh file đang mở | GitHub Copilot, Cursor, OpenCode | Tích hợp sâu vào workflow, giảm thời gian gõ code, nhưng chỉ mang tính gợi ý, con người vẫn kiểm soát hoàn toàn. Phù hợp với vai trò trợ lý cho lập trình viên |
-| **Agent AI** | AI tự lập kế hoạch, viết code across nhiều file, chạy test, tương tác với môi trường phát triển, fix lỗi, submit PR | Claude Code, Cursor, Codex, OpenCode | Tự động hóa end-to-end, giảm đáng kể thời gian coding thủ công, chuyển vai trò con người sang "người giám sát và định hướng" |
 
 ***
 
