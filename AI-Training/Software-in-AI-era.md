@@ -18,8 +18,11 @@ Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng
 <br>
 
 ## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong phát triển phần mềm
-
+<br>
 <img width="1005" height="422" alt="image" src="https://github.com/user-attachments/assets/e249d409-290f-48cf-8c2f-fd0172251522" />
+
+<br>
+<br>
 
 Quá trình áp dụng AI trong coding (từ khi ChatGPT ra đời vào năm 2022) đã trải qua ba giai đoạn chính, mỗi giai đoạn đánh dấu một bước nhảy vọt về mức độ tự động hóa và giá trị mang lại.
 
@@ -29,13 +32,14 @@ Quá trình áp dụng AI trong coding (từ khi ChatGPT ra đời vào năm 202
 | **Auto-complete** | AI gợi ý code ngay trong IDE dựa trên ngữ cảnh file đang mở | GitHub Copilot, Cursor, OpenCode | Tích hợp sâu vào workflow, giảm thời gian gõ code, nhưng chỉ mang tính gợi ý, con người vẫn kiểm soát hoàn toàn. Phù hợp với vai trò trợ lý cho lập trình viên |
 | **Agent AI** | AI tự lập kế hoạch, viết code across nhiều file, chạy test, tương tác với môi trường phát triển, fix lỗi, submit PR | Claude Code, Cursor, Codex, OpenCode | Tự động hóa end-to-end, giảm đáng kể thời gian coding thủ công, chuyển vai trò con người sang "người giám sát và định hướng" |
 
-**Ví dụ trực quan:**
+<br>
 
+**Ví dụ:**
 Trước đây, khi cần viết một API endpoint để lấy danh sách user từ database, bạn sẽ:
-1. Tự viết query SQL hoặc ORM code.
-2. Tạo route trong Express/FastAPI.
-3. Viết test case.
-4. Chạy test, debug nếu lỗi.
+- Tự viết query SQL hoặc ORM code.
+- Tạo route trong Express/FastAPI.
+- Viết test case.
+- Chạy test, debug nếu lỗi.
 
 Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /users trả về danh sách user từ bảng `users` trong PostgreSQL, có pagination và filter theo status"*. Agent sẽ:
 - Phân tích schema database (nếu được cung cấp).
@@ -44,59 +48,17 @@ Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /use
 - Chạy test, tự fix lỗi nếu có.
 - Commit code và tạo pull request.
 
-******************************************************************************************************************************************************************************************************
+<br>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+## 1. Programming in Agentic AI era: Phần mềm trong kỷ nguyên AI agent
 
-
-**Mục tiêu**:
-- Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quy trình coding (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
-- Hiểu rõ các cấu phần (building blocks) của phần mềm hiện đại. Chẳng hạn như:
-  - Phần mềm truyền thống (Software 1.0 như theo định nghĩa của [Andrej Kapathy](https://karpathy.medium.com/software-2-0-a64152b37c35)): UI, database, identity, payment, observability
-  - AI blocks (Software 2.0 & Software 3.0): ML/DL models (driven by data & model), Foundation models techstacks (LLM, RAG, agent workflow, evals, memory, voice stack).
-- Các phương pháp tiếp cận khi phát triển phần mềm (TDD, SDD, DDD, BDD, GitOps, v.v.) và lựa chọn như thế nào khi phát triển cùng AI agent.
-- Khuyến nghị quy trình step-by-step làm việc với bộ đôi **SDD + TDD** trong môi trường AI agent.
-- Các công cụ AI agent cho coding và automation: Dify, n8n, Claude Code, Cursor, Codex, v.v.
-
-***
-
-
-
-<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/c0809724-d47a-4472-91f7-3f006eff3124" />
-
-
-### Từ "Ask/Copy" đến "Agent AI"
-
-
-
-***
-
-**Ví dụ trực quan:**
-
-Trước đây, khi cần viết một API endpoint để lấy danh sách user từ database, bạn sẽ:
-1. Tự viết query SQL hoặc ORM code.
-2. Tạo route trong Express/FastAPI.
-3. Viết test case.
-4. Chạy test, debug nếu lỗi.
-
-Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /users trả về danh sách user từ bảng `users` trong PostgreSQL, có pagination và filter theo status"*. Agent sẽ:
-- Phân tích schema database (nếu được cung cấp).
-- Sinh code backend (Node.js/Python).
-- Viết test case (unit test + integration test).
-- Chạy test, tự fix lỗi nếu có.
-- Commit code và tạo pull request.
-
-*** XXXX ***
-
-## 1. Programming in Agentic AI era: Phần mềm trong kỷ nguyên AI tác nhân
+### A.Software is made by combining & structuring building blocks
 
 <img width="982" height="215" alt="image" src="https://github.com/user-attachments/assets/253a1863-a8ac-4aca-98be-fdd0e74a2524" />
 
-### Software is made by combining & structuring building blocks
+<br>
 
-Phần mềm được xây dựng bằng cách kết hợp và cấu trúc các **building blocks**
-
-#### Non-AI blocks
+#### i. Non-AI blocks
 Đây là các thành phần truyền thống, vẫn cần thiết và thường được cung cấp bởi các dịch vụ managed hoặc open-source:
 - **UI components**: React, Vue, Flutter widgets, ...
 - **Databases**: PostgreSQL, MongoDB, Firebase, ...
@@ -106,7 +68,7 @@ Phần mềm được xây dựng bằng cách kết hợp và cấu trúc các 
 - **Message Queue**: Kafka, RabbitMQ, AWS SQS, ...
 - **CI/CD**: GitHub Actions, GitLab CI, Jenkins.
 
-#### AI blocks
+#### ii. AI blocks
 Đây là các thành phần mới, đặc trưng cho kỷ nguyên AI, thường được cung cấp dưới dạng API, SDK hoặc nền tảng managed:
 - **ML/DL models**
 - **Foundation models**: OpenAI GPT, Anthropic Claude, Google Gemini, Meta Llama.
@@ -117,7 +79,7 @@ Phần mềm được xây dựng bằng cách kết hợp và cấu trúc các 
 - **Memory**: Cơ chế lưu trữ ngữ cảnh dài hạn cho agent (vector store, SQL, Redis).
 - **Voice stack**: Speech-to-text (Whisper, Google Speech), text-to-speech (ElevenLabs, Azure TTS), voice agent (Vapi, Retell AI).
 
-**Ví dụ minh họa:** Một hệ thống chatbot hỗ trợ khách hàng cho ngân hàng có thể được xây dựng như sau:
+**Ví dụ:** Một hệ thống chatbot hỗ trợ khách hàng cho ngân hàng có thể được xây dựng như sau:
 - **Frontend**: React + Tailwind (non-AI).
 - **Backend**: FastAPI + PostgreSQL (non-AI).
 - **Auth**: Firebase Auth (non-AI).
@@ -130,22 +92,21 @@ Phần mềm được xây dựng bằng cách kết hợp và cấu trúc các 
   - Voice: Whisper + ElevenLabs cho voicebot (AI block).
 - **Observability**: Sentry + LangSmith (non-AI + AI).
 
-### The rise of "Agentic Coding Assistant"
+### B. The rise of "Agentic Coding Assistant"
 
 > Các công cụ hỗ trợ coding bằng AI đã phát triển từ autocomplete đơn thuần thành **agentic coding assistant** — những AI có khả năng tự thực thi tác vụ phức tạp across nhiều file, chạy test, debug và tạo pull request
 
 | Công cụ | Nhà phát triển | Đặc điểm nổi bật |
 |---|---|---|
-| **Claude Code** | Anthropic | Terminal-based, mạnh cho tác vụ multi-file, tự chạy test và fix lỗi  [coursiv](https://coursiv.io/blog/ai-technology-trends-2026) |
-| **Cursor** | Cursor Inc | IDE tích hợp AI agent, hỗ trợ chat, edit code across files, tự động refactor  [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/) |
-| **GitHub Copilot Workspace** | GitHub | Tích hợp sâu vào GitHub, tự tạo branch, viết code, chạy CI, tạo PR  [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/) |
-| **Devin** | Cognition AI | Agent tự động end-to-end: nhận yêu cầu, lập kế hoạch, viết code, deploy  [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/) |
-| **Gemini CLI** | Google | Command-line agent, tích hợp với Google Cloud, hỗ trợ multi-step tasks  [coursiv](https://coursiv.io/blog/ai-technology-trends-2026) |
-| **Grok Build** | xAI | Agent coding tích hợp với X/Twitter ecosystem  [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/) |
+| **Claude Code** | Anthropic | Terminal-based, mạnh cho tác vụ multi-file, tự chạy test và fix lỗi |
+| **Cursor** | Cursor Inc | IDE tích hợp AI agent, hỗ trợ chat, edit code across files, tự động refactor |
+| **GitHub Copilot Workspace** | GitHub | Tích hợp sâu vào GitHub, tự tạo branch, viết code, chạy CI, tạo PR |
+| **Gemini CLI** | Google | Command-line agent, tích hợp với Google Cloud, hỗ trợ multi-step tasks |
+| **Grok Build** | xAI | Agent coding tích hợp với X/Twitter ecosystem |
 
 **Xu hướng 2026:** Sự khác biệt giữa các công cụ không còn nằm ở chất lượng autocomplete, mà ở **khả năng agentic** (tự lập kế hoạch, gọi tool, ghi nhớ ngữ cảnh) và **hiểu biết codebase** (codebase understanding). [coursiv](https://coursiv.io/blog/ai-technology-trends-2026)
 
-### New philosophies: Triết lý mới trong phát triển phần mềm
+### C. New philosophies: Triết lý mới trong phát triển phần mềm
 
 #### Code is no longer as valuable artifact as it used to be
 
@@ -168,6 +129,27 @@ Khi AI tăng tốc coding lên **10x–100x**, nút thắt (bottleneck) trong ph
 - Kỹ sư cần học thêm kỹ năng **product thinking**, **user research**, **business analysis** để ra quyết định đúng về "cái gì cần xây dựng". [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
 
 ***
+
+******************************************************************************************************************************************************************************************************
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+**Mục tiêu**:
+- Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quy trình coding (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
+- Hiểu rõ các cấu phần (building blocks) của phần mềm hiện đại. Chẳng hạn như:
+  - Phần mềm truyền thống (Software 1.0 như theo định nghĩa của [Andrej Kapathy](https://karpathy.medium.com/software-2-0-a64152b37c35)): UI, database, identity, payment, observability
+  - AI blocks (Software 2.0 & Software 3.0): ML/DL models (driven by data & model), Foundation models techstacks (LLM, RAG, agent workflow, evals, memory, voice stack).
+- Các phương pháp tiếp cận khi phát triển phần mềm (TDD, SDD, DDD, BDD, GitOps, v.v.) và lựa chọn như thế nào khi phát triển cùng AI agent.
+- Khuyến nghị quy trình step-by-step làm việc với bộ đôi **SDD + TDD** trong môi trường AI agent.
+- Các công cụ AI agent cho coding và automation: Dify, n8n, Claude Code, Cursor, Codex, v.v.
+
+***
+
+
+
+
+
 
 ## 2. Bottleneck in AI Agent coding era: Nút thắt trong kỷ nguyên coding bằng AI agent
 
