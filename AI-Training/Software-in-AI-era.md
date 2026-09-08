@@ -17,15 +17,15 @@ Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng
 
 ***
 
-## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong lập trình
+## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong phát triển phần mềm
 
 ### Từ "Ask/Copy" đến "Agent AI"
 
-Quá trình áp dụng AI trong coding đã trải qua ba giai đoạn chính, mỗi giai đoạn đánh dấu một bước nhảy về mức độ tự động hóa và giá trị mang lại: [coursiv](https://coursiv.io/blog/ai-technology-trends-2026)
+Quá trình áp dụng AI trong coding (từ khi ChatGPT ra đời vào năm 2022) đã trải qua ba giai đoạn chính, mỗi giai đoạn đánh dấu một bước nhảy vọt về mức độ tự động hóa và giá trị mang lại
 
 | Giai đoạn | Mô tả | Ví dụ công cụ | Đặc điểm nổi bật |
 |---|---|---|---|
-| **Ask/Copy to chatbot** | Developer hỏi chatbot (ChatGPT, Claude) rồi copy-paste code vào dự án | ChatGPT, Claude (chat interface) | Code được sinh ra nhưng thiếu ngữ cảnh dự án, dễ lỗi tích hợp, khó maintain. Phù hợp với viết function nhỏ |
+| **Ask/Copy to chatbot** | Lập trình viên hỏi chatbot (ChatGPT, Claude) rồi copy-paste code vào dự án | ChatGPT, Claude (chat interface) | Code được sinh ra nhưng thiếu ngữ cảnh dự án, dễ lỗi tích hợp, khó maintain. Phù hợp với viết function nhỏ. |
 | **Auto-complete** | AI gợi ý code ngay trong IDE dựa trên ngữ cảnh file đang mở | GitHub Copilot, Cursor, OpenCode | Tích hợp sâu vào workflow, giảm thời gian gõ code, nhưng chỉ mang tính gợi ý, con người vẫn kiểm soát hoàn toàn. Phù hợp với vai trò trợ lý cho lập trình viên |
 | **Agent AI** | AI tự lập kế hoạch, viết code across nhiều file, chạy test, tương tác với môi trường phát triển, fix lỗi, submit PR | Claude Code, Cursor, Codex, OpenCode | Tự động hóa end-to-end, giảm đáng kể thời gian coding thủ công, chuyển vai trò con người sang "người giám sát và định hướng" |
 
