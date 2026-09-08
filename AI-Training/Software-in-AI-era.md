@@ -130,7 +130,7 @@ Giải thích:
 
 **Thay đổi tỉ lệ đối ứng giữa các role**
 
-Trước kia, tỷ lệ **Engineer : PM/Design/Marketing/Compliance** khoảng **1 : 5–10** (1 kỹ sư hỗ trợ 5–10 người thuộc các vai trò khác).
+Trước kia, tỷ lệ **Engineer : PM/Design/Marketing/Compliance** khoảng **5-10 : 1** (5-10 kỹ sư hỗ trợ 1 người thuộc các vai trò khác).
 Với AI agent:
 - Tỷ lệ này dịch chuyển về **1 : 1** hoặc **1 : 2**. 
 - **PM, Design, Marketing, Compliance** trở thành nút thắt mới vì họ cần đưa ra quyết định nhanh, chính xác về sản phẩm, trải nghiệm người dùng, chiến lược marketing và tuân thủ pháp lý.
@@ -561,7 +561,7 @@ def _calculate_shipping_fee(shipping_address: str) -> int:
 |---|---|---|
 | **ChatGPT Work** | ChatGPT tích hợp vào workflow (Slack, Notion, Google Docs) | Brainstorm ý tưởng, viết content, tóm tắt tài liệu |
 | **Claude Cowork** | Claude tích hợp vào IDE, terminal, workflow | Coding, debugging, writing spec, refactoring   |
-| **Grokbot** | AI agent tích hợp với X/Twitter ecosystem | Social media automation, content generation |
+| **Grokbot** | AI agent làm việc theo nhóm | Social media automation, content generation |
 | **Cursor** | IDE tích hợp AI agent | Coding across files, chat, refactor, test   |
 | **GitHub Copilot Workspace** | AI agent tích hợp GitHub | Tạo branch, viết code, chạy CI, tạo PR  |
 | **Devin** | Agent tự động end-to-end | Nhận yêu cầu, lập kế hoạch, viết code, deploy   |
