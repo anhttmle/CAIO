@@ -2,13 +2,15 @@
 
 ## Mở đầu: Bối cảnh và mục tiêu
 
-<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/d5f636df-1ef9-41ff-b202-799fb86de0e0" />
+<img width="1028" height="230" alt="image" src="https://github.com/user-attachments/assets/4d5fea55-e529-426a-82af-f9fb975358d9" />
+
+
 
 > Chúng ta đang sống trong một giai đoạn chuyển mình lịch sử của ngành kỹ thuật phần mềm: AI không còn là công cụ hỗ trợ bên lề mà đã trở thành "đồng nghiệp" tham gia trực tiếp vào quá trình viết code, thiết kế kiến trúc, kiểm thử và vận hành hệ thống
 
 Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng phần mềm (dù đơn giản hay phức tạp) muốn hiểu sâu từ trực quan (intuition) đến chi tiết triển khai (workflow, công cụ, best practices) về phát triển phần mềm trong kỷ nguyên AI — đặc biệt là kỷ nguyên **Agentic AI**, nơi các AI agent có khả năng tự lập kế hoạch, sử dụng công cụ, ghi nhớ ngữ cảnh và thực thi tác vụ end-to-end.
 
-**Mục tiêu của bài giảng**:
+**Mục tiêu**:
 - Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quy trình coding (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
 - Hiểu rõ các cấu phần (building blocks) của phần mềm hiện đại. Chẳng hạn như:
   - Phần mềm truyền thống (Software 1.0 như theo định nghĩa của [Andrej Kapathy](https://karpathy.medium.com/software-2-0-a64152b37c35)): UI, database, identity, payment, observability
@@ -55,6 +57,8 @@ Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /use
 
 ## 1. Programming in Agentic AI era: Phần mềm trong kỷ nguyên AI tác nhân
 
+<img width="982" height="215" alt="image" src="https://github.com/user-attachments/assets/253a1863-a8ac-4aca-98be-fdd0e74a2524" />
+
 ### Software is made by combining & structuring building blocks
 
 Phần mềm được xây dựng bằng cách kết hợp và cấu trúc các **building blocks**
@@ -95,7 +99,7 @@ Phần mềm được xây dựng bằng cách kết hợp và cấu trúc các 
 
 ### The rise of "Agentic Coding Assistant"
 
-Các công cụ hỗ trợ coding bằng AI đã phát triển từ autocomplete đơn thuần thành **agentic coding assistant** — những AI có khả năng tự thực thi tác vụ phức tạp across nhiều file, chạy test, debug và提交 pull request: [coursiv](https://coursiv.io/blog/ai-technology-trends-2026)
+> Các công cụ hỗ trợ coding bằng AI đã phát triển từ autocomplete đơn thuần thành **agentic coding assistant** — những AI có khả năng tự thực thi tác vụ phức tạp across nhiều file, chạy test, debug và tạo pull request
 
 | Công cụ | Nhà phát triển | Đặc điểm nổi bật |
 |---|---|---|
@@ -601,14 +605,14 @@ def _calculate_shipping_fee(shipping_address: str) -> int:
 
 ***
 
-## Kết luận: Lộ trình học tập và áp dụng
+## Key takeaway
 
-Để thành công trong kỷ nguyên AI, bạn cần:
+Hãy tập trung vào các kỹ năng cốt lõi và phương thức làm việc hơn là chạy đua theo các công cụ đang ngày một nhiều:
 
-1. **Thành thạo AI coding assistant:** Học cách dùng Claude Code, Cursor, GitHub Copilot hiệu quả. [coursiv](https://coursiv.io/blog/ai-technology-trends-2026)
-2. **Áp dụng SDD + TDD:** Viết spec chi tiết trước, dùng AI sinh code + test, refactor iteratively. [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
-3. **Phát triển tư duy product:** Học cách ra quyết định "what to build", không chỉ "how to build". [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
-4. **Trở thành Generalist AI-native:** Làm quen với nhiều vai trò (frontend, backend, DevOps, data) nhờ AI hỗ trợ. [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
-5. **Chọn công cụ phù hợp:** Dify cho AI agent, n8n cho automation, Claude/Cursor cho coding. [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify)
+1. **Thành thạo AI coding assistant:** Học cách dùng Claude Code, Cursor, GitHub Copilot hiệu quả.
+2. **Áp dụng SDD + TDD:** Viết spec chi tiết trước, coi đó như source of truth và dùng AI sinh code + test, refactor iteratively.
+3. **Phát triển tư duy product:** Học cách ra quyết định "what to build", không chỉ "how to build".
+4. **Trở thành Generalist AI-native:** Làm quen với nhiều vai trò (frontend, backend, DevOps, data) với sự hỗ trợ từ AI.
+5. **Chọn công cụ phù hợp:** Dify cho AI agent, n8n cho automation, Claude/Cursor cho coding.
 
-> AI không thay thế kỹ sư phần mềm, nhưng **kỹ sư biết dùng AI sẽ thay thế kỹ sư không biết dùng AI**. Hãy bắt đầu ngay hôm nay bằng cách áp dụng SDD + TDD vào dự án tiếp theo của bạn.
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/d5f636df-1ef9-41ff-b202-799fb86de0e0" />
