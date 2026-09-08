@@ -6,7 +6,7 @@
 
 Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng phần mềm (dù đơn giản hay phức tạp) muốn hiểu sâu từ trực quan (intuition) đến chi tiết triển khai (workflow, công cụ, best practices) về phát triển phần mềm trong kỷ nguyên AI — đặc biệt là kỷ nguyên **Agentic AI**, nơi các AI agent có khả năng tự lập kế hoạch, sử dụng công cụ, ghi nhớ ngữ cảnh và thực thi tác vụ end-to-end.
 
-Mục tiêu của bài giảng:
+**Mục tiêu của bài giảng**:
 - Giúp bạn nắm được sự chuyển dịch vai trò của con người trong quy trình coding (từ "viết code" sang "định nghĩa mục tiêu và kiểm soát chất lượng").
 - Hiểu rõ các cấu phần (building blocks) của phần mềm hiện đại. Chẳng hạn như:
   - Phần mềm truyền thống (Software 1.0 như theo định nghĩa của [Andrej Kapathy](https://karpathy.medium.com/software-2-0-a64152b37c35)): UI, database, identity, payment, observability
