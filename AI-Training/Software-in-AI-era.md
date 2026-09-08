@@ -21,6 +21,9 @@ Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng
 
 ## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong phát triển phần mềm
 
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/c0809724-d47a-4472-91f7-3f006eff3124" />
+
+
 ### Từ "Ask/Copy" đến "Agent AI"
 
 Quá trình áp dụng AI trong coding (từ khi ChatGPT ra đời vào năm 2022) đã trải qua ba giai đoạn chính, mỗi giai đoạn đánh dấu một bước nhảy vọt về mức độ tự động hóa và giá trị mang lại
