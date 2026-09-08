@@ -2,6 +2,8 @@
 
 ## Mở đầu: Bối cảnh và mục tiêu
 
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/d5f636df-1ef9-41ff-b202-799fb86de0e0" />
+
 > Chúng ta đang sống trong một giai đoạn chuyển mình lịch sử của ngành kỹ thuật phần mềm: AI không còn là công cụ hỗ trợ bên lề mà đã trở thành "đồng nghiệp" tham gia trực tiếp vào quá trình viết code, thiết kế kiến trúc, kiểm thử và vận hành hệ thống
 
 Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng phần mềm (dù đơn giản hay phức tạp) muốn hiểu sâu từ trực quan (intuition) đến chi tiết triển khai (workflow, công cụ, best practices) về phát triển phần mềm trong kỷ nguyên AI — đặc biệt là kỷ nguyên **Agentic AI**, nơi các AI agent có khả năng tự lập kế hoạch, sử dụng công cụ, ghi nhớ ngữ cảnh và thực thi tác vụ end-to-end.
