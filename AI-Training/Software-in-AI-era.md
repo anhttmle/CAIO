@@ -581,5 +581,3 @@ Hãy tập trung vào các kỹ năng cốt lõi và phương thức làm việc
 3. **Phát triển tư duy product:** Học cách ra quyết định "what to build", không chỉ "how to build".
 4. **Trở thành Generalist AI-native:** Làm quen với nhiều vai trò (frontend, backend, DevOps, data) với sự hỗ trợ từ AI.
 5. **Chọn công cụ phù hợp:** Dify cho AI agent, n8n cho automation, Claude/Cursor cho coding.
-
-<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/d5f636df-1ef9-41ff-b202-799fb86de0e0" />
