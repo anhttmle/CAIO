@@ -57,24 +57,25 @@ Với **Agent AI**, bạn chỉ cần mô tả mục tiêu: *"Tạo API GET /use
 
 ### Software is made by combining & structuring building blocks
 
-Trong kỷ nguyên Agentic AI, phần mềm được xây dựng bằng cách kết hợp và cấu trúc các **khối xây dựng (building blocks)**: [arxiv](https://arxiv.org/html/2510.10819v1)
+Phần mềm được xây dựng bằng cách kết hợp và cấu trúc các **building blocks**
 
-#### Non-AI blocks (khối phi AI)
+#### Non-AI blocks
 Đây là các thành phần truyền thống, vẫn cần thiết và thường được cung cấp bởi các dịch vụ managed hoặc open-source:
-- **UI components**: React, Vue, Flutter widgets.
-- **Databases**: PostgreSQL, MongoDB, Firebase.
-- **Identity & Auth**: Auth0, Firebase Auth, Keycloak.
-- **Payment**: Stripe, PayPal, Momo API.
-- **Observability**: Prometheus, Grafana, Datadog, Sentry.
-- **Message Queue**: Kafka, RabbitMQ, AWS SQS.
+- **UI components**: React, Vue, Flutter widgets, ...
+- **Databases**: PostgreSQL, MongoDB, Firebase, ...
+- **Identity & Auth**: Auth0, Firebase Auth, Keycloak, ...
+- **Payment**: Stripe, PayPal, Momo API, ...
+- **Observability**: Prometheus, Grafana, Loki, Sentry, ...
+- **Message Queue**: Kafka, RabbitMQ, AWS SQS, ...
 - **CI/CD**: GitHub Actions, GitLab CI, Jenkins.
 
-#### AI blocks (khối AI)
+#### AI blocks
 Đây là các thành phần mới, đặc trưng cho kỷ nguyên AI, thường được cung cấp dưới dạng API, SDK hoặc nền tảng managed:
-- **AI models**: OpenAI GPT, Anthropic Claude, Google Gemini, Meta Llama.
+- **ML/DL models**
+- **Foundation models**: OpenAI GPT, Anthropic Claude, Google Gemini, Meta Llama.
 - **LLMs**: Mô hình ngôn ngữ lớn dùng cho chat, code generation, summarization.
-- **RAG (Retrieval-Augmented Generation)**: Kết hợp LLM với vector database (Pinecone, Weaviate, Qdrant) để truy xuất kiến thức bên ngoài. [coursera](https://www.coursera.org/articles/agentic-rag)
-- **Agentic workflows**: Các workflow mà AI agent tự lập kế hoạch, gọi tool, ghi nhớ ngữ cảnh và thực thi. [arxiv](https://arxiv.org/html/2510.10819v1)
+- **RAG (Retrieval-Augmented Generation)**: Kết hợp LLM với vector database (Milvus, Pinecone, Weaviate, Qdrant) để truy xuất kiến thức bên ngoài parametric memory.
+- **Agentic workflows**: Các workflow mà AI agent tự lập kế hoạch, gọi tool, ghi nhớ ngữ cảnh và thực thi.
 - **Evals & Error Analysis**: Công cụ đánh giá chất lượng output của AI (ví dụ: LangChain Evals, RAGAS, TruLens).
 - **Memory**: Cơ chế lưu trữ ngữ cảnh dài hạn cho agent (vector store, SQL, Redis).
 - **Voice stack**: Speech-to-text (Whisper, Google Speech), text-to-speech (ElevenLabs, Azure TTS), voice agent (Vapi, Retell AI).
@@ -84,7 +85,7 @@ Trong kỷ nguyên Agentic AI, phần mềm được xây dựng bằng cách k�
 - **Backend**: FastAPI + PostgreSQL (non-AI).
 - **Auth**: Firebase Auth (non-AI).
 - **AI core**: 
-  - LLM: Claude 3.5 Sonnet (AI block).
+  - LLM: Claude Sonnet (Foundation model).
   - RAG: Vector store chứa tài liệu nghiệp vụ ngân hàng (AI block).
   - Agent workflow: Agent tự gọi API kiểm tra số dư, chuyển khoản, tra cứu giao dịch (AI block).
   - Memory: Lưu lịch sử hội thoại trong Redis (AI block).
@@ -610,36 +611,4 @@ def _calculate_shipping_fee(shipping_address: str) -> int:
 4. **Trở thành Generalist AI-native:** Làm quen với nhiều vai trò (frontend, backend, DevOps, data) nhờ AI hỗ trợ. [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
 5. **Chọn công cụ phù hợp:** Dify cho AI agent, n8n cho automation, Claude/Cursor cho coding. [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify)
 
-> **Lời khuyên cuối:** AI không thay thế kỹ sư phần mềm, nhưng **kỹ sư biết dùng AI sẽ thay thế kỹ sư không biết dùng AI**. Hãy bắt đầu ngay hôm nay bằng cách áp dụng SDD + TDD vào dự án tiếp theo của bạn. [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
-
-***
-
-## Tài liệu tham khảo
-
--  Salesforce: The Future of AI Agents: Top Predictions and Trends to Watch in 2026 [salesforce](https://www.salesforce.com/uk/news/stories/the-future-of-ai-agents-top-predictions-trends-to-watch-in-2026/)
--  arXiv: Generative AI and the Transformation of Software Development [arxiv](https://arxiv.org/html/2510.10819v1)
--  Coursera: What Is Agentic RAG? [coursera](https://www.coursera.org/articles/agentic-rag)
--  Uvik Software: AI Coding Assistant Statistics 2026 [uvik](https://uvik.net/blog/ai-coding-assistant-statistics/)
--  Plain English AI: RAGs, AI Agents, and Agentic AI : Explained [ai.plainenglish](https://ai.plainenglish.io/rags-ai-agents-and-agentic-ai-explained-f09d4f7d9006)
--  LinkedIn: AI-native teams blur lines between engineering, product management [linkedin](https://www.linkedin.com/posts/andrewyng_meta-pivots-from-open-weights-big-pharma-activity-7454559322900123648-zdsF)
--  LinkedIn: 2026 AI Coding Trends: Ralph Wiggum Pattern, Agent Skills [linkedin](https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7421816775647887360-6LES)
--  LinkedIn: From LLM → RAG → Agentic AI: The Real Evolution of Intelligence [linkedin](https://www.linkedin.com/posts/brijpandeyji_from-llm-rag-agentic-ai-the-real-evolution-activity-7372707098800877568-8rPZ)
--  Facebook (Andrew Ng): AI-native software engineering teams operate very differently [facebook](https://www.facebook.com/andrew.ng.96/posts/ai-native-software-engineering-teams-operate-very-differently-than-traditional-t/26550797374549485/)
--  Coursiv: AI Technology Trends 2026 [coursiv](https://coursiv.io/blog/ai-technology-trends-2026)
--  X (Andrew Ng): AI-native software engineering teams operate very differently [x](https://x.com/AndrewYNg/status/2048793852702757151)
--  ProductBuildersHQ: Andrew Ng: Engineers Should Learn Product [productbuildershq](https://productbuildershq.com/signals/andrew-ng-generalists-the-batch-349/)
--  MightyBot: Best AI Coding Agents in 2026, Ranked [mightybot](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/)
--  WaterCrawl: LLMs, RAG, and AI Agents: Understanding the Next Era [watercrawl](https://watercrawl.dev/blog/LLMs-RAG-and-AI-Agents)
--  Google Cloud: Stop "Vibe Coding" and Start Engineering [cloud.google](https://cloud.google.com/discover/how-test-driven-development-amplifies-ai-success)
--  Martin Fowler: Understanding Spec-Driven-Development: Kiro, spec-kit [martinfowler](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
--  arXiv: From Code to Contract in the Age of AI Coding Assistants [arxiv](https://arxiv.org/html/2602.00180v1)
--  CircleCI: Test-driven development (TDD) explained [circleci](https://circleci.com/blog/test-driven-development-tdd/)
--  Jama Software: Spec-Driven Development (SDD) for AI-Powered Engineering [jamasoftware](https://www.jamasoftware.com/blog/what-is-spec-driven-development-sdd-for-ai-powered-engineering/)
--  Agentic Coding Handbook: Test-Driven Development [tweag.github](https://tweag.github.io/agentic-coding-handbook/WORKFLOW_TDD/)
--  The BCMS: Spec-Driven Development (SDD): The Definitive 2026 Guide [thebcms](https://www.thebcms.com/blog/spec-driven-development/)
--  LinkedIn: Test-Driven Development (TDD) in the Era of AI Pair Programming [linkedin](https://www.linkedin.com/pulse/test-driven-development-tdd-era-ai-pair-programming-qa-valley-inc-ybekc)
--  AY Automate: n8n vs Dify 2026: Which AI Workflow Tool Wins? [ayautomate](https://www.ayautomate.com/blog/n8n-vs-dify)
--  Augment Code: What Is Spec-Driven Development? A Complete Guide [augmentcode](https://www.augmentcode.com/guides/what-is-spec-driven-development)
--  SandBase Blog: n8n vs Dify: Which AI Agent Platform (2026) [blog.sandbase](https://blog.sandbase.ai/n8n-vs-dify-2026/)
--  Cyprien Guillemot: n8n vs Dify for AI [cyprien](https://www.cyprien.io/posts/n8n-vs-dify/)
--  QA Skills: TDD with AI Agents — Best Practices for 2026 [qaskills](https://qaskills.sh/blog/tdd-ai-agents-best-practices)
+> AI không thay thế kỹ sư phần mềm, nhưng **kỹ sư biết dùng AI sẽ thay thế kỹ sư không biết dùng AI**. Hãy bắt đầu ngay hôm nay bằng cách áp dụng SDD + TDD vào dự án tiếp theo của bạn.
