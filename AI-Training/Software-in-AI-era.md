@@ -15,7 +15,7 @@ Bài viết này được thiết kế dành cho bất kỳ ai đang xây dựng
 - Khuyến nghị quy trình step-by-step làm việc với bộ đôi **SDD + TDD** trong môi trường AI agent.
 - Các công cụ AI agent cho coding và automation: Dify, n8n, Claude Code, Cursor, Codex, v.v.
 
-*** XXXX ***
+***
 
 ## 0. Rise of AI in coding: Sự chuyển dịch cách sử dụng AI trong lập trình
 
@@ -25,9 +25,11 @@ Quá trình áp dụng AI trong coding đã trải qua ba giai đoạn chính, m
 
 | Giai đoạn | Mô tả | Ví dụ công cụ | Đặc điểm nổi bật |
 |---|---|---|---|
-| **Ask/Copy to chatbot** | Developer hỏi chatbot (ChatGPT, Claude) rồi copy-paste code vào dự án | ChatGPT, Claude (chat interface) | Code được sinh ra nhưng thiếu ngữ cảnh dự án, dễ lỗi tích hợp, khó maintain |
-| **Auto-complete** | AI gợi ý code ngay trong IDE dựa trên ngữ cảnh file đang mở | GitHub Copilot, Tabnine, Codeium | Tích hợp sâu vào workflow, giảm thời gian gõ code, nhưng vẫn cần con người kiểm soát logic |
-| **Agent AI** | AI tự lập kế hoạch, viết code across nhiều file, chạy test, fix lỗi, submit PR | Claude Code, Cursor, Devin, GitHub Copilot Workspace | Tự động hóa end-to-end, giảm đáng kể thời gian coding thủ công, chuyển vai trò con người sang "người giám sát và định hướng"  [linkedin](https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7421816775647887360-6LES) |
+| **Ask/Copy to chatbot** | Developer hỏi chatbot (ChatGPT, Claude) rồi copy-paste code vào dự án | ChatGPT, Claude (chat interface) | Code được sinh ra nhưng thiếu ngữ cảnh dự án, dễ lỗi tích hợp, khó maintain. Phù hợp với viết function nhỏ |
+| **Auto-complete** | AI gợi ý code ngay trong IDE dựa trên ngữ cảnh file đang mở | GitHub Copilot, Cursor, OpenCode | Tích hợp sâu vào workflow, giảm thời gian gõ code, nhưng chỉ mang tính gợi ý, con người vẫn kiểm soát hoàn toàn. Phù hợp với vai trò trợ lý cho lập trình viên |
+| **Agent AI** | AI tự lập kế hoạch, viết code across nhiều file, chạy test, tương tác với môi trường phát triển, fix lỗi, submit PR | Claude Code, Cursor, Codex, OpenCode | Tự động hóa end-to-end, giảm đáng kể thời gian coding thủ công, chuyển vai trò con người sang "người giám sát và định hướng" |
+
+*** XXXX ***
 
 **Ví dụ trực quan:**
 
