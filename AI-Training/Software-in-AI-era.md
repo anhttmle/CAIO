@@ -116,6 +116,9 @@ Khi AI tăng tốc coding lên **10x–100x**, bottleneck trong phát triển s�
 
 Khi con người dần **hand-off** khỏi quá trình coding (tạo code và review code), thời gian phát triển được phân bổ lại.
 
+<img width="1008" height="474" alt="image" src="https://github.com/user-attachments/assets/8ee8d51b-4326-4654-ae0c-801e3feda09c" />
+
+
 | Giai đoạn | Trước AI (2020–2024) | Với AI Agent (2025–2026) |
 |---|---|---|
 | **Yêu cầu & thiết kế** | 20% | 40–50% |
@@ -176,10 +179,17 @@ Dưới đây là bảng tổng hợp các phương pháp phát triển phần m
 
 ***
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/ea51179e-8766-4aa7-b968-88042a68fadd" />
+
+[Example](https://github.com/anhttmle/SDD-lite-example)
 
 ### TDD (Test-Driven Development) với AI
 
-**Quy trình Red-Green-Refactor**: 
+<details>
+  <summary><b>Chi tiết</b></summary>
+  <br>
+  
+  **Quy trình Red-Green-Refactor**: 
 1. **Red**: Viết (hoặc nhờ AI viết) một test case mô tả hành vi mong đợi. Test này **phải thất bại** ban đầu.
 2. **Green**: Viết (hoặc nhờ AI viết) code tối thiểu để test **thành công**.
 3. **Refactor**: Cải thiện code (clean code, optimization) nhưng **giữ nguyên test passing**.
@@ -208,9 +218,17 @@ Bước 3 (Refactor): Yêu cầu AI refactor code (thêm docstring, type hint, e
 - Để AI refactor: "Clean up the logic but keep all tests green".
 - Dùng pre-commit hook để chạy test tự động.
 
+</details>
+
+
 ### SDD (Specification-Driven Development) với AI
 
-**Định nghĩa:** SDD là phương pháp trong đó **specification (đặc tả)** là nguồn chân lý duy nhất, không phải code. AI agent sinh code từ spec, đảm bảo implementation luôn aligned với requirement. 
+<details>
+  <summary><b>Chi tiết</b></summary>
+  
+  <br>
+
+  **Định nghĩa:** SDD là phương pháp trong đó **specification (đặc tả)** là nguồn chân lý duy nhất, không phải code. AI agent sinh code từ spec, đảm bảo implementation luôn aligned với requirement. 
 
 **Workflow 4 pha**:
 1. **Capture Intent**: Viết spec chi tiết (Markdown, OpenAPI, YAML) mô tả **what** hệ thống cần làm.
@@ -273,11 +291,20 @@ paths:
 - **Claude Code + Spec**: Viết spec trong Markdown, Claude Code sinh code + test.
 - **Cursor + Spec**: Import spec vào Cursor, AI sinh code across files.
 
+</details>
+
+
+
 ***
 
 ## 4. Step by step working with SDD + TDD
 
-Kết hợp **SDD** (định nghĩa what) và **TDD** (kiểm soát how) là phương pháp mạnh mẽ nhất trong kỷ nguyên AI. Dưới đây là quy trình step-by-step chi tiết:
+<details>
+  <summary><b>Chi tiết</b></summary>
+  
+  <br>
+
+  Kết hợp **SDD** (định nghĩa what) và **TDD** (kiểm soát how) là phương pháp mạnh mẽ nhất trong kỷ nguyên AI. Dưới đây là quy trình step-by-step chi tiết:
 
 ### Bước 1: Viết Specification (SDD Phase 1)
 
@@ -531,6 +558,8 @@ def _calculate_shipping_fee(shipping_address: str) -> int:
 - **Execute:** Deploy code lên staging/production.
 - **Validate:** Chạy integration test, end-to-end test, monitor logs/metrics.
 - **Update Spec:** Nếu có thay đổi requirement, cập nhật spec trước, sau đó lặp lại quy trình từ Bước 2. 
+
+</details>
 
 ***
 
