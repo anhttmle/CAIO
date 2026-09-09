@@ -109,14 +109,14 @@ Trong kỷ nguyên AI:
 
 Khi AI tăng tốc coding lên **10x–100x**, bottleneck trong phát triển sản phẩm dịch chuyển từ **kỹ thuật** sang **sản phẩm, thiết kế, marketing và compliance**. 
 
-<img width="929" height="333" alt="image" src="https://github.com/user-attachments/assets/0e44b4f6-ed2e-4681-9ab5-3ff8ec28a351" />
+<img width="465" height="166" alt="image" src="https://github.com/user-attachments/assets/0e44b4f6-ed2e-4681-9ab5-3ff8ec28a351" />
 
 
 **Sự chuyển dịch về thời gian phát triển**
 
 Khi con người dần **hand-off** khỏi quá trình coding (tạo code và review code), thời gian phát triển được phân bổ lại.
 
-<img width="1008" height="474" alt="image" src="https://github.com/user-attachments/assets/8ee8d51b-4326-4654-ae0c-801e3feda09c" />
+<img width="504" height="237" alt="image" src="https://github.com/user-attachments/assets/8ee8d51b-4326-4654-ae0c-801e3feda09c" />
 
 
 | Giai đoạn | Trước AI (2020–2024) | Với AI Agent (2025–2026) |
