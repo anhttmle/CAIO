@@ -1,8 +1,13 @@
-# Deep Learning models
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/789dc57f-e15c-472b-9839-e68f8f1178f4" />
+# Perception & Prediction
 
-> A deep learning model contain 2 pieces: Perception (Representation which help understanding the state of the world) & Prediction (task specific part which will reasoning/planing, make decision)
-> Reason why deep learning can be also called "Representation Learning"
+<img width="1629" height="808" alt="image" src="https://github.com/user-attachments/assets/a41929f3-a3e7-41dc-8563-c618ad44e2e4" />
+
+
+> A deep learning model contain 2 pieces:
+> - Perception (Representation which help understanding the state of the world)
+> - Prediction (task specific part which will reasoning/planing, make decision)
+> 
+> Reason why deep learning is also called "Representation Learning"
 
 ## Foundation Model, World Model
 - Approaches to learn representation of a World Model:
