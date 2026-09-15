@@ -73,16 +73,19 @@
 ***
 
 **Stop-gradient**:
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ebe37d01-7fba-4af6-8f38-b332828b0178" />
 
 *** 
 
 **EMA**
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/438e1240-5661-4bd1-96ca-0a5c813514ae" />
 
 ***
 
 **SIGReg**
+
 <img width="834" height="283" alt="image" src="https://github.com/user-attachments/assets/11297445-2ce8-4c12-a12c-af6e0c9f1d27" />
 
 
