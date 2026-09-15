@@ -9,14 +9,33 @@
 > 
 > Reason why deep learning is also called "Representation Learning"
 
-## Foundation Model, World Model
-- Approaches to learn representation of a World Model:
-  - Transfer from latent of the big models which is trained on a task that has large amount of data. But:
-    - depend on relation between upstream task & downstream task
-    - tricky on which layer to use & how to tune?
-    - mostly for reducing amount of labeled data on the downstream task. Although upstream task has limit labeled data as well.
-  - Use Self-supervised Learning and learn directly from unlabeled data (easier to scale to large amount of data). Also help capturing knowledge about "world" just by observe (similar to new born human) -> One approach is Energy Based Model (EBM) along side with Auto-encoder model, Autoregressive model
-- Overview about EBM and introduce to some models:
+***
+
+## How do we learn data representations?
+
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/65181ef8-60e0-4f7d-87d3-e9f1174ca31d" />
+
+
+- Transfer from latent of the big models which is trained on a task that has large amount of data. But:
+  - depend on relation between upstream task & downstream task
+  - tricky on which layer to use & how to tune?
+  - mostly for reducing amount of labeled data on the downstream task. Although upstream task has bottleneck on labeled data as well.
+
+***
+
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/f031b4e3-b078-47a3-8d47-5af4e237d89e" />
+
+- Leveraging self-supervised learning allows systems to learn directly from unlabeled data—making it easier to scale to massive datasets—while capturing foundational knowledge about the world through passive observation, much like a newborn infant.
+
+***
+
+<img width="2048" height="768" alt="image" src="https://github.com/user-attachments/assets/9765d5a0-0f39-4eb0-870a-d66f475ee3a2" />
+
+- Some approaches for SSL: Energy-Based Model (EBM), along with Autoencoder models, and Autoregressive models
+
+***
+
+## Overview about EBM and introduce to some models:
   - Siamese Net
   - SimCLR
 - Architecture of EBM:
