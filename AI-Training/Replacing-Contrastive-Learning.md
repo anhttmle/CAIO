@@ -64,18 +64,26 @@
 [Collapsing in Contrastive method](https://arxiv.org/pdf/2110.09348)
 
 #### Regularized Method
+| Method             | What does it control?  | Core idea                                                                       |
+| ------------------ | ---------------------- | ------------------------------------------------------------------------------- |
+| **Stop-gradient**  | Gradient flow          | Treat the target as fixed during the current backward pass                      |
+| **EMA**            | Teacher updates        | Update the teacher slowly using a moving average of student weights             |
+| **SIGReg**         | Embedding distribution | Explicitly regularize representations toward an isotropic Gaussian distribution |
 
-- Embedding Collapsed problem
-- Approaches to train an EBM
-  - Contrastive Learning with downside of Negative Sampling
-  - JEPA with Regularization
-    - Stop-gradient (I-JEPA)
-    - Teacher Target (I-JEPA)
-    - EMA (I-JEPA)
-    - SigReg (LeJEPA)
+***
+
+**Stop-gradient**:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ebe37d01-7fba-4af6-8f38-b332828b0178" />
+
+*** 
+
+**EMA**
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/438e1240-5661-4bd1-96ca-0a5c813514ae" />
+
+***
+
+**SIGReg**
+<img width="834" height="283" alt="image" src="https://github.com/user-attachments/assets/11297445-2ce8-4c12-a12c-af6e0c9f1d27" />
 
 
 
-### Joint Embedding Models
-
-<img width="815" height="193" alt="image" src="https://github.com/user-attachments/assets/11959088-8a5a-489f-9c03-77c3f4eb35da" />
