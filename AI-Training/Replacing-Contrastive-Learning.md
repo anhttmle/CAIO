@@ -86,6 +86,8 @@
 
 **SIGReg**
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fb294fb3-1982-446f-b82d-a9287af5869e" />
+
 <img width="834" height="283" alt="image" src="https://github.com/user-attachments/assets/11297445-2ce8-4c12-a12c-af6e0c9f1d27" />
 
 
