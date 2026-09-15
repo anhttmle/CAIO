@@ -47,13 +47,24 @@
 <img width="1600" height="973" alt="image" src="https://github.com/user-attachments/assets/9dd9526a-21e0-47ee-a5b3-4749d6b037e1" />
 
 
-### Joint Embedding Models
+### JEPA (Joint Embedding Predictive Architecture)
 
 <img width="815" height="193" alt="image" src="https://github.com/user-attachments/assets/11959088-8a5a-489f-9c03-77c3f4eb35da" />
 
-- Architecture of EBM:
-  - Joint Embedding Architecture
-  - Joint Embedding Predictive Architecture
+## Training EBM:
+
+#### Representation Collapsing problems
+
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/21020ab4-b0c0-4bcd-a967-d602d2244780" />
+
+
+#### Contrastive Method
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/79b226cf-b0dd-4165-aaf1-16e4cfccacda" />
+
+[Collapsing in Contrastive method](https://arxiv.org/pdf/2110.09348)
+
+#### Regularized Method
+
 - Embedding Collapsed problem
 - Approaches to train an EBM
   - Contrastive Learning with downside of Negative Sampling
