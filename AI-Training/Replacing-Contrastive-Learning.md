@@ -35,9 +35,22 @@
 
 ***
 
-## Overview about EBM and introduce to some models:
-  - Siamese Net
-  - SimCLR
+## Example of EBM:
+
+### Siamese Net
+<img width="713" height="344" alt="image" src="https://github.com/user-attachments/assets/b6e75aa6-e000-492b-b3b5-2c0a06508c70" />
+
+### SimCLR (Simple Framework for Contrastive Learning of Visual Representations)
+<img width="354" height="243" alt="image" src="https://github.com/user-attachments/assets/6d1ca429-5f1f-47a1-82d3-fea1b3048cee" />
+
+### CLIP (Contrastive Language-Image Pre-training)
+<img width="1600" height="973" alt="image" src="https://github.com/user-attachments/assets/9dd9526a-21e0-47ee-a5b3-4749d6b037e1" />
+
+
+### Joint Embedding Models
+
+<img width="815" height="193" alt="image" src="https://github.com/user-attachments/assets/11959088-8a5a-489f-9c03-77c3f4eb35da" />
+
 - Architecture of EBM:
   - Joint Embedding Architecture
   - Joint Embedding Predictive Architecture
@@ -51,18 +64,6 @@
     - SigReg (LeJEPA)
 
 
-
-
-
-# SSL
-
-## Contrastive Learning
-
-### Siamese Net
-<img width="713" height="344" alt="image" src="https://github.com/user-attachments/assets/b6e75aa6-e000-492b-b3b5-2c0a06508c70" />
-
-### SimCLR
-<img width="354" height="243" alt="image" src="https://github.com/user-attachments/assets/6d1ca429-5f1f-47a1-82d3-fea1b3048cee" />
 
 ### Joint Embedding Models
 
