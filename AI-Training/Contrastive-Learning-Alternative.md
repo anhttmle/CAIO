@@ -95,3 +95,4 @@
 
 # Apply to Biological KG ???
 
+<img width="743" height="413" alt="image" src="https://github.com/user-attachments/assets/269d64c8-0f05-4453-9097-b89f0efa6f87" />
