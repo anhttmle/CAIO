@@ -2,7 +2,7 @@
 
 Joseph K. Blitzstein và Jessica Hwang
 
-> **Trạng thái:** Bản dịch đang thực hiện. Các trang PDF 1–3, 7–9, 15–17, 19–107, 109–153, 155–211, 213–293, 295–355, 357–399, 401–475, 477–511, 513–557, 559–583, 585, 587–589 đã được dịch trực tiếp dưới đây; trang 10, 108, 154, 212, 294, 356, 400, 476, 512, 558, 578, 584 và 586 không có văn bản. PDF có 589 trang; những trang khác chưa được dịch. Số trang trong ngoặc là số trang của tệp PDF, khác với số trang in trong sách.
+> **Trạng thái:** Bản dịch hoàn tất cho toàn bộ nội dung có văn bản của tệp PDF 589 trang. Các trang PDF 10, 18, 108, 154, 212, 294, 356, 400, 476, 512, 558, 578, 584 và 586 không có văn bản để dịch. Số trang trong ngoặc là số trang của tệp PDF, khác với số trang in trong sách.
 
 ## Trang bìa và thông tin bản điện tử (trang PDF 1–3)
 
@@ -28,6 +28,110 @@ Bản điện tử VitalBook™ kèm sách được truy cập qua VitalSource®
 
 Trang PDF 3 là trang nhan đề rút gọn: **Nhập môn xác suất**.
 
+## Danh mục tủ sách Chapman & Hall/CRC (trang PDF 4–6)
+
+**Tủ sách Văn bản Khoa học Thống kê.** Ban biên tập tủ sách: Francesca Dominici (Trường Y tế Công cộng Harvard, Hoa Kỳ), Julian J. Faraway (Đại học Bath, Vương quốc Anh), Martin Tanner (Đại học Northwestern, Hoa Kỳ) và Jim Zidek (Đại học British Columbia, Canada).
+
+### Trang PDF 4
+
+- **Lý thuyết thống kê: Dẫn nhập ngắn gọn** — F. Abramovich và Y. Ritov.
+- **Phân tích đa biến thực hành, ấn bản thứ năm** — A. Afifi, S. May và V.A. Clark.
+- **Thống kê thực hành cho nghiên cứu y học** — D.G. Altman.
+- **Diễn giải dữ liệu: Khóa học đầu tiên về thống kê** — A.J.B. Anderson.
+- **Nhập môn xác suất với R** — K. Baclawski.
+- **Đại số tuyến tính và phân tích ma trận cho thống kê** — S. Banerjee và A. Roy.
+- **Phương pháp thống kê cho kiểm soát quá trình bằng thống kê và quản lý chất lượng toàn diện** — D. Bissell.
+- **Nhập môn xác suất** — J.K. Blitzstein và J. Hwang.
+- **Phương pháp Bayes để phân tích dữ liệu, ấn bản thứ ba** — B.P. Carlin và T.A. Louis.
+- **Ấn bản thứ hai** — R. Caulcutt. *(Danh mục gốc chỉ in dòng này, không có nhan đề đi kèm.)*
+- **Phân tích chuỗi thời gian: Dẫn nhập, ấn bản thứ sáu** — C. Chatfield.
+- **Nhập môn phân tích đa biến** — C. Chatfield và A.J. Collins.
+- **Giải quyết vấn đề: Cẩm nang của nhà thống kê, ấn bản thứ hai** — C. Chatfield.
+- **Thống kê cho công nghệ: Khóa học thống kê ứng dụng, ấn bản thứ ba** — C. Chatfield.
+- **Tư tưởng Bayes và phân tích dữ liệu: Dẫn nhập cho nhà khoa học và nhà thống kê** — R. Christensen, W. Johnson, A. Branscum và T.E. Hanson.
+- **Mô hình hóa dữ liệu nhị phân, ấn bản thứ hai** — D. Collett.
+- **Mô hình hóa dữ liệu sống sót trong nghiên cứu y học, ấn bản thứ hai** — D. Collett.
+- **Nhập môn phương pháp thống kê cho thử nghiệm lâm sàng** — T.D. Cook và D.L. DeMets.
+- **Thống kê ứng dụng: Nguyên lý và ví dụ** — D.R. Cox và E.J. Snell.
+- **Phân tích sống sót đa biến và các rủi ro cạnh tranh** — M. Crowder.
+- **Phân tích thống kê dữ liệu độ tin cậy** — M.J. Crowder, A.C. Kimber, T.J. Sweeting và R.L. Smith.
+- **Nhập môn mô hình tuyến tính tổng quát hóa, ấn bản thứ ba** — A.J. Dobson và A.G. Barnett.
+- **Chuỗi thời gian phi tuyến: Lý thuyết, phương pháp và ứng dụng kèm ví dụ R** — R. Douc, E. Moulines và D.S. Stoffer.
+- **Nhập môn phương pháp tối ưu hóa và ứng dụng trong thống kê** — B.S. Everitt.
+- **Mở rộng mô hình tuyến tính bằng R: Mô hình tuyến tính tổng quát hóa, hiệu ứng hỗn hợp và hồi quy phi tham số** — J.J. Faraway.
+- **Mô hình tuyến tính với R, ấn bản thứ hai** — J.J. Faraway.
+- **Khóa học lý thuyết mẫu lớn** — T.S. Ferguson.
+- **Thống kê đa biến: Cách tiếp cận thực hành** — B. Flury và H. Riedwyl.
+- **Các bài đọc về phân tích quyết định** — S. French.
+- **Monte Carlo dùng chuỗi Markov: Mô phỏng ngẫu nhiên để suy luận Bayes, ấn bản thứ hai** — D. Gamerman và H.F. Lopes.
+
+### Trang PDF 5
+
+- **Phân tích dữ liệu Bayes, ấn bản thứ ba** — A. Gelman, J.B. Carlin, H.S. Stern, D.B. Dunson, A. Vehtari và D.B. Rubin.
+- **Phân tích phương sai đa biến và đo lặp: Cách tiếp cận thực hành cho nhà khoa học hành vi** — D.J. Hand và C.C. Taylor.
+- **Phân tích dữ liệu thực hành cho nghiên cứu được thiết kế; phân tích dữ liệu dọc thực hành** — D.J. Hand và M. Crowder. *(Nhan đề in trong PDF có vẻ bị ghép từ hai cụm.)*
+- **Mô hình hồi quy logistic** — J.M. Hilbe.
+- **Mô hình tuyến tính giàu tham số: Mô hình cộng tính, chuỗi thời gian và không gian dùng hiệu ứng ngẫu nhiên** — J.S. Hodges.
+- **Thống kê cho dịch tễ học** — N.P. Jewell.
+- **Quá trình ngẫu nhiên: Dẫn nhập, ấn bản thứ hai** — P.W. Jones và P. Smith.
+- **Lý thuyết mô hình tuyến tính** — B. Jørgensen.
+- **Các nguyên lý của sự bất định** — J.B. Kadane.
+- **Đồ họa cho thống kê và phân tích dữ liệu với R** — K.J. Keen.
+- **Thống kê toán học** — K. Knight.
+- **Nhập môn phân tích đa biến: Mô hình hóa tuyến tính và phi tuyến** — S. Konishi.
+- **Phương pháp phi tham số trong thống kê với các ứng dụng SAS** — O. Korosteleva.
+- **Mô hình hóa và phân tích hệ thống ngẫu nhiên, ấn bản thứ hai** — V.G. Kulkarni.
+- **Bài tập và lời giải về lý thuyết thống kê sinh học** — L.L. Kupper, B.H. Neelon và S.M. O’Brien.
+- **Bài tập và lời giải về lý thuyết thống kê** — L.L. Kupper, B.H. Neelon và S.M. O’Brien.
+- **Thiết kế và phân tích thí nghiệm với SAS** — J. Lawson.
+- **Khóa học phân tích dữ liệu phân loại** — T. Leonard.
+- **Thống kê cho kế toán viên** — S. Letchford.
+- **Nhập môn lý thuyết suy luận thống kê** — H. Liero và S. Zwanzig.
+- **Lý thuyết thống kê, ấn bản thứ tư** — B.W. Lindgren.
+- **Quá trình ngẫu nhiên dừng: Lý thuyết và ứng dụng** — G. Lindgren.
+- **Sách về BUGS: Nhập môn thực hành phân tích Bayes** — D. Lunn, C. Jackson, N. Best, A. Thomas và D. Spiegelhalter.
+- **Nhập môn mô hình tuyến tính và mô hình tuyến tính tổng quát hóa** — H. Madsen và P. Thyregod.
+- **Phân tích chuỗi thời gian** — H. Madsen.
+- **Mô hình bình Pólya** — H. Mahmoud.
+- **Phương pháp ngẫu nhiên hóa, bootstrap và Monte Carlo trong sinh học, ấn bản thứ ba** — B.F.J. Manly.
+- **Nhập môn thử nghiệm lâm sàng đối chứng ngẫu nhiên, ấn bản thứ hai** — J.N.S. Matthews.
+- **Phương pháp thống kê trong nông nghiệp và sinh học thực nghiệm, ấn bản thứ hai** — R. Mead, R.N. Curnow và A.M. Hasted.
+- **Thống kê trong kỹ thuật: Cách tiếp cận thực hành** — A.V. Metcalfe.
+- **Vượt ra ngoài ANOVA: Những điều cơ bản của thống kê ứng dụng** — R.G. Miller, Jr.
+- **Nhập môn mô hình tuyến tính** — J.F. Monahan.
+- **Mô hình hóa ngẫu nhiên ứng dụng, ấn bản thứ hai** — B.J.T. Morgan.
+- **Các yếu tố của mô phỏng** — B.J.T. Morgan.
+- **Xác suất: Phương pháp và đo lường** — A. O’Hagan.
+- **Nhập môn lý thuyết giới hạn thống kê** — A.M. Polansky.
+- **Dự báo Bayes ứng dụng và phân tích chuỗi thời gian** — A. Pole, M. West và J. Harrison.
+- **Thống kê trong nghiên cứu và phát triển; chuỗi thời gian: Mô hình hóa, tính toán và suy luận** — R. Prado và M. West. *(Nhan đề in trong PDF có vẻ bị ghép từ hai cụm.)*
+
+### Trang PDF 6
+
+- **Nhập môn kiểm soát quá trình bằng thống kê** — P. Qiu.
+- **Các phương pháp lấy mẫu và ứng dụng** — P.S.R.S. Rao.
+- **Khóa học đầu tiên về lý thuyết mô hình tuyến tính** — N. Ravishanker và D.K. Dey.
+- **Thống kê thiết yếu, ấn bản thứ tư** — D.A.G. Rees.
+- **Mô hình hóa ngẫu nhiên và thống kê toán học: Giáo trình cho nhà thống kê và người làm định lượng** — F.J. Samaniego.
+- **Phương pháp thống kê để phân tích dữ liệu không gian** — O. Schabenberger và C.A. Gotway.
+- **Mạng Bayes: Kèm ví dụ trong R** — M. Scutari và J.-B. Denis.
+- **Phương pháp mẫu lớn trong thống kê** — P.K. Sen và J. da Motta Singer.
+- **Phân tích quyết định: Cách tiếp cận Bayes** — J.Q. Smith.
+- **Phân tích dữ liệu hỏng hóc và sống sót** — P.J. Smith.
+- **Thống kê ứng dụng: Cẩm nang phân tích bằng GENSTAT** — E.J. Snell và H. Simpson.
+- **Phương pháp thống kê phi tham số ứng dụng, ấn bản thứ tư** — P. Sprent và N.C. Smeeton.
+- **Phương pháp thống kê dựa trên dữ liệu** — P. Sprent.
+- **Mô hình hỗn hợp tuyến tính tổng quát hóa: Khái niệm, phương pháp và ứng dụng hiện đại** — W.W. Stroup.
+- **Phân tích sống sót bằng S: Phân tích dữ liệu thời gian đến biến cố** — M. Tableman và J.S. Kim.
+- **Phân tích dữ liệu phân loại và dữ liệu đếm ứng dụng** — W. Tang, H. He và X.M. Tu.
+- **Ứng dụng sơ cấp của lý thuyết xác suất, ấn bản thứ hai** — H.C. Tuckwell.
+- **Nhập môn suy luận thống kê và ứng dụng với R** — M.W. Trosset.
+- **Tìm hiểu các phương pháp thống kê nâng cao** — P.H. Westfall và K.S.S. Henning.
+- **Kiểm soát quá trình bằng thống kê: Lý thuyết và thực hành, ấn bản thứ ba** — G.B. Wetherill và D.W. Brown.
+- **Mô hình cộng tính tổng quát hóa: Dẫn nhập với R** — S. Wood.
+- **Dịch tễ học: Thiết kế nghiên cứu và phân tích dữ liệu, ấn bản thứ ba** — M. Woodward.
+- **Các thí nghiệm** — B.S. Yandell.
+
 ## Trang nhan đề, bản quyền và lời đề tặng (trang PDF 7–9)
 
 **Tủ sách Văn bản Khoa học Thống kê — Nhập môn xác suất.** Joseph K. Blitzstein, Đại học Harvard, Cambridge, Massachusetts, Hoa Kỳ; Jessica Hwang, Đại học Stanford, Stanford, California, Hoa Kỳ.
@@ -42,7 +146,165 @@ Ngoài những trường hợp luật bản quyền Hoa Kỳ cho phép, không �
 
 **Nhãn hiệu:** Tên sản phẩm, doanh nghiệp có thể là nhãn hiệu hoặc nhãn hiệu đăng ký; chúng chỉ được dùng để nhận diện, giải thích, không nhằm xâm phạm quyền. Trang Taylor & Francis: <http://www.taylorandfrancis.com/>; CRC Press: <http://www.crcpress.com/>.
 
-**Đề tặng:** “Tặng hai người mẹ của chúng tôi, Steffi và Min.” *Ghi chú bản dịch:* Ký tự cuối tên “Steffi” bị lỗi trích xuất từ PDF, cần đối chiếu hình nếu muốn xác nhận cách viết chính xác.
+**Đề tặng:** “Tặng hai người mẹ của chúng tôi, Steffi và Min.”
+
+## Mục lục (trang PDF 11–14)
+
+Số ở cột phải là **số trang in trong sách**.
+
+| Mục | Trang |
+|---|---:|
+| **1. Xác suất và phép đếm** | **1** |
+| 1.1. Vì sao nên học xác suất? | 1 |
+| 1.2. Không gian mẫu và Thế giới Sỏi | 3 |
+| 1.3. Định nghĩa xác suất kiểu ngây thơ | 6 |
+| 1.4. Cách đếm | 8 |
+| 1.5. Chứng minh bằng câu chuyện | 19 |
+| 1.6. Định nghĩa xác suất không ngây thơ | 20 |
+| 1.7. Tóm tắt | 25 |
+| 1.8. R | 27 |
+| 1.9. Bài tập | 31 |
+| **2. Xác suất có điều kiện** | **41** |
+| 2.1. Tầm quan trọng của tư duy có điều kiện | 41 |
+| 2.2. Định nghĩa và trực giác | 42 |
+| 2.3. Định lý Bayes và định luật xác suất toàn phần | 47 |
+| 2.4. Xác suất có điều kiện cũng là xác suất | 53 |
+| 2.5. Tính độc lập của các biến cố | 56 |
+| 2.6. Tính nhất quán của định lý Bayes | 59 |
+| 2.7. Lấy điều kiện làm công cụ giải bài toán | 60 |
+| 2.8. Cạm bẫy và nghịch lý | 66 |
+| 2.9. Tóm tắt | 70 |
+| 2.10. R | 72 |
+| 2.11. Bài tập | 74 |
+| **3. Biến ngẫu nhiên và phân phối của chúng** | **91** |
+| 3.1. Biến ngẫu nhiên | 91 |
+| 3.2. Phân phối và hàm khối xác suất | 94 |
+| 3.3. Bernoulli và nhị thức | 100 |
+| 3.4. Siêu bội | 103 |
+| 3.5. Đều rời rạc | 106 |
+| 3.6. Hàm phân phối tích lũy | 108 |
+| 3.7. Hàm của biến ngẫu nhiên | 110 |
+| 3.8. Tính độc lập của các biến ngẫu nhiên | 117 |
+| 3.9. Mối liên hệ giữa phân phối nhị thức và siêu bội | 121 |
+| 3.10. Tóm tắt | 124 |
+| 3.11. R | 126 |
+| 3.12. Bài tập | 128 |
+| **4. Kỳ vọng** | **137** |
+| 4.1. Định nghĩa kỳ vọng | 137 |
+| 4.2. Tính tuyến tính của kỳ vọng | 140 |
+| 4.3. Phân phối hình học và nhị thức âm | 144 |
+| 4.4. Biến ngẫu nhiên chỉ báo và chiếc cầu cơ bản | 151 |
+| 4.5. Định luật của nhà thống kê vô thức (LOTUS) | 156 |
+| 4.6. Phương sai | 157 |
+| 4.7. Poisson | 161 |
+| 4.8. Mối liên hệ giữa Poisson và nhị thức | 165 |
+| 4.9. *Dùng xác suất và kỳ vọng để chứng minh sự tồn tại | 168 |
+| 4.10. Tóm tắt | 174 |
+| 4.11. R | 175 |
+| 4.12. Bài tập | 178 |
+| **5. Biến ngẫu nhiên liên tục** | **195** |
+| 5.1. Hàm mật độ xác suất | 195 |
+| 5.2. Phân phối đều | 201 |
+| 5.3. Tính phổ quát của phân phối đều | 205 |
+| 5.4. Phân phối chuẩn | 211 |
+| 5.5. Phân phối mũ | 217 |
+| 5.6. Quá trình Poisson | 222 |
+| 5.7. Tính đối xứng của các biến ngẫu nhiên liên tục độc lập cùng phân phối | 225 |
+| 5.8. Tóm tắt | 226 |
+| 5.9. R | 228 |
+| 5.10. Bài tập | 231 |
+| **6. Mômen** | **243** |
+| 6.1. Các đặc trưng tóm tắt một phân phối | 243 |
+| 6.2. Diễn giải mômen | 248 |
+| 6.3. Mômen mẫu | 252 |
+| 6.4. Hàm sinh mômen | 255 |
+| 6.5. Dùng hàm sinh mômen để tính mômen | 259 |
+| 6.6. Tổng các biến ngẫu nhiên độc lập qua hàm sinh mômen | 261 |
+| 6.7. *Hàm sinh xác suất | 262 |
+| 6.8. Tóm tắt | 267 |
+| 6.9. R | 267 |
+| 6.10. Bài tập | 272 |
+| **7. Phân phối đồng thời** | **277** |
+| 7.1. Phân phối đồng thời, biên và có điều kiện | 278 |
+| 7.2. LOTUS hai chiều | 298 |
+| 7.3. Hiệp phương sai và tương quan | 300 |
+| 7.4. Phân phối đa thức | 306 |
+| 7.5. Phân phối chuẩn đa biến | 309 |
+| 7.6. Tóm tắt | 316 |
+| 7.7. R | 318 |
+| 7.8. Bài tập | 320 |
+| **8. Phép biến đổi** | **339** |
+| 8.1. Đổi biến | 341 |
+| 8.2. Phép chập | 346 |
+| 8.3. Beta | 351 |
+| 8.4. Gamma | 356 |
+| 8.5. Mối liên hệ Beta–Gamma | 365 |
+| 8.6. Thống kê thứ tự | 367 |
+| 8.7. Tóm tắt | 370 |
+| 8.8. R | 373 |
+| 8.9. Bài tập | 375 |
+| **9. Kỳ vọng có điều kiện** | **383** |
+| 9.1. Kỳ vọng có điều kiện theo biến cố | 383 |
+| 9.2. Kỳ vọng có điều kiện theo biến ngẫu nhiên | 392 |
+| 9.3. Các tính chất của kỳ vọng có điều kiện | 394 |
+| 9.4. *Diễn giải hình học của kỳ vọng có điều kiện | 399 |
+| 9.5. Phương sai có điều kiện | 400 |
+| 9.6. Các ví dụ Adam và Eve | 402 |
+| 9.7. Tóm tắt | 407 |
+| 9.8. R | 408 |
+| 9.9. Bài tập | 410 |
+| **10. Bất đẳng thức và các định lý giới hạn** | **421** |
+| 10.1. Bất đẳng thức | 422 |
+| 10.2. Luật số lớn | 431 |
+| 10.3. Định lý giới hạn trung tâm | 435 |
+| 10.4. Chi bình phương và Student-t | 441 |
+| 10.5. Tóm tắt | 445 |
+| 10.6. R | 447 |
+| 10.7. Bài tập | 450 |
+| **11. Chuỗi Markov** | **459** |
+| 11.1. Tính chất Markov và ma trận chuyển | 459 |
+| 11.2. Phân loại trạng thái | 465 |
+| 11.3. Phân phối dừng | 469 |
+| 11.4. Tính thuận nghịch | 475 |
+| 11.5. Tóm tắt | 480 |
+| 11.6. R | 481 |
+| 11.7. Bài tập | 484 |
+| **12. Monte Carlo dùng chuỗi Markov** | **495** |
+| 12.1. Metropolis–Hastings | 496 |
+| 12.2. Lấy mẫu Gibbs | 508 |
+| 12.3. Tóm tắt | 515 |
+| 12.4. R | 515 |
+| 12.5. Bài tập | 517 |
+| **13. Quá trình Poisson** | **519** |
+| 13.1. Quá trình Poisson một chiều | 519 |
+| 13.2. Lấy điều kiện, chồng chất, làm thưa | 521 |
+| 13.3. Quá trình Poisson nhiều chiều | 532 |
+| 13.4. Tóm tắt | 534 |
+| 13.5. R | 534 |
+| 13.6. Bài tập | 536 |
+| **A. Toán học** | **541** |
+| A.1. Tập hợp | 541 |
+| A.2. Hàm số | 545 |
+| A.3. Ma trận | 550 |
+| A.4. Phương trình sai phân | 552 |
+| A.5. Phương trình vi phân | 553 |
+| A.6. Đạo hàm riêng | 554 |
+| A.7. Tích phân bội | 554 |
+| A.8. Tổng | 556 |
+| A.9. Nhận dạng quy luật | 558 |
+| A.10. Lẽ thường và kiểm tra đáp án | 558 |
+| **B. R** | **561** |
+| B.1. Vectơ | 561 |
+| B.2. Ma trận | 562 |
+| B.3. Toán học | 563 |
+| B.4. Lấy mẫu và mô phỏng | 563 |
+| B.5. Vẽ đồ thị | 564 |
+| B.6. Lập trình | 564 |
+| B.7. Thống kê mô tả | 564 |
+| B.8. Các phân phối | 565 |
+| **C. Bảng các phân phối** | **567** |
+| **Tài liệu tham khảo** | **569** |
+| **Chỉ mục** | **571** |
 
 ## Lời nói đầu (trang PDF 15–17)
 
@@ -10719,9 +10981,7 @@ với $0<t_1<\cdots<t_n$, $n\ge0$, $\Lambda_{\rm total}=\int_0^t\lambda(u)\,du$.
 
 (b) Chứng minh nếu chiếu quá trình chồng ở (a) lên thời gian rời rạc, dãy loại 1/loại 2 tương đương quá trình: bắt đầu có hai bóng trong bình, ghi số 1 và 2; chọn đều một bóng, ghi số nó, rồi bỏ lại cùng thêm một bóng mang cùng số; lặp lại.
 
-**12.** Bài sưu tập phiếu thưởng với $n$ loại đồ chơi, lấy từng món có hoàn lại. Khác Chương 4, ở mỗi bước loại $j$ có xác suất $p_j$ không nhất thiết bằng nhau. Gọi $N$ là số món đến khi đủ bộ; tìm $E(N)$ bằng cách nhúng. Giả sử đồ chơi đến theo quá trình Poisson tốc độ 1, các khoảng chờ $X_j$ độc lập $\operatorname{Expo}(1)$. Với $j=1,\ldots,n$, gọi $Y_j$ là …
-
-thời gian chờ đến món đầu tiên loại $j$.
+**12.** Bài sưu tập phiếu thưởng với $n$ loại đồ chơi, lấy từng món có hoàn lại. Khác Chương 4, ở mỗi bước loại $j$ có xác suất $p_j$ không nhất thiết bằng nhau. Gọi $N$ là số món đến khi đủ bộ; tìm $E(N)$ bằng cách nhúng. Giả sử đồ chơi đến theo quá trình Poisson tốc độ 1, các khoảng chờ $X_j$ độc lập $\operatorname{Expo}(1)$. Với $j=1,\ldots,n$, gọi $Y_j$ là thời gian chờ đến món đầu tiên loại $j$.
 
 (a) Phân phối của các $Y_j$ là gì? Chúng có độc lập không?
 
@@ -10777,7 +11037,7 @@ $$\left(\bigcup_{j=1}^{n}A_j\right)^c
 =\bigcap_{j=1}^{n}A_j^c,\qquad
 \left(\bigcap_{j=1}^{n}A_j\right)^c
 =\bigcup_{j=1}^{n}A_j^c.$$
-Hiểu ý nghĩa quan trọng hơn học thuộc. Không thuộc *ít nhất một* $A_j$ nghĩa là không thuộc *bất kỳ* $A_j$ nào. Ví dụ $A_j$ là nhóm người thích phần phim tiền truyện Star Wars thứ $j$: không thích ít nhất một trong ba phần theo nghĩa “không có phần nào mình thích” chính là không thích *The Phantom Menace*, *Attack of the Clones* và *Revenge of the Sith*. Định luật thứ hai: không thuộc *cả ba* nhóm nghĩa là có ít nhất một phần không thích.
+Hiểu ý nghĩa quan trọng hơn học thuộc. Không thuộc *hợp* của các $A_j$ nghĩa là không thuộc *bất kỳ* $A_j$ nào. Ví dụ $A_j$ là nhóm người thích phần phim tiền truyện Star Wars thứ $j$: không thích phần nào trong ba phần nghĩa là không thích *The Phantom Menace*, *Attack of the Clones* lẫn *Revenge of the Sith*. Định luật thứ hai: không thuộc *giao* của cả ba nhóm nghĩa là có ít nhất một phần không thích.
 
 Hãy tập chứng minh bằng phần tử, không chỉ vẽ Venn:
 
@@ -10801,9 +11061,7 @@ Ví dụ rạp chiếu phim có 100 ghế, mỗi người ngồi một ghế và
 
 Tương ứng một–một cũng có nghĩa với tập vô hạn. Galileo chỉ ra nghịch lý: các số chính phương $1^2,2^2,3^2,\ldots$ dường như ít hơn số nguyên dương vì chỉ là một phần của chúng, nhưng lại ghép được một–một: $j^2$ ghép với $j$. Trực giác tập hữu hạn không luôn chuyển sang vô hạn. Theo định nghĩa, hai tập có cùng lực lượng.
 
-Một ví dụ nổi tiếng khác là *khách sạn Hilbert*. Khách sạn thực có hữu hạn phòng; nếu kín hết thì không chứa khách mới trừ khi nhét thêm người vào phòng. Nhưng khách sạn tưởng tượng có các phòng đánh số $1,2,3,\ldots$, tất cả đã kín. Một khách mệt mỏi mới đến. Liệu vẫn xếp được phòng cho người ấy mà không đuổi khách cũ? Có: chuyển khách ở phòng $n$ …
-
-sang phòng $n+1$ với mọi $n\ge1$. Phòng 1 được giải phóng cho khách mới.
+Một ví dụ nổi tiếng khác là *khách sạn Hilbert*. Khách sạn thực có hữu hạn phòng; nếu kín hết thì không chứa khách mới trừ khi nhét thêm người vào phòng. Nhưng khách sạn tưởng tượng có các phòng đánh số $1,2,3,\ldots$, tất cả đã kín. Một khách mệt mỏi mới đến. Liệu vẫn xếp được phòng cho người ấy mà không đuổi khách cũ? Có: chuyển khách ở phòng $n$ sang phòng $n+1$ với mọi $n\ge1$. Phòng 1 được giải phóng cho khách mới.
 
 Nếu vô hạn khách mới đến cùng lúc, có thể đánh số khách $1,2,\ldots$, thì lặp thao tác trên từng người sẽ tốn vô hạn lượt chuyển và gây phiền cho khách cũ. Chỉ cần cập nhật phòng một lần: chuyển khách cũ phòng $n$ sang phòng $2n$, rồi xếp khách mới thứ $n$ vào phòng $2n-1$. Khách cũ ở phòng chẵn, khách mới ở phòng lẻ.
 
