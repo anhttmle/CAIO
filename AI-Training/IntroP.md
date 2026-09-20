@@ -2,7 +2,47 @@
 
 Joseph K. Blitzstein và Jessica Hwang
 
-> **Trạng thái:** Bản dịch đang thực hiện. Các trang PDF 15–17, 19–107, 109–153, 155–211, 213–293, 295–355, 357–399 và 401–475, 477–511, 513–550 đã được dịch trực tiếp dưới đây; trang 108, 154, 212, 294, 356, 400, 476 và 512 không có văn bản. PDF có 589 trang; những trang khác chưa được dịch. Số trang trong ngoặc là số trang của tệp PDF, khác với số trang in trong sách.
+> **Trạng thái:** Bản dịch đang thực hiện. Các trang PDF 1–3, 7–9, 15–17, 19–107, 109–153, 155–211, 213–293, 295–355, 357–399, 401–475, 477–511, 513–557, 559–583, 585, 587–589 đã được dịch trực tiếp dưới đây; trang 10, 108, 154, 212, 294, 356, 400, 476, 512, 558, 578, 584 và 586 không có văn bản. PDF có 589 trang; những trang khác chưa được dịch. Số trang trong ngoặc là số trang của tệp PDF, khác với số trang in trong sách.
+
+## Trang bìa và thông tin bản điện tử (trang PDF 1–3)
+
+**Tủ sách Văn bản Khoa học Thống kê**
+
+**Nhập môn xác suất** — Joseph K. Blitzstein và Jessica Hwang.
+
+### Truy cập bản sách điện tử *Nhập môn xác suất*
+
+Bản điện tử VitalBook™ kèm sách được truy cập qua VitalSource® Bookshelf, ứng dụng đọc cho phép tạo và chia sẻ ghi chú, đánh dấu, cũng như tìm kiếm trong mọi sách điện tử bạn có trong Bookshelf. Bạn có thể đọc trực tuyến hoặc ngoại tuyến trên điện thoại, máy tính bảng, PC/Mac. Ghi chú và phần đánh dấu tự đồng bộ giữa các thiết bị.
+
+1. Tạo tài khoản VitalSource Bookshelf tại <https://online.vitalsource.com/user/new>, hoặc đăng nhập tài khoản hiện có.
+2. Đổi mã trong ô bên dưới để truy cập sách. Trong Bookshelf, mở menu **Account** phía trên bên phải, chọn **Redeem**, nhập mã dưới lớp cào vào ô **Code To Redeem**, rồi nhấn **Redeem**. Sau khi đổi, sách được tải và xuất hiện trong thư viện.
+
+**Tải xuống và đọc ngoại tuyến.** Cài Bookshelf trên PC, Mac, iOS, Android hoặc Kindle Fire rồi đăng nhập:
+
+- **PC/Mac:** Vào <http://bookshelf.vitalsource.com/> và làm theo hướng dẫn tải ứng dụng miễn phí.
+- **iPhone/iPod Touch/iPad:** Tải ứng dụng miễn phí từ iTunes App Store; thông tin tại <https://support.vitalsource.com/hc/en-us/categories/200134217-Bookshelf-for-iOS>.
+- **Điện thoại hoặc máy tính bảng Android™:** Tải ứng dụng từ Google Play; thông tin tại <https://support.vitalsource.com/hc/en-us/categories/200139976-Bookshelf-for-Android-and-Kindle-Fire>.
+- **Kindle Fire:** Tải ứng dụng từ Amazon; thông tin tại cùng địa chỉ hỗ trợ Android và Kindle Fire ở trên.
+
+**Lưu ý:** Mã dưới lớp cào chỉ dùng một lần. Sau khi tạo tài khoản và đổi mã, bạn có thể đọc trực tuyến hoặc ngoại tuyến trên điện thoại, máy tính bảng hoặc PC/Mac. Nếu cần trợ giúp tải Bookshelf, tạo tài khoản hoặc truy cập, sử dụng sách điện tử, vào <http://support.vitalsource.com/>.
+
+Trang PDF 3 là trang nhan đề rút gọn: **Nhập môn xác suất**.
+
+## Trang nhan đề, bản quyền và lời đề tặng (trang PDF 7–9)
+
+**Tủ sách Văn bản Khoa học Thống kê — Nhập môn xác suất.** Joseph K. Blitzstein, Đại học Harvard, Cambridge, Massachusetts, Hoa Kỳ; Jessica Hwang, Đại học Stanford, Stanford, California, Hoa Kỳ.
+
+**Nhà xuất bản:** CRC Press, Taylor & Francis Group, 6000 Broken Sound Parkway NW, Suite 300, Boca Raton, FL 33487-2742. © 2015 Taylor & Francis Group, LLC. CRC Press là thương hiệu xuất bản thuộc Taylor & Francis Group, một doanh nghiệp Informa. Không tuyên bố bản quyền đối với tác phẩm gốc của Chính phủ Hoa Kỳ. Ngày phiên bản: 20140609. ISBN-13 bản điện tử PDF: 978-1-4665-7559-2.
+
+Sách chứa thông tin từ các nguồn xác thực, có uy tín. Dù đã nỗ lực hợp lý để xuất bản dữ liệu và thông tin đáng tin cậy, tác giả và nhà xuất bản không chịu trách nhiệm về tính đúng đắn của toàn bộ tư liệu hoặc hậu quả sử dụng. Họ đã cố gắng truy tìm chủ sở hữu bản quyền của tư liệu được tái bản và xin lỗi nếu chưa có phép; nếu có tư liệu chưa được ghi nhận, xin liên hệ để sửa trong lần in sau.
+
+Ngoài những trường hợp luật bản quyền Hoa Kỳ cho phép, không được in lại, sao chép, truyền hoặc sử dụng bất kỳ phần nào của sách bằng phương tiện điện tử, cơ khí hay cách khác, hiện có hoặc sẽ phát minh, gồm photocopy, vi phim, ghi âm và hệ thống lưu trữ, truy xuất thông tin, nếu chưa có văn bản cho phép của nhà xuất bản.
+
+Để xin phép photocopy hoặc dùng tư liệu dạng điện tử, vào <http://www.copyright.com/> hoặc liên hệ Copyright Clearance Center, Inc. (CCC), 222 Rosewood Drive, Danvers, MA 01923, điện thoại 978-750-8400. CCC là tổ chức phi lợi nhuận cung cấp giấy phép và đăng ký cho nhiều đối tượng; các tổ chức có giấy phép photocopy được áp dụng hệ thống thanh toán riêng.
+
+**Nhãn hiệu:** Tên sản phẩm, doanh nghiệp có thể là nhãn hiệu hoặc nhãn hiệu đăng ký; chúng chỉ được dùng để nhận diện, giải thích, không nhằm xâm phạm quyền. Trang Taylor & Francis: <http://www.taylorandfrancis.com/>; CRC Press: <http://www.crcpress.com/>.
+
+**Đề tặng:** “Tặng hai người mẹ của chúng tôi, Steffi và Min.” *Ghi chú bản dịch:* Ký tự cuối tên “Steffi” bị lỗi trích xuất từ PDF, cần đối chiếu hình nếu muốn xác nhận cách viết chính xác.
 
 ## Lời nói đầu (trang PDF 15–17)
 
@@ -10556,3 +10596,689 @@ Ta mở rộng định nghĩa một chiều bằng cách thay độ dài bởi d
 $$N(B)\mid N(A)=n
 \sim\operatorname{Bin}\left(n,\frac{\operatorname{area}(B)}{\operatorname{area}(A)}\right).$$
 Xác suất một điểm rơi vào vùng con tỷ lệ diện tích; vì vậy vị trí các điểm, khi biết tổng, phân bố đều. Để tạo quá trình trong $A$, lấy $N(A)\sim\operatorname{Pois}(\lambda\operatorname{area}(A))$ rồi đặt đều $N(A)$ điểm trong $A$. **Hình 13.7** mô phỏng trên hình vuông $[0,5]\times[0,5]$ với $\lambda=1,2,5$.
+
+Như trong một chiều, chồng các quá trình Poisson hai chiều độc lập vẫn là quá trình Poisson hai chiều với cường độ cộng lại. Ta cũng có thể tỉa một quá trình hai chiều thành các quá trình độc lập.
+
+Tính chất một chiều còn thiếu phiên bản nhiều chiều là đối ngẫu số đếm–thời gian. Ví dụ cuối chương dẫn tới đối ngẫu *số đếm–khoảng cách*.
+
+**Ví dụ 13.3.2 (Ngôi sao gần nhất).** Các ngôi sao trong một vũ trụ phân bố theo quá trình Poisson ba chiều cường độ $\lambda$. Nếu sống ở đó, khoảng cách đến ngôi sao gần nhất có phân phối gì?
+
+*Lời giải.* Trong vùng không gian $V$, số sao có phân phối Poisson với trung bình $\lambda\operatorname{volume}(V)$. Gọi $R$ là khoảng cách đến sao gần nhất, $N_r$ là số sao trong hình cầu bán kính $r$ quanh bạn. Biến cố $R>r$ tương đương không có sao trong hình cầu. Vì $N_r\sim\operatorname{Pois}(\lambda\frac43\pi r^3)$,
+$$P(R>r)=P(N_r=0)=e^{-\frac43\lambda\pi r^3}.$$
+Hàm sống này xác định CDF và phân phối của $R$, một trường hợp phân phối Weibull, tổng quát hóa phân phối mũ. ◇
+
+Có nhiều tổng quát hóa. Cho $\lambda$ thay đổi theo thời gian hoặc không gian, ta có quá trình Poisson *không đồng nhất*. Cho $\lambda$ là biến ngẫu nhiên, ta có *quá trình Cox*. Cho tốc độ tăng sau mỗi lần đến, ta có *quá trình Yule*.
+
+## 13.4. Tóm tắt (trang PDF 552)
+
+Trong quá trình Poisson một chiều, số lần đến ở mỗi khoảng có phân phối Poisson và số đếm ở các khoảng rời nhau độc lập. Ba phép toán chính là điều kiện hóa, chồng và tỉa thưa. Biết tổng lần đến trong một khoảng, ta có thể xem thời điểm đến như các biến đều độc lập trong khoảng rồi sắp thứ tự. Chồng và tỉa thưa cho phép ghép hoặc tách quá trình. Các tính chất đều có tương ứng trong nhiều chiều.
+
+Quá trình Poisson nối nhiều phân phối:
+
+- Poisson cho số lần đến.
+- Mũ và Gamma cho khoảng chờ và thời điểm đến.
+- Nhị thức cho số đếm có điều kiện.
+- Đều và Beta có đổi thang cho thời điểm đến có điều kiện.
+- Hình học và nhị thức âm cho số lần chờ rời rạc đến các lần đến đặc biệt.
+
+Nó còn thuận tiện cho chứng minh bằng câu chuyện. Nhiều lần trong chương ta đã nhúng các biến ngẫu nhiên vào một quá trình Poisson tự tạo, ngay cả khi bài gốc không nhắc Poisson, để tìm lời giải. Chủ đề này tự nhiên đan hai mạch chính của sách: phân phối có tên và câu chuyện xác suất.
+
+## 13.5. R
+
+### Quá trình Poisson một chiều
+
+Chương 5 mô phỏng một số lần đến cho trước bằng các khoảng chờ mũ độc lập. Câu chuyện 13.2.3 cho cách mô phỏng trong một khoảng $(0,L]$ xác định: trước tiên lấy $N(L)\sim\operatorname{Pois}(\lambda L)$, rồi khi $N(L)=n$, lấy $n$ thời điểm đều và sắp thứ tự. Mã sau mô phỏng tốc độ 10 trong $(0,5]$:
+
+    L <- 5
+    lambda <- 10
+    n <- rpois(1,lambda*L)
+    t <- sort(runif(n,0,L))
+
+Vẽ số đếm tích lũy $N(t)$ theo thời gian:
+
+    plot(t,1:n,type="s")
+
+**Hình 13.8.** Đồ thị bậc thang số lần đến của quá trình tốc độ 10 trong $(0,5]$.
+
+### Tỉa thưa
+
+Từ vector thời điểm <code>t</code> và số lần <code>n</code> ở trên, gán mỗi lần đến loại 1 với xác suất $p$ bằng biến Bernoulli trong vector <code>y</code>; các lần khác là loại 2. Hai vector thời điểm <code>t1</code>, <code>t2</code> là hiện thực của hai quá trình Poisson độc lập:
+
+    p <- 0.3
+    y <- rbinom(n,1,p)
+    t1 <- t[y==1]
+    t2 <- t[y==0]
+
+Có thể vẽ số lần đến tích lũy $N_1(t),N_2(t)$. **Hình 13.9** minh họa hai quá trình tốc độ 3 và 7 trong $(0,5]$.
+
+### Quá trình Poisson hai chiều
+
+Trong hình vuông $(0,L]\times(0,L]$, số điểm là $\operatorname{Pois}(\lambda L^2)$. Khi biết số điểm, vị trí đều trên hình vuông, nên hoành độ, tung độ được tạo độc lập như Ví dụ 7.1.22:
+
+    L <- 5
+    lambda <- 10
+    n <- rpois(1,lambda*L^2)
+    x <- runif(n,0,L)
+    y <- runif(n,0,L)
+    plot(x,y,pch=4)
+
+## 13.6. Bài tập (trang PDF 554)
+
+**1.** Hành khách đến trạm xe buýt theo quá trình Poisson tốc độ $\lambda$. Các chuyến buýt cách nhau đúng $t$ phút. Chứng minh tổng thời gian chờ trung bình của hành khách đi một chuyến là $\lambda t^2/2$.
+
+**2.** Động đất xuất hiện theo quá trình Poisson tốc độ $\lambda$. Trận thứ $j$ có cường độ $Z_j$, độc lập cùng phân phối, trung bình $\mu$, phương sai $\sigma^2$. Tìm trung bình và phương sai tổng cường độ động đất đến thời điểm $t$.
+
+**3.** Alice nhận cuộc gọi theo quá trình Poisson tốc độ $\lambda$. Cô mất sạc điện thoại; thời gian pin còn là biến $T$ có trung bình $\mu$, phương sai $\sigma^2$. Gọi $N(T)$ là số cuộc gọi trước khi pin hết. Tìm $E[N(T)]$, $\operatorname{Var}[N(T)]$ và $\operatorname{Cov}(T,N(T))$.
+
+**4.** Email đến hộp thư Bob theo quá trình Poisson tốc độ $\lambda$ email/giờ. Mỗi email liên quan công việc với xác suất $p$, cá nhân với $1-p$. Thời gian trả lời email công việc có trung bình $\mu_W$, phương sai $\sigma_W^2$; email cá nhân có trung bình $\mu_P$, phương sai $\sigma_P^2$. Thời gian trả lời giữa các email độc lập. Tìm trung bình và phương sai tổng thời gian Bob trả lời mọi email đến trong $t$ giờ.
+
+**5.** Một trận bóng đá kéo dài vô hạn, bàn thắng xuất hiện theo quá trình Poisson tốc độ $\lambda$. Mỗi bàn do đội A ghi với xác suất $p$, B với $1-p$. Với $j>1$, bàn thứ $j$ gọi là *đảo chiều* nếu đội ghi khác đội của bàn trước; ví dụ trong AABBA…, bàn 3 và 5 là đảo chiều.
+
+(a) Trong $n$ bàn, số lần đảo chiều kỳ vọng là bao nhiêu?
+
+(b) Thời gian kỳ vọng giữa hai lần đảo chiều trong thời gian liên tục là bao nhiêu?
+
+**6.** $N_t$ là số lần đến đến thời điểm $t$ của quá trình tốc độ $\lambda$, $T_n$ là thời điểm lần đến thứ $n$. Xét các đẳng thức dạng
+$$P(N_t\ \square_1\ n)=P(T_n\ \square_2\ t),$$
+trong đó mỗi ô thay bằng $<,\le,\ge,>$. Những đẳng thức nào đúng?
+
+**7.** Yêu cầu bồi thường bảo hiểm đến theo quá trình Poisson tốc độ $\lambda>0$. Tổng cộng nhận $N$ yêu cầu trong hai giai đoạn dài $t_1,t_2$, với $t=t_1+t_2$.
+
+(a) Khi biết $N$, tìm phân phối có điều kiện của $N_1$, số yêu cầu trong giai đoạn đầu.
+
+(b) Tiền trả cho yêu cầu thứ $i$ là $X_i$, các $X_i$ độc lập cùng phân phối và độc lập với quá trình yêu cầu, $E(X_i)=\mu$, $\operatorname{Var}(X_i)=\sigma^2$. Khi biết $N$, tìm trung bình, phương sai tổng tiền trả ở giai đoạn đầu,
+$$W_1=\sum_{i=1}^{N_1}X_i,$$
+quy ước $W_1=0$ nếu $N_1=0$.
+
+**8.** Trên một trang hỏi đáp, ngày mai có $N\sim\operatorname{Pois}(\lambda_1)$ câu hỏi đăng lên, đơn vị câu/ngày. Khi biết $N$, thời điểm đăng độc lập đều trong ngày, tính từ nửa đêm đến nửa đêm. Sau khi đăng, thời gian đợi câu trả lời độc lập $\operatorname{Expo}(\lambda_2)$ ngày.
+
+(a) Tìm xác suất câu hỏi đăng vào thời điểm đều trong ngày mai vẫn chưa được trả lời lúc hết ngày.
+
+(b) Tìm phân phối đồng thời của số câu đã có và chưa có câu trả lời lúc hết ngày mai.
+
+**9.** *Quá trình Poisson không đồng nhất* một chiều có tốc độ là hàm không âm $\lambda(t)$, thay vì hằng số. Số lần đến trong $[t_1,t_2)$ có phân phối Poisson với trung bình $\int_{t_1}^{t_2}\lambda(t)\,dt$, và các khoảng rời nhau độc lập. Nếu $\lambda(t)$ hằng, ta trở lại quá trình đồng nhất.
+
+(a) Chứng minh cách tạo trong $[t_1,t_2)$: (1) lấy $\lambda_{\max}$ là giá trị lớn nhất của $\lambda(t)$ trên khoảng, dựng hình chữ nhật $[t_1,t_2)\times[0,\lambda_{\max}]$ và vẽ đường $\lambda(t)$; (2) lấy $N\sim\operatorname{Pois}(\lambda_{\max}(t_2-t_1))$ rồi đặt đều $N$ điểm trong hình; (3) nhận điểm dưới đường cong làm lần đến, dùng hoành độ là thời điểm, bác điểm phía trên. *Gợi ý:* Kiểm tra hai điều kiện định nghĩa.
+
+(b) Gọi $N(t)$ là số lần đến đến $t$, $T_j$ là thời điểm lần thứ $j$. Giải thích vì sao PDF hỗn hợp của toàn dữ liệu quan sát đến $t$, tức $N(t)$ cùng $T_1,\ldots,T_{N(t)}$, là
+$$f(n,t_1,\ldots,t_n)
+=e^{-\Lambda_{\rm total}}\frac{\Lambda_{\rm total}^n}{n!}
+\frac{n!\lambda(t_1)\cdots\lambda(t_n)}{\Lambda_{\rm total}^n}
+=e^{-\Lambda_{\rm total}}\lambda(t_1)\cdots\lambda(t_n),$$
+với $0<t_1<\cdots<t_n$, $n\ge0$, $\Lambda_{\rm total}=\int_0^t\lambda(u)\,du$.
+
+**10.** *Quá trình Cox* có tốc độ $\Lambda$ là biến ngẫu nhiên: tạo $\Lambda$ từ một phân phối trên $(0,\infty)$ rồi khi biết nó tạo quá trình Poisson tốc độ ấy.
+
+(a) Giải thích trực giác vì sao các khoảng rời nhau của quá trình Cox một chiều không độc lập.
+
+(b) Nếu $\Lambda\sim\operatorname{Gamma}(\alpha,\beta)$, tìm hiệp phương sai giữa số lần đến trong $[0,t)$ và $[t,t+s)$. *Gợi ý:* Điều kiện hóa theo $\Lambda$.
+
+**11.** Quá trình Yule tốc độ $\lambda$ có tốc độ tăng sau mỗi lần đến: khoảng chờ từ lần thứ $j-1$ tới lần thứ $j$ là $\operatorname{Expo}(j\lambda)$, $j=1,2,\ldots$. Các khoảng độc lập nhưng không cùng phân phối.
+
+(a) Chứng minh chồng hai quá trình Yule độc lập cùng tốc độ là quá trình Yule tốc độ $2\lambda$.
+
+(b) Chứng minh nếu chiếu quá trình chồng ở (a) lên thời gian rời rạc, dãy loại 1/loại 2 tương đương quá trình: bắt đầu có hai bóng trong bình, ghi số 1 và 2; chọn đều một bóng, ghi số nó, rồi bỏ lại cùng thêm một bóng mang cùng số; lặp lại.
+
+**12.** Bài sưu tập phiếu thưởng với $n$ loại đồ chơi, lấy từng món có hoàn lại. Khác Chương 4, ở mỗi bước loại $j$ có xác suất $p_j$ không nhất thiết bằng nhau. Gọi $N$ là số món đến khi đủ bộ; tìm $E(N)$ bằng cách nhúng. Giả sử đồ chơi đến theo quá trình Poisson tốc độ 1, các khoảng chờ $X_j$ độc lập $\operatorname{Expo}(1)$. Với $j=1,\ldots,n$, gọi $Y_j$ là …
+
+thời gian chờ đến món đầu tiên loại $j$.
+
+(a) Phân phối của các $Y_j$ là gì? Chúng có độc lập không?
+
+(b) Giải thích vì sao thời gian đợi đủ bộ $T=\max(Y_1,\ldots,Y_n)$ cũng bằng $X_1+\cdots+X_N$. Dùng điều này chứng minh $E(T)=E(N)$.
+
+(c) Chứng minh
+$$E(T)=E(N)=\int_0^\infty
+\left[1-\prod_{j=1}^{n}(1-e^{-p_jt})\right]\,dt.$$
+Có thể dùng $E(T)=\int_0^\infty P(T>t)\,dt$, kết quả ở Bài 20 Chương 5. Nó cũng theo đổi thứ tự tích phân:
+$$\int_0^\infty P(T>t)\,dt
+=\int_0^\infty\int_t^\infty f(u)\,du\,dt
+=\int_0^\infty f(u)\left(\int_0^u dt\right)du
+=\int_0^\infty uf(u)\,du,$$
+với $f$ là PDF của $T$.
+
+# Phụ lục A. Toán học (trang PDF 559)
+
+## A.1. Tập hợp
+
+> “Một tập hợp là cái Nhiều cho phép tự được nghĩ như cái Một.” — Georg Cantor
+
+> “Amazon nên đặt đám mây của họ trong một đám mây, để đám mây có tính dự phòng của đám mây.” — @dowens
+
+Tập hợp là một bộ sưu tập đối tượng: số, người, mèo, môn học, thậm chí tập hợp khác. Ngôn ngữ tập hợp giúp nói chính xác về biến cố. Nếu $S$ là tập, $x\in S$ nghĩa là $x$ là phần tử của $S$; $x\notin S$ nghĩa ngược lại. Có thể coi tập là câu lạc bộ với điều kiện thành viên được xác định rõ. Ví dụ:
+
+1. $\{1,3,5,7,\ldots\}$ là tập số lẻ.
+2. $\{\text{Worf, Jack, Tobey}\}$ là tập mèo của Joe.
+3. $[3,7]$ là đoạn đóng gồm mọi số thực từ 3 đến 7.
+4. $\{HH,HT,TH,TT\}$ là tập kết quả khi tung đồng xu hai lần; $HT$ nghĩa lần đầu ngửa, lần sau sấp.
+
+Khi liệt kê phần tử dài hoặc không thể, ta mô tả tập bằng quy tắc xác định đối tượng có thuộc tập không. Ví dụ
+$$\{(x,y):x,y\in\mathbb R,\ x^2+y^2\le1\}$$
+là hình tròn đặc bán kính 1 tâm gốc tọa độ.
+
+### A.1.1. Tập rỗng
+
+> Bu Fu nói với Chi Po: “Không, không! Anh mới chỉ vẽ cái đang có! Ai cũng vẽ được cái đang có; bí quyết thật sự là vẽ cái không có.” Chi Po đáp: “Nhưng cái không có là cái gì?” — Oscar Mandel [19]
+
+Tập nhỏ nhất, tinh tế và quan trọng, là *tập rỗng*, không có phần tử nào, ký hiệu $\varnothing$ hoặc $\{\}$. Đừng nhầm $\varnothing$ với $\{\varnothing\}$: tập thứ nhất không có phần tử, tập thứ hai có một phần tử. Hình dung tập rỗng là túi giấy trống thì $\{\varnothing\}$ là một túi giấy chứa một túi giấy trống.
+
+### A.1.2. Tập con
+
+$A$ là tập con của $B$, viết $A\subseteq B$, nếu mọi phần tử của $A$ cũng thuộc $B$. Tập số nguyên là tập con của tập số thực. $\varnothing$ và chính $A$ luôn là tập con của $A$, hai trường hợp biên. Để chứng minh $A\subseteq B$, lấy phần tử $x$ tùy ý của $A$ rồi chứng minh $x\in B$. Để chứng minh $A=B$, chứng minh mỗi tập là tập con của tập kia.
+
+### A.1.3. Hợp, giao, phần bù
+
+Hợp $A\cup B$ gồm mọi đối tượng thuộc $A$ hoặc $B$ hoặc cả hai. Giao $A\cap B$ gồm đối tượng thuộc cả hai. Hai tập *rời nhau* nếu $A\cap B=\varnothing$. Với $A_1,\ldots,A_n$, hợp gồm phần tử thuộc ít nhất một tập, giao gồm phần tử thuộc mọi tập.
+
+Trong nhiều ứng dụng, các tập đang xét là tập con của một tập nền $S$, chẳng hạn không gian mọi kết quả thí nghiệm. Khi $S$ rõ, *phần bù* $A^c$ gồm những phần tử của $S$ không thuộc $A$. Sơ đồ Venn trực quan hóa hợp, giao, bù. **Hình A.1** có toàn miền tô là $A\cup B$, vùng giao hình quả bóng bầu dục là $A\cap B$, phần ngoài $A$ trong hình chữ nhật là $A^c$. Diện tích $A\cup B$ bằng diện tích $A$ cộng $B$ trừ phần giao, dạng cơ bản của nguyên lý bao hàm–loại trừ.
+
+Hai định luật De Morgan:
+$$\left(\bigcup_{j=1}^{n}A_j\right)^c
+=\bigcap_{j=1}^{n}A_j^c,\qquad
+\left(\bigcap_{j=1}^{n}A_j\right)^c
+=\bigcup_{j=1}^{n}A_j^c.$$
+Hiểu ý nghĩa quan trọng hơn học thuộc. Không thuộc *ít nhất một* $A_j$ nghĩa là không thuộc *bất kỳ* $A_j$ nào. Ví dụ $A_j$ là nhóm người thích phần phim tiền truyện Star Wars thứ $j$: không thích ít nhất một trong ba phần theo nghĩa “không có phần nào mình thích” chính là không thích *The Phantom Menace*, *Attack of the Clones* và *Revenge of the Sith*. Định luật thứ hai: không thuộc *cả ba* nhóm nghĩa là có ít nhất một phần không thích.
+
+Hãy tập chứng minh bằng phần tử, không chỉ vẽ Venn:
+
+1. $A\cap B$ và $A\cap B^c$ rời nhau, hợp của chúng là $A$.
+2. $A\cap B=A$ khi và chỉ khi $A\subseteq B$.
+3. $A\subseteq B$ khi và chỉ khi $B^c\subseteq A^c$.
+
+### A.1.4. Phân hoạch
+
+Các tập con $A_1,\ldots,A_n$ của $S$ tạo thành *phân hoạch* nếu hợp bằng $S$ và $A_i\cap A_j=\varnothing$ với $i\ne j$. Tức các tập rời nhau phủ toàn bộ $S$. Ví dụ tập số chẵn không âm $\{0,2,4,\ldots\}$ và số lẻ dương $\{1,3,5,\ldots\}$ phân hoạch tập số nguyên không âm.
+
+### A.1.5. Lực lượng (trang PDF 562)
+
+Một tập hữu hạn hoặc vô hạn. Nếu hữu hạn, $|A|$ là số phần tử, còn gọi *lực lượng*; ví dụ $|\{2,4,6,8,10\}|=5$. Với hai tập hữu hạn,
+$$|A\cup B|=|A|+|B|-|A\cap B|.$$
+Đó là bao hàm–loại trừ: cộng số phần tử từng tập rồi trừ những phần tử đã đếm hai lần.
+
+Hai tập cùng lực lượng nếu có tương ứng một–một: ghép mỗi phần tử bên này với đúng một phần tử bên kia, không bỏ sót. $A$ nhỏ hơn $B$ nếu không có tương ứng một–một với toàn $B$ nhưng có với một tập con của $B$.
+
+Ví dụ rạp chiếu phim có 100 ghế, mỗi người ngồi một ghế và không ai đứng. Nếu mọi ghế có người, số người chắc chắn là 100 vì người–ghế tương ứng một–một. Nếu có ghế trống, số người nhỏ hơn 100. Cách này đỡ đếm sót hoặc đếm trùng.
+
+Tương ứng một–một cũng có nghĩa với tập vô hạn. Galileo chỉ ra nghịch lý: các số chính phương $1^2,2^2,3^2,\ldots$ dường như ít hơn số nguyên dương vì chỉ là một phần của chúng, nhưng lại ghép được một–một: $j^2$ ghép với $j$. Trực giác tập hữu hạn không luôn chuyển sang vô hạn. Theo định nghĩa, hai tập có cùng lực lượng.
+
+Một ví dụ nổi tiếng khác là *khách sạn Hilbert*. Khách sạn thực có hữu hạn phòng; nếu kín hết thì không chứa khách mới trừ khi nhét thêm người vào phòng. Nhưng khách sạn tưởng tượng có các phòng đánh số $1,2,3,\ldots$, tất cả đã kín. Một khách mệt mỏi mới đến. Liệu vẫn xếp được phòng cho người ấy mà không đuổi khách cũ? Có: chuyển khách ở phòng $n$ …
+
+sang phòng $n+1$ với mọi $n\ge1$. Phòng 1 được giải phóng cho khách mới.
+
+Nếu vô hạn khách mới đến cùng lúc, có thể đánh số khách $1,2,\ldots$, thì lặp thao tác trên từng người sẽ tốn vô hạn lượt chuyển và gây phiền cho khách cũ. Chỉ cần cập nhật phòng một lần: chuyển khách cũ phòng $n$ sang phòng $2n$, rồi xếp khách mới thứ $n$ vào phòng $2n-1$. Khách cũ ở phòng chẵn, khách mới ở phòng lẻ.
+
+Tập vô hạn có cùng lực lượng với tập số nguyên dương gọi là *vô hạn đếm được*. Tập *đếm được* nếu hữu hạn hoặc vô hạn đếm được; nếu không thì *không đếm được*. Cantor chứng minh không phải mọi tập vô hạn có cùng lực lượng. Tập số thực không đếm được, và mọi khoảng có độ dài dương trên trục thực cũng vậy.
+
+### A.1.6. Tích Descartes
+
+Tích Descartes của $A,B$ là
+$$A\times B=\{(a,b):a\in A,\ b\in B\}.$$
+Ví dụ $[0,1]\times[0,1]$ là hình vuông đơn vị; $\mathbb R\times\mathbb R=\mathbb R^2$ là mặt phẳng Euclid.
+
+## A.2. Hàm số (trang PDF 563)
+
+Với hai tập $A,B$, một hàm từ $A$ tới $B$ là quy tắc tất định: cho mỗi đầu vào thuộc $A$, nó trả về một đầu ra thuộc $B$. Các đầu vào khác nhau có thể cùng đầu ra, nhưng mỗi đầu vào có đúng một đầu ra. $A$ là *miền xác định*, $B$ là *tập đích*. Viết $f:A\to B$. *Ảnh* của $f$ là $\{y\in B:\text{có }x\in A\text{ với }f(x)=y\}$.
+
+Ví dụ quen thuộc $f(x)=x^2$ với mọi số thực $x$. Cần phân biệt $f$ (bản thân quy tắc) với $f(x)$ (giá trị ở $x$). Viết $g(x)=e^{-x^2/2}$ hay $g(t)=e^{-t^2/2}$ là cùng một hàm; tên biến đầu vào không quan trọng.
+
+Hàm $f:\mathbb R\to\mathbb R$ *liên tục* nếu $f(x)\to f(a)$ khi $x\to a$ với mọi $a$; *liên tục phải* nếu điều đó đúng khi $x\to a$ từ các giá trị $x>a$.
+
+Nói chung $A$ không cần gồm số, và hàm không cần công thức tường minh. Ví dụ, $A$ là tập các hàm liên tục dương trên $[0,1]$, còn $f$ nhận một hàm rồi trả diện tích dưới đồ thị từ 0 đến 1. Trong xác suất, nhiều hàm có miền là không gian mọi kết quả thí nghiệm. Dù khó viết công thức, chúng hợp lệ nếu quy tắc được xác định không mơ hồ.
+
+### A.2.1. Hàm một–một
+
+$f:A\to B$ là *đơn ánh* hay *một–một* nếu $x\ne y$ kéo theo $f(x)\ne f(y)$. Mỗi đầu ra ở $B$ có nhiều nhất một đầu vào của $A$ dẫn đến nó. Nếu $C$ là ảnh của hàm một–một $f$, hàm nghịch đảo $f^{-1}:C\to A$ gán cho $y$ phần tử $x$ duy nhất thỏa $f(x)=y$.
+
+$f(x)=x^2$ trên toàn $\mathbb R$ không đơn ánh vì $f(3)=f(-3)$. Nếu giới hạn miền vào $[0,\infty)$ và tập đích cũng $[0,\infty)$, nó đơn ánh với $f^{-1}(y)=\sqrt y$.
+
+### A.2.2. Hàm tăng và giảm
+
+Với $f:A\to\mathbb R$, $A\subseteq\mathbb R$, hàm *tăng* nếu $x\le y$ kéo theo $f(x)\le f(y)$. Định nghĩa cho phép đoạn bằng phẳng; hàm hằng 42 cũng là hàm tăng theo nghĩa này. Hàm *tăng nghiêm ngặt* nếu $x<y$ kéo theo $f(x)<f(y)$; ví dụ $x^3$.
+
+**Lưu ý A.2.1.** Một số tài liệu gọi “tăng” ở đây là “không giảm” hoặc “tăng yếu”, còn gọi “tăng nghiêm ngặt” là “tăng”.
+
+Tương tự, hàm *giảm* nếu $x\le y$ kéo theo $f(x)\ge f(y)$; *giảm nghiêm ngặt* nếu $x<y$ kéo theo $f(x)>f(y)$. Ví dụ $1/x$ trên $(0,\infty)$. *Đơn điệu* nghĩa là tăng hoặc giảm; *đơn điệu nghiêm ngặt* nghĩa là tăng hoặc giảm nghiêm ngặt. Mọi hàm đơn điệu nghiêm ngặt đều một–một. *Ghi chú bản dịch:* Bản gốc ở câu này lặp “tăng nghiêm ngặt” hai lần; vế sau phải là “giảm nghiêm ngặt”.
+
+### A.2.3. Hàm chẵn và lẻ (trang PDF 565)
+
+Với $f:\mathbb R\to\mathbb R$, $f$ *chẵn* nếu $f(x)=f(-x)$ mọi $x$; *lẻ* nếu $-f(x)=f(-x)$. Nếu không thỏa điều nào, hàm không chẵn cũng không lẻ.
+
+**Hình A.2.** Bên trái là hai hàm chẵn $x^2$ và $e^{-x^2/2}$; bên phải là hai hàm lẻ $x^3$ và $xe^{-x^2/2}$. Đồ thị hàm chẵn không đổi khi phản chiếu qua trục đứng, đồ thị hàm lẻ không đổi khi quay 180 độ quanh gốc.
+
+Với $a\ge0$ và tích phân tồn tại,
+$$\int_{-a}^{a}f(x)\,dx
+=2\int_0^a f(x)\,dx\quad\text{nếu }f\text{ chẵn},$$
+vì diện tích hai phía bằng nhau; còn
+$$\int_{-a}^{a}f(x)\,dx=0\quad\text{nếu }f\text{ lẻ},$$
+vì phần âm và dương triệt tiêu.
+
+### A.2.4. Hàm lồi và lõm
+
+Hàm $g$ trên khoảng $I$ là *lồi* nếu
+$$g(px_1+(1-p)x_2)\le pg(x_1)+(1-p)g(x_2)$$
+với mọi $x_1,x_2\in I$, $p\in(0,1)$. Về hình học, đoạn thẳng nối hai điểm trên đồ thị nằm phía trên đồ thị. Nếu $g'$ tồn tại, tương đương mọi tiếp tuyến nằm dưới đồ thị; nếu $g''$ tồn tại, tương đương $g''(x)\ge0$ trên $I$. Ví dụ $g(x)=x^2$ có $g''=2>0$. **Hình A.3** minh họa các dây cung phía trên và tiếp tuyến phía dưới đồ thị hàm lồi.
+
+$g$ *lõm* nếu $-g$ lồi; nếu $g''$ tồn tại, tương đương $g''(x)\le0$. Ví dụ $\log x$ lõm trên $(0,\infty)$ vì đạo hàm bậc hai $-1/x^2<0$.
+
+### A.2.5. Hàm mũ và logarit
+
+Hàm mũ có dạng $f(x)=a^x$, $a>0$. Nếu $a>1$ thì tăng, nếu $0<a<1$ thì giảm. Hàm thường dùng nhất là $e^x$, với giới hạn
+$$\left(1+\frac xn\right)^n\to e^x\quad(n\to\infty)$$
+cho mọi số thực $x$. Có thể hiểu qua lãi kép: càng ghép lãi nhiều lần mỗi năm, tăng trưởng càng gần hàm mũ.
+
+Các tính chất:
+$$a^xa^y=a^{x+y},\qquad a^xb^x=(ab)^x,\qquad(a^x)^y=a^{xy}.$$
+Nghịch đảo của hàm mũ là logarit: $\log_a y$ là $x$ sao cho $a^x=y$, với $y>0$. Trong sách, $\log$ không ghi cơ số nghĩa là logarit tự nhiên cơ số $e$. Các tính chất:
+$$\log_a x+\log_a y=\log_a(xy),\quad
+\log_a(x^n)=n\log_a x,\quad
+\log_a x=\frac{\log x}{\log a}.$$
+
+### A.2.6. Hàm sàn và trần
+
+*Hàm sàn* $\lfloor x\rfloor$ là số nguyên lớn nhất không vượt $x$, tức làm tròn xuống: $\lfloor3{,}14\rfloor=3$, $\lfloor-1{,}3\rfloor=-2$, $\lfloor5\rfloor=5$. Một số sách dùng $[x]$, nhưng ký hiệu ấy dễ lẫn và không gợi ký hiệu hàm trần.
+
+*Hàm trần* $\lceil x\rceil$ là số nguyên nhỏ nhất không dưới $x$: $\lceil3{,}14\rceil=4$, $\lceil-1{,}3\rceil=-1$, $\lceil5\rceil=5$.
+
+### A.2.7. Giai thừa và hàm Gamma (trang PDF 568)
+
+Với số nguyên dương $n$, $n!=1\cdot2\cdots n$, đọc là “$n$ giai thừa”; quy ước $0!=1$. Nếu $n!$ đếm số cách xếp hàng $n$ người, khi $n=0$ có đúng một hàng trống. Quy ước cũng giúp $n!/(n-1)!=n$ đúng cả khi $n=1$.
+
+Giai thừa tăng rất nhanh. Công thức Stirling xấp xỉ
+$$n!\approx\sqrt{2\pi n}(n/e)^n,$$
+với tỷ số hai vế tiến tới 1. Chẳng hạn $52!\approx8{,}066\times10^{67}$ theo tính trực tiếp, Stirling cho $8{,}053\times10^{67}$.
+
+*Hàm Gamma* $\Gamma$ mở rộng giai thừa sang số thực dương:
+$$\Gamma(a)=\int_0^\infty x^{a-1}e^{-x}\,dx,\qquad a>0.$$
+Nó thỏa $\Gamma(n)=(n-1)!$ với số nguyên dương $n$, $\Gamma(1/2)=\sqrt\pi$, và
+$$\Gamma(a+1)=a\Gamma(a),$$
+tổng quát hóa $n!=n(n-1)!$. Xem Chương 8.
+
+## A.3. Ma trận
+
+> Neo: “Ma trận là gì?” Trinity: “Câu trả lời ở ngoài kia, Neo. Nó đang tìm anh và sẽ tìm thấy anh nếu anh muốn.” — *The Matrix* (1999)
+
+Ma trận là bảng số hình chữ nhật, chẳng hạn
+$$\begin{pmatrix}3&2\pi\\1/e&1\end{pmatrix}
+\quad\text{hoặc}\quad
+\begin{pmatrix}1&1&0\\1&2&3\end{pmatrix}.$$
+Ma trận $m\times n$ có $m$ hàng, $n$ cột; ví dụ đầu $2\times2$, ví dụ sau $2\times3$. Nếu $m=n$ thì *vuông*; $m=1$ là vector hàng, $n=1$ là vector cột.
+
+### A.3.1. Cộng và nhân ma trận
+
+Hai ma trận cùng kích thước cộng theo từng ô, ví dụ
+$$\begin{pmatrix}1&1&0\\1&1&1\end{pmatrix}
++\begin{pmatrix}1&0&0\\1&1&0\end{pmatrix}
+=\begin{pmatrix}2&1&0\\2&2&1\end{pmatrix}.$$
+
+Nhân ma trận $A$ kích thước $m\times n$ với $B$ kích thước $n\times r$ được $AB$ kích thước $m\times r$. Phép nhân chỉ định nghĩa khi số cột $A$ bằng số hàng $B$. Ô hàng $i$, cột $j$ là $\sum_{k=1}^{n}a_{ik}b_{kj}$. Ví dụ
+$$\begin{pmatrix}1&2&3\\4&5&6\end{pmatrix}
+\begin{pmatrix}7\\8\\9\end{pmatrix}
+=\begin{pmatrix}1\cdot7+2\cdot8+3\cdot9\\
+4\cdot7+5\cdot8+6\cdot9\end{pmatrix}
+=\begin{pmatrix}50\\122\end{pmatrix}.$$
+Nói chung $AB\ne BA$, ngay cả khi cả hai tích có nghĩa. Nhân ma trận với một số thì nhân từng ô.
+
+*Chuyển vị* $A^\mathsf T$ đổi hàng thành cột: ô $(i,j)$ bằng ô $(j,i)$ của $A$. Sách ký hiệu $A'$ và đọc “A chuyển vị”. Với tích xác định, $(AB)^\mathsf T=B^\mathsf TA^\mathsf T$. *Định thức* của $\begin{pmatrix}a&b\\c&d\end{pmatrix}$ là $ad-bc$; định thức ma trận vuông bậc cao có thể định nghĩa đệ quy, không ôn ở đây.
+
+### A.3.2. Trị riêng và vector riêng
+
+Trị riêng của ma trận vuông $A$ kích thước $n\times n$ là số $\lambda$ sao cho
+$$A\mathbf v=\lambda\mathbf v$$
+với vector cột $\mathbf v\ne0$. $\mathbf v$ là *vector riêng bên phải*; vector hàng $\mathbf w$ thỏa $\mathbf wA=\lambda\mathbf w$ là *vector riêng bên trái*. Nhân $A$ với vector riêng chỉ đổi độ dài theo hệ số $\lambda$ (và có thể đảo hướng nếu $\lambda<0$).
+
+Một số ma trận không có trị riêng thực. Nhưng định lý Perron–Frobenius cho trường hợp quan trọng ở Chương 11: nếu $A$ vuông, mọi ô không âm, mỗi hàng cộng bằng 1, và với mọi $i,j$ có $k\ge1$ sao cho ô $(i,j)$ của $A^k$ dương, thì 1 là trị riêng, là trị riêng lớn nhất, với vector riêng tương ứng có mọi thành phần dương.
+
+## A.4. Phương trình sai phân (trang PDF 570)
+
+Phương trình sai phân mô tả dãy số qua hiệu giữa những số liên tiếp. Ví dụ
+$$p_{i+1}-p_i=r(p_i-p_{i-1})$$
+cho dãy có các hiệu $a_i=p_i-p_{i-1}$ lập thành cấp số nhân công bội $r$. Có nhiều dãy như vậy, nên phương trình mô tả cả một họ nghiệm.
+
+Ta giải dạng
+$$p_i=p\,p_{i+1}+q\,p_{i-1},$$
+với $p,q$ là hằng số. Đoán nghiệm $p_i=x^i$, thay vào được $x^i=px^{i+1}+qx^{i-1}$, tức *phương trình đặc trưng*
+$$px^2-x+q=0.$$
+Nếu có hai nghiệm phân biệt $r_1,r_2$, nghiệm tổng quát là $p_i=ar_1^i+br_2^i$; nếu nghiệm kép $r$, là $p_i=ar^i+bir^i$.
+
+Trong trường hợp đang xét với $p+q=1$, nghiệm đặc trưng là 1 và $q/p$. Nếu $p\ne q$,
+$$p_i=a+b(q/p)^i;$$
+nếu $p=q$, $p_i=a+bi$. Các hằng số $a,b$ chưa xác định; cần biết hai giá trị trong dãy để tìm nghiệm cụ thể.
+
+## A.5. Phương trình vi phân (trang PDF 571)
+
+Phương trình vi phân là phiên bản liên tục của phương trình sai phân, dùng đạo hàm mô tả một hàm hoặc họ hàm. Ví dụ
+$$\frac{dy}{dx}=3y$$
+nói tốc độ thay đổi tức thời tại $(x,y)$ bằng $3y$. Đây là phương trình *tách biến* vì đưa $x,y$ sang hai vế:
+$$\frac{dy}{y}=3\,dx.$$
+Lấy tích phân được $\log y=3x+c$, hay $y=Ce^{3x}$ với hằng số $C$ bất kỳ. Đây là nghiệm tổng quát; biết thêm một điểm trên đồ thị sẽ xác định $C$. Phương trình không tách biến có phương pháp giải khác, sách không ôn.
+
+## A.6. Đạo hàm riêng (trang PDF 572)
+
+Đạo hàm riêng giống đạo hàm thường, chỉ giữ các biến đầu vào khác cố định. Với $f(x,y)=y\sin(x^2+y^3)$,
+$$\frac{\partial f}{\partial x}=2xy\cos(x^2+y^3),\qquad
+\frac{\partial f}{\partial y}
+=\sin(x^2+y^3)+3y^3\cos(x^2+y^3).$$
+*Ma trận Jacobi* của phép biến đổi $(x_1,\ldots,x_n)\mapsto(y_1,\ldots,y_n)$ là ma trận $n\times n$ mọi đạo hàm riêng:
+$$\frac{\partial\mathbf y}{\partial\mathbf x}
+=\begin{pmatrix}
+\partial y_1/\partial x_1&\cdots&\partial y_1/\partial x_n\\
+\vdots&\ddots&\vdots\\
+\partial y_n/\partial x_1&\cdots&\partial y_n/\partial x_n
+\end{pmatrix}.$$
+
+## A.7. Tích phân nhiều lớp
+
+Tích phân nhiều lớp chỉ là lấy nhiều tích phân, giữ biến khác cố định ở từng lượt. Ví dụ
+$$\begin{aligned}
+\int_0^1\int_0^y(x-y)^2\,dx\,dy
+&=\int_0^1\int_0^y(x^2-2xy+y^2)\,dx\,dy\\
+&=\int_0^1[x^3/3-x^2y+xy^2]_{x=0}^{x=y}\,dy\\
+&=\int_0^1 y^3/3\,dy=\frac1{12}.
+\end{aligned}$$
+
+### A.7.1. Đổi thứ tự tích phân
+
+Cũng có thể lấy $dy\,dx$ trước, nếu sửa cận cẩn thận. Miền là $0\le x\le y\le1$, nên
+$$\begin{aligned}
+\int_0^1\int_x^1(x-y)^2\,dy\,dx
+&=\int_0^1[x^2y-xy^2+y^3/3]_{y=x}^{y=1}\,dx\\
+&=\int_0^1(x^2-x+1/3-x^3/3)\,dx\\
+&=[x^3/3-x^2/2+x/3-x^4/12]_0^1
+=\frac1{12}.
+\end{aligned}$$
+
+### A.7.2. Đổi biến
+
+Đổi biến trong tích phân nhiều lớp cần định thức Jacobi. Với phép biến đổi hai chiều $x=g(u,v)$, $y=h(u,v)$,
+$$\iint f(x,y)\,dx\,dy
+=\iint f(g(u,v),h(u,v))
+\left|\frac{\partial(x,y)}{\partial(u,v)}\right|\,du\,dv,$$
+với miền tích phân tương ứng. Giả sử các đạo hàm riêng tồn tại, liên tục và định thức khác 0.
+
+Để tìm diện tích hình tròn đơn vị, tích phân hàm 1 trên $x^2+y^2\le1$:
+$$\iint_{x^2+y^2\le1}1\,dx\,dy
+=\int_{-1}^{1}\int_{-\sqrt{1-y^2}}^{\sqrt{1-y^2}}1\,dx\,dy
+=2\int_{-1}^{1}\sqrt{1-y^2}\,dy.$$
+Cận tích phân trong theo $x$ phụ thuộc $y$, còn cận ngoài cố định. Có thể dùng thế lượng giác, nhưng tọa độ cực đơn giản hơn: $x=r\cos\theta$, $y=r\sin\theta$, $0\le\theta<2\pi$. Ma trận Jacobi là
+$$\frac{\partial(x,y)}{\partial(r,\theta)}
+=\begin{pmatrix}\cos\theta&-r\sin\theta\\
+\sin\theta&r\cos\theta\end{pmatrix},$$
+định thức có trị tuyệt đối $r(\cos^2\theta+\sin^2\theta)=r$. Vậy $dx\,dy$ trở thành $r\,dr\,d\theta$, diện tích là
+$$\int_0^{2\pi}\int_0^1r\,dr\,d\theta
+=\int_0^{2\pi}\frac12\,d\theta=\pi.$$
+Với bán kính $r$, diện tích $\pi r^2$ qua đổi đơn vị đo. Công tính toán có vẻ nhiều cho kết quả quen thuộc, nhưng cách tương tự cho thể tích hình cầu mọi chiều: hình cầu đơn vị trong $n$ chiều có thể tích $\pi^{n/2}/\Gamma(n/2+1)$.
+
+## A.8. Các tổng (trang PDF 574)
+
+> Rùa hỏi: “Anh đã tới cuối đường đua của chúng ta rồi sao? Dù nó gồm vô hạn quãng đường? Tôi tưởng ai đó đã chứng minh không thể hoàn thành.” Achilles đáp: “Có thể chứ, và tôi đã làm được! *Solvitur ambulando.* Các quãng đường cứ ngắn dần.” — Lewis Carroll [3]
+
+Có vài loại tổng thường gặp trong xác suất.
+
+### A.8.1. Cấp số nhân
+
+Chuỗi $\sum_{n=0}^{\infty}x^n$ là *cấp số nhân*. Với $|x|<1$,
+$$\sum_{n=0}^{\infty}x^n=\frac1{1-x}.$$
+Nếu $|x|\ge1$, chuỗi phân kỳ. Tổng hữu hạn tương ứng, với $x\ne1$, là
+$$\sum_{k=0}^{n}x^k=\frac{1-x^{n+1}}{1-x}.$$
+
+### A.8.2. Khai triển Taylor của $e^x$
+
+Với mọi $x$,
+$$e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}.$$
+
+### A.8.3. Chuỗi điều hòa và các tổng lũy thừa cố định
+
+Chuỗi $\sum_{n=1}^{\infty}1/n^c$ hội tụ khi $c>1$, phân kỳ khi $c\le1$. Với $c=1$, đây là *chuỗi điều hòa*. Tổng $n$ hạng đầu khi $n$ lớn:
+$$\sum_{k=1}^{n}\frac1k\approx\log n+\gamma,$$
+với hằng số Euler–Mascheroni $\gamma\approx0{,}577$.
+
+Các công thức tổng hữu hạn:
+$$\sum_{k=1}^{n}k=\frac{n(n+1)}2,\qquad
+\sum_{k=1}^{n}k^2=\frac{n(n+1)(2n+1)}6.$$
+Đáng ngạc nhiên, tổng các lập phương bằng bình phương tổng các số:
+$$\sum_{k=1}^{n}k^3=\left(\frac{n(n+1)}2\right)^2.$$
+
+### A.8.4. Định lý nhị thức
+
+$$
+(x+y)^n=\sum_{k=0}^{n}\binom nk x^ky^{n-k},\qquad
+\binom nk=\frac{n!}{(n-k)!k!}.
+$$
+Hệ số nhị thức đếm số cách chọn $k$ đối tượng từ $n$ mà không xét thứ tự. Chứng minh ở Ví dụ 1.4.17.
+
+## A.9. Nhận dạng cấu trúc (trang PDF 576)
+
+Phần lớn toán và thống kê là nhận dạng cấu trúc: thấy cốt lõi bài toán, nhận ra hai bài chỉ khác lớp vỏ, phát hiện đối xứng, v.v. Sách đã có nhiều ví dụ. Chẳng hạn với $\lambda>0$,
+$$\sum_{k=0}^{\infty}
+\frac{e^{tk}e^{-\lambda}\lambda^k}{k!}
+=e^{-\lambda}\sum_{k=0}^{\infty}\frac{(\lambda e^t)^k}{k!}
+=e^{-\lambda}e^{\lambda e^t}
+=e^{\lambda(e^t-1)}.$$
+Ta đưa $e^{-\lambda}$ ra ngoài rồi nhận phần còn lại là chuỗi Taylor của hàm mũ.
+
+Tương tự, để tìm chuỗi Taylor của $1/(1-x^3)$ quanh 0, không cần lấy nhiều đạo hàm. Nhận ra cấp số nhân:
+$$\frac1{1-x^3}=\sum_{n=0}^{\infty}x^{3n},\qquad |x|<1.$$
+Điều quan trọng là cấu trúc, không phải tên biến.
+
+## A.10. Lẽ thường và kiểm tra đáp án
+
+Trong xác suất rất dễ sai, nên cần kiểm tra đáp án. Một số cách: xét trực giác (dù xác suất có nhiều kết quả ban đầu trái trực giác); kiểm tra lỗi nhầm loại đại lượng hoặc trường hợp “nguy hại sinh học” đã nêu trong sách; thử ví dụ đơn giản hoặc cực đoan; dùng cách giải khác, kể cả chỉ cho chặn hoặc xấp xỉ như bất đẳng thức Chương 10 hay mô phỏng.
+
+Các lập luận sai sau cho thấy lợi ích của việc kiểm tra:
+
+1. “$\int_{-\infty}^{\infty}x^{-2}\,dx=[-x^{-1}]_{-\infty}^{\infty}=-2$.” Điều này vô lý vì $1/x^2>0$ ở nơi xác định; tích phân không thể âm. Thực ra tích phân suy rộng phân kỳ tại 0.
+2. “Tính $\int1/x\,dx$ bằng từng phần: đặt $u=1/x$, $dv=dx$, được $\int1/x\,dx=1+\int1/x\,dx$, suy ra $0=1$.” Lập luận đã bỏ qua hằng số tích phân tùy ý, và phép chuyển vế không tạo mâu thuẫn thật.
+3. “Chứng minh mọi con ngựa cùng màu bằng quy nạp.” Với một con thì đúng. Giả sử mọi nhóm $k$ con cùng màu; với nhóm $k+1$, bỏ con già nhất còn $k$ con cùng màu, bỏ con trẻ nhất cũng vậy; suy ra cả nhóm cùng màu. Đây là ví dụ của George Pólya. Điểm hỏng là bước từ $k=1$ sang $k=2$: hai nhóm sau khi bỏ từng con không có con chung để nối kết màu sắc.
+4. “Có 19 số nguyên từ 12 đến 31 kể cả hai đầu vì $31-12=19$.” Lỗi lệch một rất thường gặp trong toán và lập trình. Thực ra có 20 số; kiểm tra $1$ đến $10$ có 10 số dù $10-1=9$.
+
+# Phụ lục B. R (trang PDF 579)
+
+## B.1. Vector
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>c(1,1,0,2.7,3.1)</code> | Tạo vector $(1,1,0,2{,}7,3{,}1)$. |
+| <code>1:100</code> | Tạo $(1,2,\ldots,100)$. |
+| <code>(1:100)^3</code> | Tạo $(1^3,2^3,\ldots,100^3)$. |
+| <code>rep(0,50)</code> | Vector 50 số 0. |
+| <code>seq(0,99,3)</code> | $(0,3,6,\ldots,99)$. |
+| <code>v[5]</code> | Phần tử thứ 5 của <code>v</code>; R đánh số từ 1. |
+| <code>v[-5]</code> | Mọi phần tử trừ thứ 5. |
+| <code>v[c(3,1,4)]</code> | Phần tử thứ 3, 1, 4 theo thứ tự ấy. |
+| <code>v[v>2]</code> | Các phần tử lớn hơn 2. |
+| <code>which(v>2)</code> | Chỉ số phần tử lớn hơn 2. |
+| <code>which(v==7)</code> | Chỉ số phần tử bằng 7. |
+| <code>min(v)</code>, <code>max(v)</code> | Giá trị nhỏ nhất, lớn nhất. |
+| <code>which.max(v)</code> | Chỉ số đạt giá trị lớn nhất. |
+| <code>sum(v)</code> | Tổng phần tử. |
+| <code>cumsum(v)</code> | Tổng tích lũy. |
+| <code>prod(v)</code> | Tích phần tử. |
+| <code>rank(v)</code> | Thứ hạng các phần tử. |
+| <code>length(v)</code> | Độ dài vector. |
+| <code>sort(v)</code> | Sắp tăng. |
+| <code>unique(v)</code> | Liệt kê mỗi giá trị một lần. |
+| <code>tabulate(v)</code> | Đếm số lần mỗi giá trị xuất hiện. |
+| <code>table(v)</code> | Như trên, trình bày dạng bảng. |
+| <code>c(v,w)</code> | Ghép nối hai vector. |
+| <code>union(v,w)</code> | Hợp hai tập giá trị. |
+| <code>intersect(v,w)</code> | Giao hai tập giá trị. |
+| <code>v+w</code>, <code>v*w</code> | Cộng, nhân theo từng phần tử; tái sử dụng phần tử nếu cần. |
+
+## B.2. Ma trận (trang PDF 580)
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>matrix(c(1,3,5,7), nrow=2, ncol=2)</code> | Tạo ma trận $\begin{pmatrix}1&5\\3&7\end{pmatrix}$. |
+| <code>dim(A)</code> | Kích thước ma trận $A$. |
+| <code>diag(A)</code> | Trích đường chéo của $A$. |
+| <code>diag(c(1,7))</code> | Tạo ma trận chéo $\begin{pmatrix}1&0\\0&7\end{pmatrix}$. |
+| <code>rbind(u,v,w)</code> | Ghép vector thành các hàng. |
+| <code>cbind(u,v,w)</code> | Ghép vector thành các cột. |
+| <code>t(A)</code> | Chuyển vị của $A$. |
+| <code>A[2,3]</code> | Ô hàng 2, cột 3. |
+| <code>A[2,]</code> | Hàng 2 dưới dạng vector. |
+| <code>A[,3]</code> | Cột 3 dưới dạng vector. |
+| <code>A[c(1,3),c(2,4)]</code> | Ma trận con giữ hàng 1, 3 và cột 2, 4. |
+| <code>rowSums(A)</code>, <code>rowMeans(A)</code> | Tổng, trung bình từng hàng. |
+| <code>colSums(A)</code>, <code>colMeans(A)</code> | Tổng, trung bình từng cột. |
+| <code>eigen(A)</code> | Trị riêng và vector riêng. |
+| <code>solve(A)</code> | Nghịch đảo $A^{-1}$. |
+| <code>solve(A,b)</code> | Giải $A\mathbf x=\mathbf b$. |
+| <code>A %*% B</code> | Nhân ma trận $AB$. |
+| <code>A %^% k</code> | Lũy thừa $A^k$ với gói <code>expm</code>. |
+
+## B.3. Toán học (trang PDF 581)
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>abs(x)</code> | $|x|$. |
+| <code>exp(x)</code> | $e^x$. |
+| <code>log(x)</code> | $\log x$. |
+| <code>log(x,b)</code> | $\log_bx$. |
+| <code>sqrt(x)</code> | $\sqrt x$. |
+| <code>floor(x)</code>, <code>ceiling(x)</code> | $\lfloor x\rfloor$, $\lceil x\rceil$. |
+| <code>factorial(n)</code>, <code>lfactorial(n)</code> | $n!$, $\log(n!)$; dạng log giúp tránh tràn số. |
+| <code>gamma(a)</code>, <code>lgamma(a)</code> | $\Gamma(a)$, $\log\Gamma(a)$; dạng log giúp tránh tràn số. |
+| <code>choose(n,k)</code> | Hệ số nhị thức $\binom nk$. |
+| <code>pbirthday(k)</code> | Giải bài toán sinh nhật cho $k$ người. |
+| <code>if (x>0) x^2 else x^3</code> | $x^2$ nếu $x>0$, ngược lại $x^3$. |
+| <code>f <- function(x) exp(-x)</code> | Định nghĩa $f(x)=e^{-x}$. |
+| <code>integrate(f, lower=0, upper=Inf)</code> | Tính số $\int_0^\infty f(x)\,dx$. |
+| <code>optimize(f,lower=0,upper=5,maximum=TRUE)</code> | Tối đa $f$ bằng số trên $[0,5]$. |
+| <code>uniroot(f, lower=0, upper=5)</code> | Tìm nghiệm $f(x)=0$ bằng số trên $[0,5]$. |
+
+## B.4. Lấy mẫu và mô phỏng
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>sample(7)</code> | Hoán vị ngẫu nhiên $1,\ldots,7$. |
+| <code>sample(52,5)</code> | Chọn năm lần không hoàn lại từ $1,\ldots,52$. |
+| <code>sample(letters,5)</code> | Chọn năm chữ cái không hoàn lại. |
+| <code>sample(3,5,replace=TRUE,prob=p)</code> | Chọn năm lần có hoàn lại từ $1,2,3$ với xác suất trong <code>p</code>. |
+| <code>replicate(10^4,experiment)</code> | Mô phỏng 10.000 lần thí nghiệm. |
+
+## B.5. Vẽ đồ thị (trang PDF 582)
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>curve(f, from=a, to=b)</code> | Vẽ hàm $f$ từ $a$ đến $b$. |
+| <code>plot(x,y)</code> | Biểu đồ phân tán các điểm $(x_i,y_i)$. |
+| <code>plot(x,y,type="l")</code> | Đồ thị đường nối các điểm. |
+| <code>points(x,y)</code>, <code>lines(x,y)</code> | Thêm điểm hoặc đoạn thẳng vào hình hiện có. |
+| <code>abline(a,b)</code> | Thêm đường thẳng hệ số chặn $a$, hệ số góc $b$. |
+| <code>hist(x, breaks=b, col="blue")</code> | Biểu đồ tần suất màu xanh; gợi ý $b$ khoảng. |
+| <code>par(new=TRUE)</code> | Không xóa vùng vẽ trước khi vẽ tiếp. |
+| <code>par(mfrow=c(1,2))</code> | Bố cục hai biểu đồ đặt cạnh nhau. |
+
+## B.6. Lập trình
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>x <- pi</code> | Gán $x=\pi$. |
+| <code>x>3 && x<5</code> | Kiểm tra $3<x<5$, trả TRUE/FALSE. |
+| <code>x>3 \|\| x<5</code> | Kiểm tra $x>3$ hoặc $x<5$. |
+| <code>if (n>3) x <- x+1</code> | Tăng $x$ một đơn vị nếu $n>3$. |
+| <code>if (n==0) x <- x+1 else x <- x+2</code> | Tăng $x$ một nếu $n=0$, ngược lại tăng hai. |
+| <code>v<-rep(0,50); for (k in 1:50) v[k]<-pbirthday(k)</code> | Giải bài toán sinh nhật đến 50 người. |
+
+## B.7. Thống kê tóm tắt
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>mean(v)</code>, <code>var(v)</code>, <code>sd(v)</code> | Trung bình, phương sai, độ lệch chuẩn mẫu. |
+| <code>median(v)</code> | Trung vị mẫu. |
+| <code>summary(v)</code> | Giá trị nhỏ nhất, tứ phân vị thứ nhất, trung vị, trung bình, tứ phân vị thứ ba, lớn nhất. |
+| <code>quantile(v,p)</code> | Phân vị mẫu bậc $p$. |
+| <code>cov(v,w)</code>, <code>cor(v,w)</code> | Hiệp phương sai, hệ số tương quan mẫu. |
+
+## B.8. Các phân phối (trang PDF 583)
+
+| Lệnh | Tác dụng |
+|---|---|
+| <code>help(distributions)</code> | Xem tài liệu về phân phối. |
+| <code>dbinom(k,n,p)</code> | PMF $P(X=k)$ với $X\sim\operatorname{Bin}(n,p)$. |
+| <code>pbinom(x,n,p)</code> | CDF $P(X\le x)$ của nhị thức. |
+| <code>qbinom(a,n,p)</code> | Phân vị $\min\{x:P(X\le x)\ge a\}$. |
+| <code>rbinom(r,n,p)</code> | Vector $r$ biến nhị thức độc lập. |
+| <code>dgeom(k,p)</code> | PMF hình học $\operatorname{Geom}(p)$. |
+| <code>dhyper(k,w,b,n)</code> | PMF siêu bội $\operatorname{HGeom}(w,b,n)$. |
+| <code>dnbinom(k,r,p)</code> | PMF nhị thức âm $\operatorname{NBin}(r,p)$. |
+| <code>dpois(k,r)</code> | PMF Poisson tham số $r$. |
+| <code>dbeta(x,a,b)</code>, <code>dcauchy(x)</code> | PDF Beta, Cauchy. |
+| <code>dchisq(x,n)</code>, <code>dexp(x,b)</code> | PDF chi bình phương $\chi_n^2$, mũ tốc độ $b$. |
+| <code>dgamma(x,a,r)</code> | PDF Gamma dạng/tham số tốc độ $(a,r)$. |
+| <code>dlnorm(x,m,s)</code> | PDF log chuẩn $\operatorname{LN}(m,s^2)$. |
+| <code>dnorm(x,m,s)</code> | PDF chuẩn $N(m,s^2)$. |
+| <code>dt(x,n)</code>, <code>dunif(x,a,b)</code> | PDF Student-t, đều. |
+
+Các phân phối trên cũng có lệnh dạng <code>p</code> cho CDF, <code>q</code> cho phân vị và <code>r</code> cho tạo mẫu. Ví dụ <code>pnorm</code>, <code>qnorm</code>, <code>rnorm</code> dùng trung bình và *độ lệch chuẩn*, không phải phương sai. Với đa thức có <code>dmultinom</code> cho PMF đồng thời, <code>rmultinom</code> tạo vector. Với chuẩn nhiều chiều, sau khi cài gói <code>mvtnorm</code> có <code>dmvnorm</code> cho PDF đồng thời, <code>rmvnorm</code> tạo vector.
+
+# Phụ lục C. Bảng các phân phối (trang PDF 585)
+
+Trong các dòng sau, $q=1-p$. Cột “giá trị” nêu PMF hoặc PDF trên miền tương ứng.
+
+| Tên | Tham số | PMF hoặc PDF | Kỳ vọng | Phương sai |
+|---|---|---|---|---|
+| Bernoulli | $p$ | $P(X=1)=p,\ P(X=0)=q$ | $p$ | $pq$ |
+| Nhị thức | $n,p$ | $\binom nk p^kq^{n-k}$, $k=0,\ldots,n$ | $np$ | $npq$ |
+| FS (số phép thử đến thành công đầu) | $p$ | $pq^{k-1}$, $k=1,2,\ldots$ | $1/p$ | $q/p^2$ |
+| Hình học | $p$ | $pq^k$, $k=0,1,\ldots$ | $q/p$ | $q/p^2$ |
+| Nhị thức âm | $r,p$ | $\binom{r+n-1}{r-1}p^rq^n$, $n=0,1,\ldots$ | $rq/p$ | $rq/p^2$ |
+| Siêu bội | $w,b,n$ | $\binom wk\binom b{n-k}/\binom{w+b}n$, $k=0,\ldots,n$ | $\mu=nw/(w+b)$ | $\frac{w+b-n}{w+b-1}\,n\frac\mu n(1-\frac\mu n)$ |
+| Poisson | $\lambda$ | $e^{-\lambda}\lambda^k/k!$, $k=0,1,\ldots$ | $\lambda$ | $\lambda$ |
+| Đều | $a<b$ | $1/(b-a)$, $a<x<b$ | $(a+b)/2$ | $(b-a)^2/12$ |
+| Chuẩn | $\mu,\sigma^2$ | $\exp[-(x-\mu)^2/(2\sigma^2)]/(\sigma\sqrt{2\pi})$ | $\mu$ | $\sigma^2$ |
+| Log chuẩn | $\mu,\sigma^2$ | $\exp[-(\log x-\mu)^2/(2\sigma^2)]/(x\sigma\sqrt{2\pi})$, $x>0$ | $\theta=e^{\mu+\sigma^2/2}$ | $\theta^2(e^{\sigma^2}-1)$ |
+| Mũ | $\lambda$ | $\lambda e^{-\lambda x}$, $x>0$ | $1/\lambda$ | $1/\lambda^2$ |
+| Gamma | $a,\lambda$ | $(\lambda x)^ae^{-\lambda x}/[\Gamma(a)x]$, $x>0$ | $a/\lambda$ | $a/\lambda^2$ |
+| Beta | $a,b$ | $\Gamma(a+b)x^{a-1}(1-x)^{b-1}/[\Gamma(a)\Gamma(b)]$, $0<x<1$ | $\mu=a/(a+b)$ | $\mu(1-\mu)/(a+b+1)$ |
+| Chi bình phương | $n$ | $x^{n/2-1}e^{-x/2}/[2^{n/2}\Gamma(n/2)]$, $x>0$ | $n$ | $2n$ |
+| Student-t | $n$ | $\frac{\Gamma((n+1)/2)}{\sqrt{n\pi}\Gamma(n/2)}(1+x^2/n)^{-(n+1)/2}$ | $0$ nếu $n>1$ | $n/(n-2)$ nếu $n>2$ |
+
+# Tài liệu tham khảo (trang PDF 587–588)
+
+Giữ tên công trình và tạp chí bằng ngôn ngữ xuất bản để tra cứu; bổ sung bản dịch tiếng Việt của nhan đề trong ngoặc khi cần.
+
+1. Donald J. Albers và Gerald L. Alexanderson. *More Mathematical People: Contemporary Conversations* (Thêm những con người toán học: các cuộc trò chuyện đương thời). Academic Press, 1990.
+2. Steve Brooks, Andrew Gelman, Galin Jones và Xiao-Li Meng. *Handbook of Markov Chain Monte Carlo* (Sổ tay Monte Carlo chuỗi Markov). CRC Press, 2011.
+3. Lewis Carroll. “What the Tortoise Said to Achilles” (Rùa đã nói gì với Achilles). *Mind* 4(14):278–290, 1895.
+4. Jian Chen và Jeffrey S. Rosenthal. “Decrypting classical cipher text using Markov chain Monte Carlo” (Giải mã mật mã thay thế cổ điển bằng Monte Carlo chuỗi Markov). *Statistics and Computing* 22(2):397–413, 2012.
+5. William G. Cochran. “The effectiveness of adjustment by subclassification in removing bias in observational studies” (Hiệu quả của phân tầng điều chỉnh để loại thiên lệch trong nghiên cứu quan sát). *Biometrics*, 1968.
+6. Persi Diaconis. “Statistical problems in ESP research” (Các vấn đề thống kê trong nghiên cứu ngoại cảm). *Science* 201(4351):131–136, 1978.
+7. Persi Diaconis. “The Markov chain Monte Carlo revolution” (Cuộc cách mạng Monte Carlo chuỗi Markov). *Bulletin of the American Mathematical Society* 46(2):179–205, 2009.
+8. Persi Diaconis, Susan Holmes và Richard Montgomery. “Dynamical bias in the coin toss” (Thiên lệch động lực học khi tung đồng xu). *SIAM Review* 49(2):211–235, 2007.
+9. Bradley Efron và Ronald Thisted. “Estimating the number of unseen species: How many words did Shakespeare know?” (Ước lượng số loài chưa quan sát: Shakespeare biết bao nhiêu từ?). *Biometrika* 63(3):435, 1976.
+10. Bradley Efron và Ronald Thisted. “Did Shakespeare write a newly-discovered poem?” (Shakespeare có viết bài thơ vừa được phát hiện?). *Biometrika* 74:445–455, 1987.
+11. Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari và Donald B. Rubin. *Bayesian Data Analysis* (Phân tích dữ liệu Bayes). CRC Press, 2013.
+12. Andrew Gelman và Deborah Nolan. “You can load a die, but you can’t bias a coin” (Có thể làm xúc xắc lệch, nhưng không thể làm đồng xu lệch). *The American Statistician* 56(4):308–311, 2002.
+13. Andrew Gelman, Boris Shor, Joseph Bafumi và David K. Park. *Red State, Blue State, Rich State, Poor State: Why Americans Vote the Way They Do* (Bang đỏ, bang xanh, bang giàu, bang nghèo: vì sao người Mỹ bỏ phiếu như vậy), bản mở rộng. Princeton University Press, 2009.
+14. Gerd Gigerenzer và Ulrich Hoffrage. “How to improve Bayesian reasoning without instruction: Frequency formats” (Cải thiện suy luận Bayes không cần hướng dẫn: biểu diễn tần suất). *Psychological Review* 102(4):684, 1995.
+15. Prakash Gorroochurn. *Classic Problems of Probability* (Các bài toán xác suất kinh điển). John Wiley & Sons, 2012.
+16. Richard Hamming. “You and your research” (Bạn và công trình nghiên cứu của mình). *IEEE Potentials*, tr. 37–40, tháng 10/1993.
+17. David P. Harrington. “The randomized clinical trial” (Thử nghiệm lâm sàng ngẫu nhiên). *Journal of the American Statistical Association* 95(449):312–315, 2000.
+18. David J. C. MacKay. *Information Theory, Inference and Learning Algorithms* (Lý thuyết thông tin, suy luận và thuật toán học). Cambridge University Press, 2003.
+19. Oscar Mandel. *Chi Po and the Sorcerer: A Chinese Tale for Children and Philosophers* (Chi Po và thầy phù thủy: truyện Trung Hoa cho trẻ em và triết gia). Charles E. Tuttle Company, 1964.
+20. T. J. Mathews và Brady E. Hamilton. “Trend analysis of the sex ratio at birth in the United States” (Phân tích xu hướng tỷ số giới tính khi sinh ở Hoa Kỳ). *National Vital Statistics Reports* 53(20):1–17, 2005.
+21. Pierre Rémond de Montmort. *Essay d’Analyse sur les Jeux de Hazard* (Luận khảo phân tích các trò may rủi). Quilau, Paris, 1708.
+22. John Allen Paulos. *Innumeracy: Mathematical Illiteracy and Its Consequences* (Mù số học: thiếu hiểu biết toán học và hệ quả). Macmillan, 1988.
+23. Horst Rinne. *The Weibull Distribution: A Handbook* (Phân phối Weibull: sổ tay). CRC Press, 2008.
+24. James G. Sanderson. “Testing ecological patterns” (Kiểm định các mẫu hình sinh thái). *American Scientist* 88:332–339, 2000.
+25. Nate Silver. *The Signal and the Noise: Why So Many Predictions Fail—but Some Don’t* (Tín hiệu và nhiễu: vì sao nhiều dự đoán sai nhưng một số đúng). Penguin, 2012.
+26. Tom W. Smith, Peter Marsden, Michael Hout và Jibum Kim. *General social surveys, 1972–2012* (Khảo sát xã hội tổng quát, 1972–2012). Tài trợ bởi National Science Foundation. NORC, Chicago: National Opinion Research Center, 2013.
+27. Stephen M. Stigler. “Isaac Newton as a probabilist” (Isaac Newton với vai trò nhà xác suất). *Statistical Science* 21(3):400–403, 2006.
+28. Tom Stoppard. *Rosencrantz & Guildenstern Are Dead* (Rosencrantz và Guildenstern đã chết). Samuel French, Inc., 1967.
+29. R. J. Stroeker. “On the sum of consecutive cubes being a perfect square” (Về tổng các lập phương liên tiếp là một số chính phương). *Compositio Mathematica* 97:295–307, 1995.
+30. Amos Tversky và Daniel Kahneman. “Causal schemas in judgments under uncertainty” (Sơ đồ nhân quả trong phán đoán khi bất định), trong *Judgment under Uncertainty: Heuristics and Biases* (Phán đoán khi bất định: quy tắc kinh nghiệm và thiên lệch), biên tập Daniel Kahneman, Paul Slovic, Amos Tversky. Cambridge University Press, 1982.
+31. Herbert S. Wilf. *generatingfunctionology* (Lý thuyết hàm sinh). A K Peters/CRC Press, tái bản lần 3, 2005.
+
+# Bìa sau (trang PDF 589)
+
+**Thống kê — Nhập môn xác suất**
+
+Được phát triển từ các bài giảng thống kê nổi tiếng tại Harvard, *Nhập môn xác suất* cung cấp ngôn ngữ và công cụ thiết yếu để hiểu thống kê, tính ngẫu nhiên và sự bất định. Sách khảo sát nhiều ứng dụng và ví dụ, từ sự trùng hợp, nghịch lý tới Google PageRank và Monte Carlo chuỗi Markov (MCMC). Các lĩnh vực khác gồm di truyền học, y học, khoa học máy tính và lý thuyết thông tin.
+
+Hai tác giả trình bày dễ tiếp cận và dùng ví dụ thực tế để tạo động lực học khái niệm. Xuyên suốt sách, họ dùng các câu chuyện để khám phá kết nối giữa những phân phối cơ bản trong thống kê, và dùng điều kiện hóa để chia bài toán phức tạp thành phần dễ xử lý. Sách có nhiều giải thích trực giác, sơ đồ và bài luyện tập. Cuối mỗi chương có mục thực hiện mô phỏng và tính toán trong R, môi trường phần mềm thống kê miễn phí.
+
+Các tính năng bản điện tử: truy cập trực tuyến hoặc tải về điện thoại, máy tính bảng, PC/Mac; tìm kiếm toàn văn trong sách này và các sách đã sở hữu; tạo, chia sẻ ghi chú và phần đánh dấu; sao chép văn bản, hình để dùng trong tài liệu; chỉnh cỡ chữ và bố cục hiển thị.
+
+Mã sản phẩm: K16714.
