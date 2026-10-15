@@ -24,6 +24,9 @@ flowchart TB
   end
 
   clientApp --use--> dataPlane
+  portal --use--> dataPlane
+  dataPlane --usage-event--> controlPlane
+  
   
 
 ```
