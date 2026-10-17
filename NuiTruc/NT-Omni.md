@@ -1,32 +1,13 @@
-# Kiến trúc tổng thể
+# System Context
 
 ```mermaid
-
-flowchart TB
-  subgraph clientApp [Client Application]
-    
-  end
-
-  subgraph portals [Portals]
-
-  end
-
-  subgraph controlPlane [Control Plane]
-    
-  end
-
-  subgraph eventBus [Event Bus]
-
-  end
-
-  subgraph dataPlane [Data Plane]
-    
-  end
-
-  clientApp --use--> dataPlane
-  portal --use--> dataPlane
-  dataPlane --usage-event--> controlPlane
-  
-  
-
+flowchart LR
+  NTAdmin --> NTOmni
+  TenantUser --> NTOmni
+  Developer --> NTOmni
+  EndCustomer -->|"chat, call, upload"| NTOmni
+  NTOmni --> ExternalLLM[External LLM Providers]
+  NTOmni --> PaymentGW[Payment Gateways]
+  NTOmni --> TenantCRM[Tenant CRM/ERP]
+  NTOmni --> Channels["Channels: Zalo, Facebook, SIP, Web"]
 ```
