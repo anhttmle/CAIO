@@ -4,8 +4,8 @@
 flowchart LR
   NTAdmin --> NTOmni
   TenantUser --> NTOmni
-  Developer --> NTOmni
-  EndCustomer -->|"chat, call, upload"| NTOmni
+  EndCustomer --> TenantApp[Tenant App (Phone, Zalo, Web,...)]
+  TenantApp --> |"chat, call, upload"| NTOmni
   NTOmni --> ExternalLLM[External LLM Providers]
   NTOmni --> PaymentGW[Payment Gateways]
   NTOmni --> TenantCRM[Tenant CRM/ERP]
