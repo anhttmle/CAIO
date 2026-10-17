@@ -74,3 +74,12 @@ flowchart TB
 | `license-agent` | data (on-prem) | F14 | Xác thực license file, sync, usage upload |
 | `app-<name>` | data | F16-F22 | Runtime từng app AI |
 | `event-bus` | shared | ADR-007 | CloudEvents |
+
+## Luồng chính: gọi app
+1. Client -> `api-gateway`: authn (JWT/API key) -> resolve tenant -> tra entitlement (cache) -> rate limit.
+2. Gateway định tuyến theo Tenant Directory tới cell tương ứng, tới `app-<name>`.
+  - Tenant gói thường (shared): nằm ở cell dùng chung, DB chung, tách bằng tenant_id.
+  - Tenant enterprise (dedicated): có cell riêng, DB riêng.
+  - Tenant on-prem: data plane nằm tại khách.
+4. App gọi `model-gateway` theo capability + alias; gateway kiểm quota, chọn version/backend, gọi, emit usage event.
+5. `metering-svc` aggregate; `billing-svc` rating cuối kỳ.
