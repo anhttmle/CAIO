@@ -14,7 +14,6 @@ flowchart LR
 ```
 
 # 2. Container
-## L2 — Containers
 
 ```mermaid
 flowchart TB
@@ -22,6 +21,7 @@ flowchart TB
     AdminPortal
     TenantPortal
   end
+
   subgraph control [Control Plane]
     IamSvc
     TenantSvc
