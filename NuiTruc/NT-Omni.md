@@ -56,3 +56,21 @@ flowchart TB
   LicenseSvc -.->|entitlement| ApiGateway
   LicenseAgent -.->|on-prem sync| LicenseSvc
 ```
+
+| Service | Plane | Feature | Trách nhiệm |
+|---|---|---|---|
+| `tenant-svc` | control | F01 | Tenant, Tenant Directory (tier, cell routing) |
+| `iam-svc` | control | F02 | Auth, MFA, RBAC, API key, service account |
+| `catalog-svc` | control | F03 | App catalog, provisioning/deprovisioning theo tenant |
+| `license-svc` | control | F04 | Plan, subscription, AppLicense, entitlement, license file on-prem |
+| `metering-svc` | control | F05 | Ingest usage event, aggregate, quota counter |
+| `billing-svc` | control | F06 | Rating, invoice, payment, công nợ |
+| `audit-svc` | control | F08 | Audit log bất biến, consent, retention |
+| `crm-svc` | control | F09 | Contact, account, product catalog, timeline |
+| `connector-svc` | control | F10 | Đồng bộ CRM/ERP ngoài |
+| `admin-portal`, `tenant-portal` | portal | F11, F12 | UI + BFF |
+| `api-gateway` | data | F13 | Ingress, authn, entitlement check, rate limit |
+| `model-registry`, `model-gateway` | data | F07 | Registry, routing, fallback, usage emit |
+| `license-agent` | data (on-prem) | F14 | Xác thực license file, sync, usage upload |
+| `app-<name>` | data | F16-F22 | Runtime từng app AI |
+| `event-bus` | shared | ADR-007 | CloudEvents |
