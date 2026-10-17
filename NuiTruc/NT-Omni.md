@@ -1,4 +1,5 @@
-# System Context
+
+# 1. Context
 
 ```mermaid
 flowchart LR
@@ -10,4 +11,48 @@ flowchart LR
   NTOmni --> PaymentGW[Payment Gateways]
   NTOmni --> TenantCRM[Tenant CRM/ERP]
   NTOmni --> Channels["Channels: Zalo, Facebook, SIP, Web"]
+```
+
+# 2. Container
+## L2 — Containers
+
+```mermaid
+flowchart TB
+  subgraph portals [Portals]
+    AdminPortal
+    TenantPortal
+  end
+  subgraph control [Control Plane]
+    IamSvc
+    TenantSvc
+    CatalogSvc
+    LicenseSvc
+    MeteringSvc
+    BillingSvc
+    AuditSvc
+    CrmSvc
+    ConnectorSvc
+  end
+  subgraph data [Data Plane]
+    ApiGateway
+    AppRuntimes
+    ModelGateway
+    ModelRegistry
+    SelfHostServing
+  end
+  EventBus
+  LicenseAgent
+  AdminPortal --> ApiGateway
+  TenantPortal --> ApiGateway
+  ApiGateway --> control
+  ApiGateway --> AppRuntimes
+  AppRuntimes --> ModelGateway
+  ModelGateway --> ModelRegistry
+  ModelGateway --> SelfHostServing
+  AppRuntimes -->|usage| EventBus
+  ModelGateway -->|usage| EventBus
+  EventBus --> MeteringSvc
+  MeteringSvc --> BillingSvc
+  LicenseSvc -.->|entitlement| ApiGateway
+  LicenseAgent -.->|on-prem sync| LicenseSvc
 ```
