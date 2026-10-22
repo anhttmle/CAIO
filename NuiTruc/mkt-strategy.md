@@ -26,7 +26,7 @@
 >
 > Với các template có sẵn, khách hàng có thể trải nghiệm ngay khi bắt đầu sử dụng.
 
-### 3. "Tạo demo, content hướng dẫn cấu hình, sử dụng và đưa lên các nền tảng short-video như Tiktok, FB Reel, Youtube Short"
+### 3. "Tạo demo, content hướng dẫn cấu hình, sử dụng và đưa lên các nền tảng short-video như Tiktok, FB Reel, Youtube Short" (tốn nguồn lực tạo content)
 
 ### 4. "Chạy quảng cáo đại trà nhằm xây dựng hình ảnh và nhận diện thương hiệu" (chi phí ~6M VNĐ/tháng)
 
@@ -34,7 +34,7 @@
 
 ### 6. "Đặt gian hàng trải nghiệm trực tiếp tại các hội trợ, triển lãm" (chi phí chưa rõ, có thể sẽ cao)
 
-### 7. "Referral Program cho các agency, khách hàng giới thiệu khách hàng mới"
+### 7. "Referral Program cho các agency, khách hàng giới thiệu khách hàng mới" (chia sẻ lợi nhuận)
 
 # Roadmap
 
