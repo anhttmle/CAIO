@@ -94,7 +94,7 @@ ngoài ra còn có những tín hiệu khác thể hiện nhu cầu như:
 
 > Lưu ý: một tín hiệu đơn lẻ không chứng minh khách hàng đang có vấn đề. Ví dụ, tuyển lễ tân có thể là dấu hiệu tăng trưởng chứ không phải thiếu nhân lực. Cần xác minh trong cuộc trò chuyện bán hàng.
 
-### Đo đạc activity của khách hàng và Xây dựng Dashboard quản trị Digital Growth
+### Đo đạc activity của khách hàng và xây dựng Dashboard quản trị Digital Growth
 
 ```mermaid
 
