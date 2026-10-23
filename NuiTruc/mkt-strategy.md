@@ -64,10 +64,11 @@
 
   graph LR
   Click --> Register
-  Register --> "Try Voicebot"
-  Register --> Config CRM
-  "Try Voicebot" --> Config CRM
-  "Try Voicebot"
+  Register --> vb["Try Voicebot"]
+  Register --> crm["Config CRM"]
+  vb --> crm
+  vb --> Buy
+  crm --> Buy
 
 ```
 
