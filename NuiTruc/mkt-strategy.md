@@ -60,6 +60,7 @@
 
 <img width="792" height="538" alt="image" src="https://github.com/user-attachments/assets/d2a8a8d6-0ace-4700-902e-58b94dfacc12" />
 
+### Đo đạc activity của khách hàng
 ```mermaid
 
   graph LR
