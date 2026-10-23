@@ -69,19 +69,6 @@
 >
 > **ICP** là viết tắt của Ideal Customer Profile, nghĩa là Chân dung khách hàng lý tưởng
 
-### Đo đạc activity của khách hàng
-```mermaid
-
-  graph LR
-  Click --> Register
-  Register --> vb["Try Voicebot"]
-  Register --> crm["Config CRM"]
-  vb --> crm
-  vb --> Buy
-  crm --> Buy
-
-```
-
 ### Xây dựng bộ tiêu chí đánh giá khách hàng có phải là ICP
 
 | Tiêu chí                         | Điểm tối đa | Cách xác minh qua digital                                     |
@@ -107,4 +94,16 @@ ngoài ra còn có những tín hiệu khác thể hiện nhu cầu như:
 
 > Lưu ý: một tín hiệu đơn lẻ không chứng minh khách hàng đang có vấn đề. Ví dụ, tuyển lễ tân có thể là dấu hiệu tăng trưởng chứ không phải thiếu nhân lực. Cần xác minh trong cuộc trò chuyện bán hàng.
 
-### Xây dựng Dashboard quản trị Digital Growth
+### Đo đạc activity của khách hàng và Xây dựng Dashboard quản trị Digital Growth
+
+```mermaid
+
+  graph LR
+  Click --> Register
+  Register --> vb["Try Voicebot"]
+  Register --> crm["Config CRM"]
+  vb --> crm
+  vb --> Buy
+  crm --> Buy
+
+```
