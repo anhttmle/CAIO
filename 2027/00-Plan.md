@@ -7,3 +7,4 @@
 # Mid-term
 - World Model approach for AI system
 - Monetizable application
+- Foundation
