@@ -5,7 +5,7 @@
 ```mermaid
 
   graph TD
-  owner["Owner"] --> model["Model"]
+  owner["Owner"] --> model("Model")
   
 
 ```
