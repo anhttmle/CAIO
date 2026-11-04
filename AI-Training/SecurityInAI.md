@@ -7,7 +7,9 @@
   graph TD
   owner["Owner"] --> model(("Model"))
   user["User"] --> model
-  
+  partner["Partner"] --> model
+  community["Community"] --> model
+  operator["Operator"] --> model
   
 
 ```
