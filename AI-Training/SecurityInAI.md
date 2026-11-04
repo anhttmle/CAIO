@@ -6,6 +6,8 @@
 
   graph TD
   owner["Owner"] --> model(("Model"))
+  user["User"] --> model
+  
   
 
 ```
