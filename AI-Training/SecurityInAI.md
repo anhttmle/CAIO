@@ -1,6 +1,7 @@
 # 1. AI development lifecycle
 
-<img width="700" height="176" alt="image" src="https://github.com/user-attachments/assets/b7174500-bd14-44a5-b7c4-dfeb006e88be" />
+<img width="923" height="289" alt="image" src="https://github.com/user-attachments/assets/a889cf09-4458-400e-9958-653ad1bf8505" />
+
 
 ```mermaid
 
