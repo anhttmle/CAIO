@@ -92,4 +92,18 @@ A typical KG-based scientific discovery pipeline has two stages.
 1. **KG construction**: Can a malicious abstract cause a relation-extraction system to create a false edge?
 2. **KG reasoning**: If a false edge is inserted, can it substantially alter the scores or rankings produced by the reasoning model?
 
-## C. 
+## C. Threat Model
+
+## D. Vulnerability of KG Reasoning
+
+## E. Vulnerability of KG Construction
+
+## F. Scorpius: The Proposed Poisoning Framework
+
+## G. Scorpius Evaluation
+
+## H. Defense: Detecting Malicious Scientific Abstracts
+
+## I. Main Contributions
+
+## J. Limitations and Caveats
