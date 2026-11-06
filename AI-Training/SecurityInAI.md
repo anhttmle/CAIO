@@ -56,3 +56,17 @@ There are two important categories:
 > The authors introduce Scorpius, a conditional text-generation framework that creates a malicious abstract around a selected drug--disease relationship.
 >
 > It demonstrates a vulnerability in a computational knowledge-discovery pipeline: fabricated evidence can influence extracted graph structure, learned representations, and downstream rankings.
+
+## The Problem: How Scientific Knowledge Graphs Are Built
+> Biomedical knowledge graphs are used to organize facts extracted from scientific literature. Typical entities include:
+> - Drugs
+> - Diseases
+> - Genes
+
+A typical KG-based scientific discovery pipeline has two stages.
+
+**Stage 1**: Knowledge graph construction
+> A collection of scientific papers is processed by relation-extraction systems. The systems identify entities and relations in the text and convert them into graph edges.
+
+**Stage 2**: Knowledge graph reasoning
+> A KG reasoning model learns vector representations (embeddings) for entities and relations. It uses these representations to estimate the plausibility or relevance of relationships, including drug--disease relationships that are not explicitly present in the graph.
