@@ -44,6 +44,7 @@ There are two important categories:
 > - Training frameworks.
 > - Third-party plugins.
 > - Model repositories.
+> - 
 > An attacker may compromise one of these dependencies.
 
 
