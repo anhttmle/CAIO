@@ -93,6 +93,20 @@ A typical KG-based scientific discovery pipeline has two stages.
 2. **KG reasoning**: If a false edge is inserted, can it substantially alter the scores or rankings produced by the reasoning model?
 
 ## C. Threat Model
+> The attacker wants a selected drug (the promoting drug) to appear more relevant to a selected disease (the target disease) than it should.
+>
+> The attacker does not directly modify the KG, its extraction model, or its reasoning model. Instead, the attacker creates a scientific-looking abstract and relies on the normal literature-ingestion process to introduce the abstract into the corpus.
+
+```mermaid
+
+  s1["Attacker chooses a drug and a disease"] --> s2["Generate a malicious abstract"]
+  s2 --> s3["Mix it with legitimate papers"]     
+  s3 --> s4["Relation extraction identifies a fabricated relationship"]       
+  s4 --> s5["The KG gains a malicious edge"]       
+  s5 --> s6["KG reasoning is influenced"]
+  s6 --> s7["The selected drug receives an artificially improved ranking"]       
+
+```
 
 ## D. Vulnerability of KG Reasoning
 
