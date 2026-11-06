@@ -50,4 +50,9 @@ There are two important categories:
 
 
 
-# 3. Usecase: Data Poisoning
+# 3. Poisoning Scientific Knowledge Using Large Language Models
+
+## Overview
+> The authors introduce Scorpius, a conditional text-generation framework that creates a malicious abstract around a selected drug--disease relationship.
+>
+> The paper is not claiming that an LLM can make a drug biologically effective. It demonstrates a vulnerability in a computational knowledge-discovery pipeline: fabricated evidence can influence extracted graph structure, learned representations, and downstream rankings.
