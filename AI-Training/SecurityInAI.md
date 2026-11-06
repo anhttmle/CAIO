@@ -88,4 +88,8 @@ A typical KG-based scientific discovery pipeline has two stages.
 
 ```
 
+**The pipeline therefore has two potential attack surfaces:**
+1. **KG construction**: Can a malicious abstract cause a relation-extraction system to create a false edge?
+2. **KG reasoning**: If a false edge is inserted, can it substantially alter the scores or rankings produced by the reasoning model?
+
 ## C. 
