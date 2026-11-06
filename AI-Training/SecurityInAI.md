@@ -99,6 +99,7 @@ A typical KG-based scientific discovery pipeline has two stages.
 
 ```mermaid
 
+  graph TD
   s1["Attacker chooses a drug and a disease"] --> s2["Generate a malicious abstract"]
   s2 --> s3["Mix it with legitimate papers"]     
   s3 --> s4["Relation extraction identifies a fabricated relationship"]       
