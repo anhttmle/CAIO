@@ -196,6 +196,7 @@ A typical KG-based scientific discovery pipeline has two stages.
 > Scorpius finds a real scientific sentence that has been used to identify the same relation type. It replaces the original drug and disease with the promoting drug and target disease.
 >
 > This creates a sentence template that preserves a relation pattern known to work with the extraction system.
+
 **Step 2: Generate an abstract using ChatGPT**
 
 > The paper uses the gpt-3.5-turbo API to expand the template into a biomedical abstract.
