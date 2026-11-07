@@ -162,6 +162,36 @@ A typical KG-based scientific discovery pipeline has two stages.
 - The framework has two major components:
   - Malicious-link selection
   - Malicious-abstract generation
+ 
+#### Malicious-link selection
+> Given a promoting drug and, for the disease-specific setting, a target disease, Scorpius identifies candidate nodes around the selected entities and evaluates candidate links using two scores.
+
+**Poisonous score**:
+> The poisonous score estimates how much a candidate malicious link can influence KG reasoning and improve the promoting drug's ranking.
+
+```mermaid
+  graph LR
+  s1["Candidate link"] --> s2["Estimate its influence on KG reasoning"]
+  s2 --> s3["Estimate ranking improvement"]
+  s3 --> s4["Poisonous score"]
+
+```
+
+> A high poisonous score means that the link is expected to have a strong downstream effect.
+
+**Concealing score**:
+> The concealing score estimates how suitable a candidate link is for being hidden among legitimate relationships. It favors links that are less likely to be detected or excluded by the defender.
+
+```mermaid
+
+  graph LR
+  s1["Candidate link"] --> s2["Estimate detectability / plausibility"]
+  s2 --> s3["Concealing score"]
+
+
+```
+
+#### Malicious abstract generation
 
 
 ## G. Scorpius Evaluation
