@@ -5,11 +5,8 @@
 ```mermaid
 
   graph TD
-  owner["Owner"] --> model(("Model"))
-  user["User"] --> model
-  partner["Partner"] --> model
-  community["Community"] --> model
-  operator["Operator"] --> model
+  model(("Model"))
+  owner["Owner"] & user["User"] & partner["Partner"] & community["Community"] & operator["Operator"] --> model
 ```
 
 # 2. Security in AI
