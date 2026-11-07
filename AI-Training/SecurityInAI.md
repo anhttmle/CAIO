@@ -188,8 +188,11 @@ A typical KG-based scientific discovery pipeline has two stages.
   s1["Candidate link"] --> s2["Estimate detectability / plausibility"]
   s2 --> s3["Concealing score"]
 
-
 ```
+
+> Scorpius combines the poisonous and concealing scores to select a target malicious link.
+> 
+> The important design idea is that the most influential link is not necessarily the best attack choice if it is also easy to detect. Scorpius balances impact with concealment.
 
 #### Malicious abstract generation
 
