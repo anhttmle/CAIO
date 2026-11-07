@@ -238,6 +238,15 @@ s7 --> s8["Malicious scientific abstract"]
 ## G. Scorpius Evaluation
 
 ## H. Defense: Detecting Malicious Scientific Abstracts
+The paper also develops a defender formulated as a binary classifier:
+
+```mermaid
+
+  flowchart LR
+  s1["Scientific abstract"] --> s2["Malicious-abstract classifier"]
+  s2 --> s3["Legitimate"] & s4["Malicious"]
+
+```
 
 ## I. Main Contributions
 > The paper makes four main contributions.
