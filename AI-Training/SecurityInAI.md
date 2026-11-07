@@ -249,3 +249,28 @@ s7 --> s8["Malicious scientific abstract"]
 
 
 ## J. Limitations and Caveats
+- **Evaluation uses peer-reviewed articles**
+
+> The experiments are performed using peer-reviewed articles. The authors note that preprints may be more vulnerable because they are less likely to have undergone the same level of editorial and peer review.
+>
+> They propose investigating poisoning in preprint-based collections in future work.
+
+- **Defense can reject legitimate knowledge**
+
+> The current defender can identify malicious links under the high defensive setting, but it may also reject many real links. The authors propose improving the defender with a supervised classifier.
+
+- **Publication time is not modeled**
+
+> The framework does not incorporate each paper's publication timestamp. The authors suggest that emerging and highly visible topics may be more attractive targets and propose incorporating time information in future work.
+
+- **Perplexity is not a truth metric**
+
+> The use of BioGPT perplexity is a text-likelihood measure. It does not verify whether the scientific claims are supported by experiments, whether the cited evidence exists, or whether the proposed drug--disease relationship is biologically valid.
+
+- **Ranking changes are not biological validation**
+
+> A drug moving up a KG-based ranking does not demonstrate clinical efficacy, therapeutic benefit, or a causal biological relationship. The experiments evaluate manipulation of a computational ranking pipeline.
+
+- **Scope of the evidence**
+
+> The paper is a proof-of-concept study using a particular biomedical KG, extraction methods, and reasoning models. The reported numbers should not be generalized automatically to all scientific KGs or production knowledge-discovery systems.
