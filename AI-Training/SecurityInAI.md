@@ -195,7 +195,41 @@ A typical KG-based scientific discovery pipeline has two stages.
 > The important design idea is that the most influential link is not necessarily the best attack choice if it is also easy to detect. Scorpius balances impact with concealment.
 
 #### Malicious abstract generation
+> After selecting a target link, Scorpius generates text intended to make the relation extractor recover that link.
+>
+> The generation process combines real scientific sentence structures, ChatGPT, and biomedical language models.
 
+**Step 1: Build a sentence template**
+> Scorpius finds a real scientific sentence that has been used to identify the same relation type. It replaces the original drug and disease with the promoting drug and target disease.
+>
+> This creates a sentence template that preserves a relation pattern known to work with the extraction system.
+**Step 2: Generate an abstract using ChatGPT**
+
+> The paper uses the gpt-3.5-turbo API to expand the template into a biomedical abstract.
+>
+> ChatGPT is instructed to generate a scientific-style abstract while retaining the target sentence.
+>
+> However, the authors identify limitations in using ChatGPT output directly:
+> - It may not strictly preserve the required sentence or phrases.
+> - General-purpose generation may not consistently match biomedical writing conventions.
+> - API rate limits can make repeated generation slower.
+
+**Step 3: Refine the generation with BioBART**
+> Scorpius uses the biomedical-domain model BioBART to refine the generated text.
+>
+> The paper describes two refinement strategies:
+> - Replace the context in the ChatGPT-generated abstract with a masked sentence template.
+> - Replace the ChatGPT generation with the original template, randomly mask nearby words, and use BioBART to fill the masks.
+>
+> These strategies help preserve the desired relation while allowing the surrounding text to be rewritten.
+
+**Step 4: Select the generation using perplexity**
+
+> Scorpius generates candidate abstracts and uses BioGPT perplexity to select the candidate with the lowest perplexity.
+>
+> Perplexity measures how well a language model predicts a sequence of tokens. In this context, lower perplexity is used as a proxy for text that is more likely under a biomedical language model.
+>
+> Important qualification: lower perplexity does not establish scientific correctness, truthfulness, or safety. It is a fluency / language-likelihood signal, not a fact-checking mechanism.
 
 ## G. Scorpius Evaluation
 
