@@ -2,8 +2,6 @@
 
 <img width="925" height="234" alt="image" src="https://github.com/user-attachments/assets/ef88349c-0e17-4bbb-ad60-7a2fb1ccaf4b" />
 
-
-
 ```mermaid
 
   graph TD
@@ -12,10 +10,7 @@
   partner["Partner"] --> model
   community["Community"] --> model
   operator["Operator"] --> model
-  
-
 ```
-
 
 # 2. Security in AI
 
@@ -47,8 +42,6 @@ There are two important categories:
 > - Model repositories.
 > 
 > An attacker may compromise one of these dependencies.
-
-
 
 # 3. Poisoning Scientific Knowledge Using Large Language Models
 
