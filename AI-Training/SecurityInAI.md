@@ -240,5 +240,12 @@ s7 --> s8["Malicious scientific abstract"]
 ## H. Defense: Detecting Malicious Scientific Abstracts
 
 ## I. Main Contributions
+> The paper makes four main contributions.
+>
+> - Introduces scientific knowledge poisoning as a problem. It studies how LLM-generated malicious scientific text can manipulate knowledge graphs and downstream applications.
+> - Demonstrates vulnerabilities in both KG stages. The experiments show that relation extraction can introduce malicious links and that KG reasoning can amplify their effects.
+> - Proposes Scorpius. The framework combines impact-aware link selection with controlled biomedical abstract generation.
+> - Studies a defender. The paper formulates malicious-abstract detection as a classification problem and demonstrates the trade-off between detecting attacks and preserving legitimate knowledge.
+
 
 ## J. Limitations and Caveats
