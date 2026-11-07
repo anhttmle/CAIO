@@ -236,6 +236,36 @@ s7 --> s8["Malicious scientific abstract"]
 ```
 
 ## G. Scorpius Evaluation
+> The authors compare Scorpius with:
+> - ChatGPT: Direct abstract generation.
+> - Insertion approach: A baseline that directly inserts the intended malicious link, representing an upper-bound-style reference for the impact of a successfully inserted link.
+> - Scorpius: The proposed approach, which attempts to produce text that causes the extraction pipeline to create the intended link.
+>
+> They evaluate the attack under low, medium, and high defensive settings.
+
+**Disease-specific setting**
+
+> Scorpius outperforms direct ChatGPT generation under the evaluated defensive settings. Its performance is close to the direct-insertion approach.
+>
+> This indicates that Scorpius can generate abstracts that are not only linguistically plausible according to the selected metric, but also effective at inducing the desired relation in the KG pipeline.
+
+**Disease-agnostic setting**
+
+> Scorpius also outperforms ChatGPT in the disease-agnostic setting. However, its performance is further from the direct-insertion baseline than in the disease-specific setting.
+>
+> This is consistent with the greater difficulty of influencing many diseases through a small number of malicious links.
+
+**Overall reported result**
+
+> The paper's abstract reports that 71.3% of evaluated drug--disease pairs were moved from outside the top 1,000 to the top 10 by adding one Scorpius-generated malicious abstract.
+>
+> This is a result within the paper's experimental setup. It should not be interpreted as a general success rate for arbitrary KGs, relation extractors, or biomedical applications.
+
+**Text fluency**
+
+> The authors report that Scorpius-generated abstracts achieve better BioGPT perplexity than ChatGPT-generated abstracts in both settings.
+> 
+> The result supports the authors' claim that Scorpius can generate text that is more likely under the biomedical language model. It does not prove that the text is factually credible or that human reviewers cannot detect it.
 
 ## H. Defense: Detecting Malicious Scientific Abstracts
 The paper also develops a defender formulated as a binary classifier:
