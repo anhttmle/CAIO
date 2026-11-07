@@ -244,7 +244,7 @@ The paper also develops a defender formulated as a binary classifier:
 
   flowchart LR
   s1["Scientific abstract"] --> s2["Malicious-abstract classifier"]
-  s2 --> s3["Legitimate"] & s4["Malicious"]
+  s2 --> s3(("Legitimate")) & s4(("Malicious"))
 
 ```
 
