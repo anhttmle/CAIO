@@ -139,6 +139,16 @@ A typical KG-based scientific discovery pipeline has two stages.
 > The authors also observe that some disease nodes are selected repeatedly. These highly connected nodes act as hub nodes: connecting a drug to a hub can influence its relevance to many other diseases.
 
 ## E. Vulnerability of KG Construction
+> The authors randomly sample 2,000 drug--disease pairs that are not connected in the KG. For each pair, they attempt to create an abstract that will cause the extraction pipeline to produce the desired link.
+
+**Replacement-based approach**: The initial approach starts from a real scientific abstract
+1. Randomly select a real abstract.
+2. Replace the original drug and disease with the promoting drug and target disease.
+3. Randomly mask a proportion of words.
+4. Use a biomedical language model to fill the masked words.
+5. Run relation extraction and check whether the desired drug--disease link is recovered.
+
+> The study evaluates several relation-extraction approaches, including GNBR, UIE, TDERR, and LUKE.
 
 ## F. Scorpius: The Proposed Poisoning Framework
 
