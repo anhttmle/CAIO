@@ -116,7 +116,21 @@ A typical KG-based scientific discovery pipeline has two stages.
 - **Disease-agnostic**: Promoting drug. Increase the relevance of one drug across diseases
 
 ## D. Vulnerability of KG Reasoning
+> Before developing Scorpius, the authors test whether KG reasoning models are sensitive to the addition of a malicious edge.
 
+**Experimental KG:**
+- The KG was constructed from 3,818,528 scientific papers and contained:
+  | Entity type | Number of entities |
+  |------|------------|
+  | Drugs | 16,468 |
+  | Diseases | 5,379 |
+  | Genes | 38,080 |
+
+- The authors evaluate three KG reasoning approaches:
+  - DistMult
+  - ConvE
+  - ComplEx
+- They compare drug rankings before and after adding a malicious drug--disease link.
 
 
 ## E. Vulnerability of KG Construction
