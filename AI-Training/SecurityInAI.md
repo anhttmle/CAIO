@@ -194,6 +194,10 @@ A typical KG-based scientific discovery pipeline has two stages.
 >
 > This creates a sentence template that preserves a relation pattern known to work with the extraction system.
 
+
+<img width="531" height="118" alt="image" src="https://github.com/user-attachments/assets/94e47f4b-4475-4c84-a06a-a5afa93b84f3" />
+
+
 **Step 2: Generate an abstract using ChatGPT**
 
 > The paper uses the gpt-3.5-turbo API to expand the template into a biomedical abstract.
