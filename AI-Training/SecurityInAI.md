@@ -225,6 +225,18 @@ A typical KG-based scientific discovery pipeline has two stages.
 >
 > Important qualification: lower perplexity does not establish scientific correctness, truthfulness, or safety. It is a fluency / language-likelihood signal, not a fact-checking mechanism.
 
+```mermaid
+
+s1["Promoting drug + target disease"] --"Candidate node selection"--> s2["Evaluate candidate links<br>- Poisonous score<br>- Concealing score"]
+s2 --"Select malicious link"--> s3["Retrieve a real sentence with the required relation"]
+s3 --> s4["Replace drug and disease to create a sentence template"]
+s4 --> s5["Generate an abstract using ChatGPT (GPT-3.5)"]
+s5 --> s6["Refine with BioBART using masked templates"]
+s6 --> s7["Select candidate using BioGPT perplexity"]
+s7 --> s8["Malicious scientific abstract"]
+
+```
+
 ## G. Scorpius Evaluation
 
 ## H. Defense: Detecting Malicious Scientific Abstracts
