@@ -150,6 +150,11 @@ A typical KG-based scientific discovery pipeline has two stages.
 
 > The study evaluates several relation-extraction approaches, including GNBR, UIE, TDERR, and LUKE.
 
+**Result**:
+- At least 30% of sampled pairs can be poisoned under the tested replacement settings.
+- A poisoning rate of at least 20% remains possible even when 60% of the words are randomly replaced.
+- The generated text can be unnatural, which motivates a more controlled generation method.
+
 ## F. Scorpius: The Proposed Poisoning Framework
 
 ## G. Scorpius Evaluation
