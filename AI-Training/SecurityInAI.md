@@ -156,6 +156,13 @@ A typical KG-based scientific discovery pipeline has two stages.
 - The generated text can be unnatural, which motivates a more controlled generation method.
 
 ## F. Scorpius: The Proposed Poisoning Framework
+- Scorpius is designed to generate an abstract that satisfies two competing goals:
+  - **Effectiveness**: The abstract should introduce a relationship that strongly changes the target drug's ranking.
+  - **Concealment**: The abstract should be less likely to be identified as malicious or rejected by the data-processing pipeline.
+- The framework has two major components:
+  - Malicious-link selection
+  - Malicious-abstract generation
+
 
 ## G. Scorpius Evaluation
 
