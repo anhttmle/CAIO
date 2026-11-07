@@ -131,7 +131,12 @@ A typical KG-based scientific discovery pipeline has two stages.
   - ConvE
   - ComplEx
 - They compare drug rankings before and after adding a malicious drug--disease link.
+  | Setting | Action | Result |
+  |------|------|------------|
+  | Disease-specific results | adding one malicious link | Top 1: 0,3% -> 48,2% <br> Top 10: 1,9% -> 64,3%|
+  | Disease-agnostic | add one, two, or three malicious links and measure how the promoting drug's relevance changes across diseases | - Adding more malicious links generally increases the drug's relevance. <br> The effect continues to increase as additional links are added. <br> - The increase begins to converge at around ten links. <br> - Some drugs can reach a top-10 ranking after only four malicious links in the reported experiment. |
 
+> The authors also observe that some disease nodes are selected repeatedly. These highly connected nodes act as hub nodes: connecting a drug to a hub can influence its relevance to many other diseases.
 
 ## E. Vulnerability of KG Construction
 
