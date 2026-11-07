@@ -227,7 +227,7 @@ A typical KG-based scientific discovery pipeline has two stages.
 
 ```mermaid
 
-s1["Promoting drug + target disease"] --"Candidate node selection"--> s2["Evaluate candidate links<br>- Poisonous score<br>- Concealing score"]
+s1["Promoting drug + target disease"] --> |"Candidate node selection"|s2["Evaluate candidate links<br>- Poisonous score<br>- Concealing score"]
 s2 --> |Select malicious link|s3["Retrieve a real sentence with the required relation"]
 s3 --> s4["Replace drug and disease to create a sentence template"]
 s4 --> s5["Generate an abstract using ChatGPT (GPT-3.5)"]
