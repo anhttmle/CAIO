@@ -109,7 +109,15 @@ A typical KG-based scientific discovery pipeline has two stages.
 
 ```
 
+> This is a data poisoning attack. The poisoned input is a document in the source corpus; the attack takes effect when the normal pipeline processes that document.
+
+**Two attack settings**:
+- **Disease-specific**: Promoting drug + target. Increase the relevance disease of one drug to one target disease
+- **Disease-agnostic**: Promoting drug. Increase the relevance of one drug across diseases
+
 ## D. Vulnerability of KG Reasoning
+
+
 
 ## E. Vulnerability of KG Construction
 
