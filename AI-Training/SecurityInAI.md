@@ -163,7 +163,7 @@ A typical KG-based scientific discovery pipeline has two stages.
   - Malicious-link selection
   - Malicious-abstract generation
  
-#### Malicious-link selection
+### a. Malicious-link selection
 > Given a promoting drug and, for the disease-specific setting, a target disease, Scorpius identifies candidate nodes around the selected entities and evaluates candidate links using two scores.
 
 **Poisonous score**:
@@ -194,7 +194,7 @@ A typical KG-based scientific discovery pipeline has two stages.
 > 
 > The important design idea is that the most influential link is not necessarily the best attack choice if it is also easy to detect. Scorpius balances impact with concealment.
 
-#### Malicious abstract generation
+### b. Malicious abstract generation
 > After selecting a target link, Scorpius generates text intended to make the relation extractor recover that link.
 >
 > The generation process combines real scientific sentence structures, ChatGPT, and biomedical language models.
