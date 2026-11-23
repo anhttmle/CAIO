@@ -125,7 +125,8 @@ Lĩnh vực chọn khi đăng ký quyết định cách gọi tên trên cổng.
 
 Cổng mở trang **Tổng quan** với giao diện theo lĩnh vực của cơ sở.
 
-[Chèn ảnh chụp màn hình: Trang đăng nhập]
+<img width="1747" height="1095" alt="image" src="https://github.com/user-attachments/assets/fb4b987f-5be1-48b3-b19f-21af0fac687c" />
+
 
 Để đăng xuất, bấm **Đăng xuất** ở cuối menu bên trái.
 
@@ -140,7 +141,8 @@ Cơ sở mới tự đăng ký. Tài khoản được tạo ở gói miễn phí
 5. Bấm **Đăng ký tài khoản Freemium & Bắt đầu ngay**.
 6. Nếu trang đăng nhập hiện ra, đăng nhập bằng email và mật khẩu vừa đặt.
 
-[Chèn ảnh chụp màn hình: Biểu mẫu đăng ký]
+<img width="1748" height="1103" alt="image" src="https://github.com/user-attachments/assets/4035581f-b870-4b68-86cf-eabed3394d3b" />
+
 
 ### Lĩnh vực
 
@@ -209,7 +211,8 @@ Mỗi tài khoản thuộc một cơ sở, và cổng mở thẳng cơ sở đó
 | Vùng làm việc chính | Trang của menu đang chọn |
 | Nút chat **Trợ lý AI** | Mở khung chat Trợ lý AI ([mục 6.1](#61-tổng-quan)) |
 
-[Chèn ảnh chụp màn hình: Giao diện chính có chú thích]
+<img width="1756" height="1108" alt="image" src="https://github.com/user-attachments/assets/22e5f193-14a6-4d1d-9865-0a7838f8ffca" />
+
 
 ### Menu
 
@@ -331,8 +334,6 @@ Cổng chưa có cài đặt ngôn ngữ, múi giờ, tùy chọn thông báo v�
 | **Lịch hẹn mới nhận** | Lịch hẹn mới nhất; **Xem tất cả** mở danh sách lịch hẹn |
 | Thông báo **Chưa cấu hình Kênh tổng đài (SIP Trunk)** | Hiển thị khi chưa kết nối đường dây. Liên kết **Số tổng đài & Kênh** mở trang cấu hình kênh. |
 
-[Chèn ảnh chụp màn hình: Tổng quan]
-
 ### Khung chat Trợ lý AI
 
 Khung chat có ở mọi trang. Trợ lý trả lời từ ba kho tri thức của cơ sở, nên đây là cách nhanh nhất để kiểm tra câu trả lời của trợ lý.
@@ -365,7 +366,8 @@ Hội thoại tại đây được lưu trong **Lịch sử hội thoại** ở 
 2. Tùy chọn: đặt **Từ ngày** và **Đến ngày**, rồi bấm **Lọc**.
 3. Bấm **Sau** ở cuối trang để sang trang kế tiếp. Mỗi trang hiển thị 20 cuộc gọi.
 
-[Chèn ảnh chụp màn hình: Danh sách cuộc gọi]
+<img width="1744" height="1086" alt="image" src="https://github.com/user-attachments/assets/9e0401d3-f44d-43db-b960-fe736cc83107" />
+
 
 | Cột | Ý nghĩa |
 |---|---|
@@ -385,7 +387,8 @@ Hội thoại tại đây được lưu trong **Lịch sử hội thoại** ở 
 4. Ở **Bản ghi âm**, bấm **Mở hoặc tải bản ghi âm** để nghe hoặc tải về.
 5. Bấm **← Quay lại lịch sử** để trở về.
 
-[Chèn ảnh chụp màn hình: Chi tiết cuộc gọi]
+<img width="1475" height="706" alt="image" src="https://github.com/user-attachments/assets/b9e38203-3e91-4b3f-a9ff-6df8a1cee585" />
+
 
 ### Lưu ý
 
@@ -417,7 +420,9 @@ Hội thoại tại đây được lưu trong **Lịch sử hội thoại** ở 
 4. Bấm **Xem chi tiết** ở một dòng. Bảng **Chi tiết hội thoại** hiển thị từng tin nhắn kèm thời gian.
 5. Bấm **Close** để trở về danh sách.
 
-[Chèn ảnh chụp màn hình: Lịch sử hội thoại]
+<img width="1485" height="1085" alt="image" src="https://github.com/user-attachments/assets/b9979d0f-8503-4c13-8d0a-b28f5a93edc5" />
+
+
 
 | Cột | Ý nghĩa |
 |---|---|
@@ -448,7 +453,8 @@ Hội thoại tại đây được lưu trong **Lịch sử hội thoại** ở 
 1. Mở **Lưu lượng sử dụng**.
 2. Chọn **Hôm nay**, **7 ngày** hoặc **30 ngày**. Dòng **Giai đoạn** xác nhận khoảng ngày.
 
-[Chèn ảnh chụp màn hình: Lưu lượng sử dụng]
+<img width="1746" height="512" alt="image" src="https://github.com/user-attachments/assets/040b72a4-31f9-4527-b8d6-9491abf7091f" />
+
 
 | Chỉ số | Ý nghĩa |
 |---|---|
@@ -491,7 +497,8 @@ Hội thoại tại đây được lưu trong **Lịch sử hội thoại** ở 
 | **CUỘC GỌI** | Liên kết tới cuộc gọi mà AI đã đặt lịch |
 | **THAO TÁC** | **Sửa**, **Xóa** |
 
-[Chèn ảnh chụp màn hình: Danh sách lịch hẹn]
+<img width="1749" height="1106" alt="image" src="https://github.com/user-attachments/assets/7026c486-b551-4e61-91e1-6923feb11a0f" />
+
 
 ### Cách sử dụng
 
@@ -553,7 +560,8 @@ Giá là giá niêm yết theo tháng, chưa gồm VAT, theo hiển thị trên 
 | **Pro+** | Gọi đến và gọi đi, toàn bộ kênh | Nhận và gửi, toàn bộ kênh | Mô hình tùy chỉnh, ưu tiên GPU; công cụ và trợ lý tùy biến chuyên sâu |
 | **Enterprise** | SIP Trunk và tổng đài riêng | Bao gồm | GPU riêng hoặc On-Premise; tích hợp HIS / CRM / ERP; SLA 99,9% và hỗ trợ kỹ thuật 24/7 |
 
-[Chèn ảnh chụp màn hình: Trang bảng giá]
+<img width="1747" height="1108" alt="image" src="https://github.com/user-attachments/assets/afc7b2aa-c1dc-4658-9cb2-be27fcde7e0f" />
+
 
 ### Cách sử dụng
 
@@ -605,7 +613,8 @@ Nhóm **Cài đặt hệ thống** là mini CRM của cơ sở. Quản trị vi�
 5. Ở **Chi nhánh**, bấm **+ Thêm chi nhánh** rồi nhập **Tên chi nhánh** và **Địa chỉ**. **Xóa** dùng để bỏ một chi nhánh.
 6. Bấm **Lưu**.
 
-[Chèn ảnh chụp màn hình: Thông tin cơ sở]
+<img width="1732" height="993" alt="image" src="https://github.com/user-attachments/assets/99ed10ee-171e-4578-98cf-449978ef1dfe" />
+
 
 #### Quy tắc nghiệp vụ
 
@@ -624,7 +633,8 @@ Nhóm **Cài đặt hệ thống** là mini CRM của cơ sở. Quản trị vi�
 | **Chatbot Facebook & Zalo** | Tin nhắn Fanpage Facebook và Zalo Official Account |
 | **WebRTC** | Nút gọi thoại nhúng trên website |
 
-[Chèn ảnh chụp màn hình: Kênh liên lạc]
+<img width="1737" height="934" alt="image" src="https://github.com/user-attachments/assets/49460dd4-4c4e-4036-a0ce-19e3214d4aaa" />
+
 
 #### Kết nối đường dây điện thoại (Tổng đài Omni)
 
@@ -705,7 +715,8 @@ Mọi cơ sở được kế thừa các công cụ sau từ nền tảng. Chún
 
 Bảng **Danh sách công cụ đã tạo** hiển thị tên, nguồn, mô tả, phương thức HTTP và ID, kèm bộ đếm **Hệ thống** và **Cơ sở**.
 
-[Chèn ảnh chụp màn hình: Công cụ tích hợp]
+<img width="1734" height="655" alt="image" src="https://github.com/user-attachments/assets/066a46a4-6769-44db-9c57-c41e59d378bc" />
+
 
 #### Tạo công cụ HTTP riêng (Premium)
 
@@ -736,7 +747,8 @@ Bảng **Danh sách công cụ đã tạo** hiển thị tên, nguồn, mô tả
 | **Kho kịch bản mẫu AI** | Các kịch bản mẫu có sẵn |
 | **Tạo Trợ lý** | Tạo trợ lý trống (Premium) |
 
-[Chèn ảnh chụp màn hình: Danh sách trợ lý]
+<img width="1743" height="809" alt="image" src="https://github.com/user-attachments/assets/dcf59af9-d7fa-4f93-9ad1-e53335145361" />
+
 
 #### Tạo trợ lý từ kịch bản mẫu
 
@@ -760,7 +772,8 @@ Kịch bản mẫu cho cơ sở nha khoa:
 3. Trò chuyện với trợ lý. **Nhật ký hội thoại thời gian thực** hiển thị nội dung ngay khi diễn ra.
 4. Kết thúc cuộc gọi. Cuộc gọi xuất hiện trong **Lịch sử cuộc gọi** với kênh **Web** và được tính vào lưu lượng.
 
-[Chèn ảnh chụp màn hình: Gọi thử]
+<img width="1747" height="1090" alt="image" src="https://github.com/user-attachments/assets/cf77b9cc-0be4-4d26-8d4a-8d0e213ddf5a" />
+
 
 #### Chỉnh kịch bản (Builder)
 
@@ -780,7 +793,8 @@ Kịch bản mẫu cho cơ sở nha khoa:
 3. Bấm **Save**.
 4. Bấm nút phiên bản (ví dụ **v1**) để mở **Version History** và xem các phiên bản đã xuất bản.
 
-[Chèn ảnh chụp màn hình: Builder]
+<img width="1740" height="1046" alt="image" src="https://github.com/user-attachments/assets/4026fa45-0a08-4f53-a1bc-a390ee4f4d55" />
+
 
 #### Tạo trợ lý trống (Premium)
 
@@ -811,7 +825,8 @@ Bấm nút xóa trên thẻ trợ lý (**Xóa trợ lý …**).
 
 Mỗi kho nhận tệp DOCX, TXT và MD, tối đa 20 MB.
 
-[Chèn ảnh chụp màn hình: Tài liệu tri thức]
+<img width="1748" height="762" alt="image" src="https://github.com/user-attachments/assets/6534a960-c86e-4838-a24b-3cc82a1442c2" />
+
 
 #### Cách sử dụng
 
@@ -842,7 +857,8 @@ Các thao tác khác trên tài liệu:
 
 **Danh sách bệnh nhân** là danh sách khách hàng. Khách hàng được thêm thủ công, nhập từ tệp, hoặc do trợ lý tạo trong hội thoại.
 
-[Chèn ảnh chụp màn hình: Danh sách khách hàng]
+<img width="1733" height="1087" alt="image" src="https://github.com/user-attachments/assets/5e8f10a5-1cd8-4d2b-b932-bd94bfbb086f" />
+
 
 | Cột | Ý nghĩa |
 |---|---|
@@ -891,7 +907,8 @@ Nhóm **Cài đặt nâng cao** dành cho quản trị viên và yêu cầu **Pr
 
 Mỗi mục có biểu tượng khóa. Khi mở, cổng hiển thị **Mở khoá tính năng …** kèm nút **Xem bảng giá & Nâng cấp** dẫn tới trang bảng giá ([mục 6.6](#66-bảng-giá-và-ưu-đãi)).
 
-[Chèn ảnh chụp màn hình: Khóa Premium]
+<img width="521" height="256" alt="image" src="https://github.com/user-attachments/assets/6428e7fc-ca2e-4165-84fe-d927bf5a54d2" />
+
 
 ### Ở Premium
 
@@ -912,7 +929,8 @@ Bốn mục mở bình thường. Premium cũng cho phép tạo công cụ HTTP 
 
 Mỗi phần hiển thị **Đang áp dụng** cùng nhà cung cấp và mô hình đang có hiệu lực.
 
-[Chèn ảnh chụp màn hình: Cấu hình mô hình AI]
+<img width="1325" height="1114" alt="image" src="https://github.com/user-attachments/assets/2c9d2301-03a7-4a4c-b6ea-8e04dc2ba2e2" />
+
 
 #### Cách sử dụng
 
@@ -964,7 +982,8 @@ Mỗi phần hiển thị **Đang áp dụng** cùng nhà cung cấp và mô hì
 | **PROGRESS** | Số cuộc hoàn thành, tổng số và số thất bại |
 | **ACTIONS** | Start, Pause, Resume |
 
-[Chèn ảnh chụp màn hình: Chiến dịch gọi đi]
+<img width="1738" height="1014" alt="image" src="https://github.com/user-attachments/assets/d1162095-d1f9-4d7c-a04f-2587afcf86c5" />
+
 
 #### Lưu ý
 
@@ -988,7 +1007,8 @@ Mỗi phần hiển thị **Đang áp dụng** cùng nhà cung cấp và mô hì
 
 Danh sách có các cột **EMAIL**, **ROLE** và **ACTIONS**. Quản trị viên hiển thị với vai trò `tenant_admin`. Xóa tài khoản nhân viên ngay tại dòng của tài khoản đó; sau khi xóa, tài khoản không đăng nhập được nữa.
 
-[Chèn ảnh chụp màn hình: Danh sách nhân viên]
+<img width="1466" height="488" alt="image" src="https://github.com/user-attachments/assets/fdfd54da-c704-465b-b1f6-2d87acbe224a" />
+
 
 #### Quy tắc nghiệp vụ
 
@@ -1028,7 +1048,8 @@ Danh sách **Credential của cơ sở** hiển thị tên, loại và mô tả 
 - Bấm **Đổi secret**, nhập lại đầy đủ secret rồi lưu.
 - Bấm **Xóa** và xác nhận trong hộp thoại.
 
-[Chèn ảnh chụp màn hình: Thông tin xác thực]
+<img width="1486" height="657" alt="image" src="https://github.com/user-attachments/assets/d95d3d1f-5034-46ac-8b49-2227e8da6768" />
+
 
 #### Quy tắc nghiệp vụ
 
