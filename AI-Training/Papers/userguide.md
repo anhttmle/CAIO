@@ -48,7 +48,9 @@ Tài liệu không bao gồm:
 
 - Nhãn trên màn hình được ghi đúng nguyên văn và **in đậm**.
 - Ví dụ lấy từ không gian làm việc của một phòng khám nha khoa. [Mục 2.3](#23-khái-niệm-cơ-sở-tenant) giải thích cách nhãn thay đổi theo lĩnh vực.
-- `[Chèn ảnh chụp màn hình: …]` là vị trí dành cho ảnh minh họa.
+<img width="651" height="149" alt="image" src="https://github.com/user-attachments/assets/cf99e452-9e0e-4876-b2f9-fae71d2d047d" />
+
+<img width="623" height="148" alt="image" src="https://github.com/user-attachments/assets/69069f45-1b46-4c6c-a44e-a7c2ad24d063" />
 
 ## 1.5 Lịch sử chỉnh sửa
 
